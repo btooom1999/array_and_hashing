@@ -1,21 +1,22 @@
 use std::collections::HashMap;
 
-pub fn main() {
-    let nums = [2, 7, 11, 15];
-    let target = 9;
-    let mut result: Option<(usize, usize)> = None;
-
+fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     let mut hashmap: HashMap<i32, usize> = HashMap::new();
 
     for (i, num) in nums.iter().enumerate() {
-        let value = target - num;
-        if let Some(prev_i) = hashmap.get(num) {
-            result = Some((prev_i.to_owned(), i));
-            break;
-        } else {
-            hashmap.insert(value, i);
-        }
+        if let Some(j) = hashmap.get(&(target - num)) {
+            return vec![j.to_owned() as i32, i as i32];
+        } 
+            
+        hashmap.insert(num.to_owned(), i);
     }
 
-    println!("result: {:?}", result);
+    vec![]
+}
+
+pub fn main() {
+    let nums = [2, 7, 11, 15].to_vec();
+    let target = 9;
+
+    println!("{:?}", two_sum(nums, target));
 }

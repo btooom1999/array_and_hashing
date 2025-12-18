@@ -5,6 +5,6 @@ mod valid_anagram;
 mod two_sum;
 
 fn main() {
-    two_sum::main();
+    contains_duplicate::main();
 }
 

@@ -1,16 +1,20 @@
 use std::collections::HashSet;
 
-pub fn main() {
+fn contains_duplicate(nums: Vec<i32>) -> bool {
     let mut hashmap: HashSet<i32> = HashSet::new();
-    let nums = [1, 2, 3, 1];
     let mut duplicate = false;
 
     for i in nums {
         if !hashmap.insert(i) {
-            duplicate = true;
-            break;
+            return true;
         }
     }
 
-    println!("duplicate: {}", duplicate);
+    false
+}
+
+pub fn main() {
+    let nums = vec![1, 2, 3, 1];
+
+    println!("{}", contains_duplicate(nums));
 }
