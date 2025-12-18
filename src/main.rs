@@ -1,6 +1,9 @@
+#![allow(unused)]
+
 mod contains_duplicate;
+mod valid_anagram;
 
 fn main() {
-    contains_duplicate::main();
+    valid_anagram::main();
 }
 
