@@ -8,8 +8,9 @@ mod top_k_frequent_elements;
 mod product_of_array_except_self;
 mod encode_and_decode_strings;
 mod valid_sudoku;
+mod longest_consecutive_sequence;
 
 fn main() {
-    group_anagrams::main();
+    longest_consecutive_sequence::main();
 }
 
