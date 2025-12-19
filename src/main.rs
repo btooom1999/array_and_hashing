@@ -10,6 +10,6 @@ mod encode_and_decode_strings;
 mod valid_sudoku;
 
 fn main() {
-    valid_sudoku::main();
+    group_anagrams::main();
 }
 

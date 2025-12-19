@@ -8,7 +8,7 @@ fn group_anagrams(strs: Vec<String>) -> Vec<Vec<String>> {
         for c in str.as_bytes() {
             key[(c - b'a') as usize] += 1;
         }
-        anagrams.entry(key).or_insert_with(Vec::new).push(str);
+        anagrams.entry(key).or_default().push(str);
     }
 
     anagrams.into_values().collect()
