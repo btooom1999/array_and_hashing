@@ -3,8 +3,9 @@
 mod contains_duplicate;
 mod valid_anagram;
 mod two_sum;
+mod group_anagrams;
 
 fn main() {
-    contains_duplicate::main();
+    group_anagrams::main();
 }
 
