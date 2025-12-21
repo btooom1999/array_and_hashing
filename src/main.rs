@@ -18,8 +18,9 @@ mod length_of_last_word;
 mod valid_word_spare;
 mod number_of_senior_citizens;
 mod max_consecutive_ones;
+mod longest_common_prefix;
 
 fn main() {
-    max_consecutive_ones::main();
+    longest_common_prefix::main();
 }
 
