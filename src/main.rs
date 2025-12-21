@@ -12,8 +12,9 @@ mod longest_consecutive_sequence;
 mod concatenation_of_array;
 mod score_of_a_string;
 mod replace_elements_with_greatest_element_on_right_side;
+mod is_subsequence;
 
 fn main() {
-   replace_elements_with_greatest_element_on_right_side::main();
+   is_subsequence::main();
 }
 
