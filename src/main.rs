@@ -15,8 +15,9 @@ mod replace_elements_with_greatest_element_on_right_side;
 mod is_subsequence;
 mod append_characters_to_string_to_make_subsequence;
 mod length_of_last_word;
+mod valid_word_spare;
 
 fn main() {
-    length_of_last_word::main();
+    valid_word_spare::main();
 }
 
