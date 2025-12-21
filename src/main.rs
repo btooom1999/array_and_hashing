@@ -17,8 +17,9 @@ mod append_characters_to_string_to_make_subsequence;
 mod length_of_last_word;
 mod valid_word_spare;
 mod number_of_senior_citizens;
+mod max_consecutive_ones;
 
 fn main() {
-    number_of_senior_citizens::main();
+    max_consecutive_ones::main();
 }
 
