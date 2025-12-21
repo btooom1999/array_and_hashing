@@ -11,8 +11,9 @@ mod valid_sudoku;
 mod longest_consecutive_sequence;
 mod concatenation_of_array;
 mod score_of_a_string;
+mod replace_elements_with_greatest_element_on_right_side;
 
 fn main() {
-   concatenation_of_array::main();
+   replace_elements_with_greatest_element_on_right_side::main();
 }
 
