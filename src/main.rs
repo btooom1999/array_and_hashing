@@ -13,8 +13,9 @@ mod concatenation_of_array;
 mod score_of_a_string;
 mod replace_elements_with_greatest_element_on_right_side;
 mod is_subsequence;
+mod append_characters_to_string_to_make_subsequence;
 
 fn main() {
-   is_subsequence::main();
+   append_characters_to_string_to_make_subsequence::main();
 }
 
