@@ -12,9 +12,9 @@ fn encode_and_decode_strings(strings: Vec<String>) -> Vec<String> {
     let mut from_number: usize = 0;
 
     while encoded_strings.chars().nth(from_number).is_some() && let Some(c) = encoded_strings.chars().nth(i) {
-        if c != '#' { 
+        if c != '#' {
             i += 1;
-            continue; 
+            continue;
         }
 
         let number = encoded_strings[from_number..i].parse::<usize>().unwrap();
