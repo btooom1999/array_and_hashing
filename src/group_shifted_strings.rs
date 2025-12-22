@@ -5,33 +5,25 @@ fn group_strings(strings: Vec<String>) -> Vec<Vec<String>> {
         return vec![];
     };
 
-    let mut hashmap: HashMap<usize, Vec<String>> = HashMap::with_capacity(strings.len());
     let mut res: HashMap<Vec<u8>, Vec<String>> = HashMap::new();
 
     for str in &strings {
-        hashmap.entry(str.len()).or_default().push(str.to_owned());
-    }
-
-    for (len, strs) in hashmap.into_iter() {
-        if len == 1 {
-            res.insert(vec![0], strs);
+        if str.len() == 1 {
+            res.entry(vec![0]).or_default().push(str.to_owned());
             continue;
         }
-
-        for str in &strs {
-            let nums = str.as_bytes();
-            let mut distances = vec![];
-            for i in 0..(nums.len() - 1) {
-                let mut d = (nums[i + 1] as i32 - nums[i] as i32);
-                if d < 0 {
-                    d = d.abs() + (b'z' - nums[i]) as i32;
-                }
-
-                distances.push(d as u8);
+        let nums = str.as_bytes();
+        let mut distances = vec![];
+        for i in 0..(nums.len() - 1) {
+            let mut d = (nums[i + 1] as i32 - nums[i] as i32);
+            if d < 0 {
+                d = d.abs() + (b'z' - nums[i]) as i32;
             }
 
-            res.entry(distances).or_default().push(str.to_owned());
+            distances.push(d as u8);
         }
+
+        res.entry(distances).or_default().push(str.to_owned());
     }
 
     res.into_values().collect::<Vec<Vec<_>>>()
@@ -69,7 +61,7 @@ mod tests {
     fn test_multiple_single_char() {
         let input = vec!["a".to_string(), "b".to_string(), "c".to_string()];
         let mut output = group_strings(input);
-        output.sort(); // để so sánh dễ hơn
+        output.sort();
         assert_eq!(
             output,
             vec![vec!["a".to_string(), "b".to_string(), "c".to_string()]]
@@ -81,7 +73,8 @@ mod tests {
         let input = vec!["ab".to_string(), "ac".to_string()];
         let mut output = group_strings(input);
         output.sort();
-        // "ab" có khoảng cách [1], "ac" có khoảng cách [2]
+        // "ab" has [1] distance,
+        // "ac" has [2] distance
         assert_eq!(output, vec![vec!["ab".to_string()], vec!["ac".to_string()]]);
     }
 
@@ -90,7 +83,7 @@ mod tests {
         let input = vec!["abc".to_string(), "bcd".to_string()];
         let mut output = group_strings(input);
         output.sort();
-        // cả hai đều có khoảng cách [1,1]
+        // all of them have [1,1] distance
         assert_eq!(output, vec![vec!["abc".to_string(), "bcd".to_string()]]);
     }
 
@@ -105,9 +98,9 @@ mod tests {
         ];
         let mut output = group_strings(input);
         output.sort();
-        // nhóm 1 ký tự: ["a","b"]
-        // nhóm pattern [1,1]: ["abc","bcd"]
-        // nhóm pattern [2,2]: ["ace"]
+        // group A: [1]: ["a","b"]
+        // group B: [1,1]: ["abc","bcd"]
+        // group C: [2,2]: ["ace"]
         assert_eq!(
             output,
             vec![
