@@ -3,14 +3,18 @@ fn append_characters(s: String, t: String) -> i32 {
     let mut i = 0;
 
     for char in s.chars() {
-        if i >= t.len() { break; }
+        if i >= t.len() {
+            break;
+        }
 
         if char == t[i] {
             i += 1;
         }
     }
 
-    if i == t.len() { return 0 };
+    if i == t.len() {
+        return 0;
+    };
     t[i..].len() as i32
 }
 
