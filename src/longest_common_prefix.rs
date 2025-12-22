@@ -1,5 +1,7 @@
 fn longest_common_prefix(strs: Vec<String>) -> String {
-    if strs.len() == 1 { return strs[0].clone(); }
+    if strs.len() == 1 {
+        return strs[0].clone();
+    }
 
     let mut min = strs[0].len();
     for str in &strs {
@@ -19,7 +21,9 @@ fn longest_common_prefix(strs: Vec<String>) -> String {
             }
         }
 
-        if !flag { break; }
+        if !flag {
+            break;
+        }
 
         result.push(num);
     }
@@ -28,7 +32,10 @@ fn longest_common_prefix(strs: Vec<String>) -> String {
 }
 
 pub fn main() {
-    let strs = ["", ""].into_iter().map(|v| v.to_string()).collect::<Vec<_>>();
+    let strs = ["", ""]
+        .into_iter()
+        .map(|v| v.to_string())
+        .collect::<Vec<_>>();
 
     println!("{}", longest_common_prefix(strs));
 }

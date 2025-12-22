@@ -5,6 +5,7 @@ mod concatenation_of_array;
 mod contains_duplicate;
 mod encode_and_decode_strings;
 mod group_anagrams;
+mod group_shifted_strings;
 mod is_subsequence;
 mod length_of_last_word;
 mod longest_common_prefix;
@@ -22,5 +23,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    string_matching_in_an_array::main();
+    group_shifted_strings::main();
 }
