@@ -14,6 +14,7 @@ mod longest_common_prefix;
 mod longest_consecutive_sequence;
 mod majority_element;
 mod max_consecutive_ones;
+mod maximum_difference_between_even_and_odd_frequency_1;
 mod number_of_senior_citizens;
 mod pascals_triangle;
 mod product_of_array_except_self;
@@ -29,5 +30,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    majority_element::main();
+    maximum_difference_between_even_and_odd_frequency_1::main();
 }
