@@ -12,6 +12,7 @@ mod longest_common_prefix;
 mod longest_consecutive_sequence;
 mod max_consecutive_ones;
 mod number_of_senior_citizens;
+mod pascals_triangle;
 mod product_of_array_except_self;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
@@ -23,5 +24,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    group_shifted_strings::main();
+    pascals_triangle::main();
 }

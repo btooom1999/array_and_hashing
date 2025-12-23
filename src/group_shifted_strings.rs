@@ -12,6 +12,7 @@ fn group_strings(strings: Vec<String>) -> Vec<Vec<String>> {
             res.entry(vec![0]).or_default().push(str.to_owned());
             continue;
         }
+
         let nums = str.as_bytes();
         let mut distances = vec![];
         for i in 0..(nums.len() - 1) {
