@@ -1,6 +1,7 @@
 #![allow(unused)]
 
 mod append_characters_to_string_to_make_subsequence;
+mod can_place_flowers;
 mod concatenation_of_array;
 mod contains_duplicate;
 mod encode_and_decode_strings;
@@ -27,5 +28,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    isomorphic_strings::main();
+    can_place_flowers::main();
 }
