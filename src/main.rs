@@ -12,6 +12,7 @@ mod isomorphic_strings;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
+mod longest_monotonic_subarray;
 mod majority_element;
 mod max_consecutive_ones;
 mod maximum_difference_between_even_and_odd_frequency_1;
@@ -31,5 +32,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    next_greater_element_1::main();
+    longest_monotonic_subarray::main();
 }
