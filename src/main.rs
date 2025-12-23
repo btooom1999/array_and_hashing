@@ -14,6 +14,7 @@ mod max_consecutive_ones;
 mod number_of_senior_citizens;
 mod pascals_triangle;
 mod product_of_array_except_self;
+mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
 mod string_matching_in_an_array;
@@ -24,5 +25,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    pascals_triangle::main();
+    remove_element::main();
 }
