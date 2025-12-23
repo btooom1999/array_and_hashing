@@ -12,6 +12,7 @@ mod isomorphic_strings;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
+mod majority_element;
 mod max_consecutive_ones;
 mod number_of_senior_citizens;
 mod pascals_triangle;
@@ -28,5 +29,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    can_place_flowers::main();
+    majority_element::main();
 }
