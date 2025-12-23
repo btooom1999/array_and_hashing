@@ -7,6 +7,7 @@ mod encode_and_decode_strings;
 mod group_anagrams;
 mod group_shifted_strings;
 mod is_subsequence;
+mod isomorphic_strings;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
@@ -20,11 +21,11 @@ mod score_of_a_string;
 mod string_matching_in_an_array;
 mod top_k_frequent_elements;
 mod two_sum;
-mod unique_email_address;
+mod unique_email_addresses;
 mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    unique_email_address::main();
+    isomorphic_strings::main();
 }
