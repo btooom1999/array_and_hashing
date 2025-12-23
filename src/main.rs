@@ -20,10 +20,11 @@ mod score_of_a_string;
 mod string_matching_in_an_array;
 mod top_k_frequent_elements;
 mod two_sum;
+mod unique_email_address;
 mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    remove_element::main();
+    unique_email_address::main();
 }
