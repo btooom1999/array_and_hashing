@@ -12,9 +12,10 @@ mod isomorphic_strings;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
-mod longest_monotonic_subarray;
+mod longest_strictly_increasing_or_strictly_decreasing_subarray;
 mod majority_element;
 mod max_consecutive_ones;
+mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
 mod next_greater_element_1;
 mod number_of_senior_citizens;
@@ -32,5 +33,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    longest_monotonic_subarray::main();
+    maximum_ascending_subarray_sum::main();
 }
