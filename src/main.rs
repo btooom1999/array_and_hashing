@@ -8,6 +8,7 @@ mod design_hashmap;
 mod design_hashset;
 mod encode_and_decode_strings;
 mod find_all_numbers_disappeared_in_an_array;
+mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
 mod group_anagrams;
@@ -43,5 +44,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    height_checker::main();
+    find_lucky_integer_in_an_array::main();
 }
