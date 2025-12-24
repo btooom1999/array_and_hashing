@@ -21,6 +21,7 @@ mod majority_element;
 mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
+mod maximum_number_of_balloons;
 mod next_greater_element_1;
 mod number_of_senior_citizens;
 mod pascals_triangle;
@@ -38,5 +39,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    find_missing_and_repeated_values::main();
+    maximum_number_of_balloons::main();
 }
