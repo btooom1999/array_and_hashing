@@ -23,6 +23,7 @@ mod next_greater_element_1;
 mod number_of_senior_citizens;
 mod pascals_triangle;
 mod product_of_array_except_self;
+mod range_sum_query_immutable;
 mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
@@ -35,5 +36,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    kth_distinct_string_in_an_array::main();
+    range_sum_query_immutable::main();
 }
