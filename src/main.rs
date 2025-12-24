@@ -37,7 +37,8 @@ mod unique_email_addresses;
 mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
+mod word_pattern;
 
 fn main() {
-    maximum_number_of_balloons::main();
+    word_pattern::main();
 }
