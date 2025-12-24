@@ -4,6 +4,7 @@ mod append_characters_to_string_to_make_subsequence;
 mod can_place_flowers;
 mod concatenation_of_array;
 mod contains_duplicate;
+mod design_hashmap;
 mod design_hashset;
 mod encode_and_decode_strings;
 mod find_all_numbers_disappeared_in_an_array;
@@ -41,5 +42,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    design_hashset::main();
+    design_hashmap::main();
 }
