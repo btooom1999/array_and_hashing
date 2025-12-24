@@ -10,6 +10,7 @@ mod group_anagrams;
 mod group_shifted_strings;
 mod is_subsequence;
 mod isomorphic_strings;
+mod kth_distinct_string_in_an_array;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
@@ -34,5 +35,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    find_pivot_index::main();
+    kth_distinct_string_in_an_array::main();
 }
