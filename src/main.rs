@@ -5,6 +5,7 @@ mod can_place_flowers;
 mod concatenation_of_array;
 mod contains_duplicate;
 mod encode_and_decode_strings;
+mod find_pivot_index;
 mod group_anagrams;
 mod group_shifted_strings;
 mod is_subsequence;
@@ -33,5 +34,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    maximum_ascending_subarray_sum::main();
+    find_pivot_index::main();
 }
