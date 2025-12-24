@@ -5,6 +5,7 @@ mod can_place_flowers;
 mod concatenation_of_array;
 mod contains_duplicate;
 mod encode_and_decode_strings;
+mod find_all_numbers_disappeared_in_an_array;
 mod find_pivot_index;
 mod group_anagrams;
 mod group_shifted_strings;
@@ -36,5 +37,5 @@ mod valid_sudoku;
 mod valid_word_spare;
 
 fn main() {
-    range_sum_query_immutable::main();
+    find_all_numbers_disappeared_in_an_array::main();
 }
