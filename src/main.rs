@@ -12,6 +12,7 @@ mod find_missing_and_repeated_values;
 mod find_pivot_index;
 mod group_anagrams;
 mod group_shifted_strings;
+mod height_checker;
 mod is_subsequence;
 mod isomorphic_strings;
 mod kth_distinct_string_in_an_array;
@@ -42,5 +43,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    design_hashmap::main();
+    height_checker::main();
 }
