@@ -9,6 +9,7 @@ mod contains_duplicate;
 mod count_the_number_of_consistent_strings;
 mod design_hashmap;
 mod design_hashset;
+mod destination_city;
 mod divide_array_into_equal_pairs;
 mod encode_and_decode_strings;
 mod find_all_numbers_disappeared_in_an_array;
@@ -55,5 +56,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    largest_3_same_digit_number_in_string::main();
+    destination_city::main();
 }
