@@ -8,6 +8,7 @@ mod concatenation_of_array;
 mod contains_duplicate;
 mod design_hashmap;
 mod design_hashset;
+mod divide_array_into_equal_pairs;
 mod encode_and_decode_strings;
 mod find_all_numbers_disappeared_in_an_array;
 mod find_lucky_integer_in_an_array;
@@ -48,5 +49,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    monotonic_array::main();
+    divide_array_into_equal_pairs::main();
 }
