@@ -34,6 +34,7 @@ mod next_greater_element_1;
 mod number_of_good_pairs;
 mod number_of_senior_citizens;
 mod pascals_triangle;
+mod pascals_triangle_2;
 mod product_of_array_except_self;
 mod range_sum_query_immutable;
 mod remove_element;
@@ -50,5 +51,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    number_of_good_pairs::main();
+    pascals_triangle_2::main();
 }
