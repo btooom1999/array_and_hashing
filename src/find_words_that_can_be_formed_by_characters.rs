@@ -11,17 +11,13 @@ fn count_characters(words: Vec<String>, chars: String) -> i32 {
         let mut temp_hashmap = HashMap::<char, i32>::with_capacity(word.len());
         let mut flag = true;
         for c in word.chars() {
-            *temp_hashmap.entry(c).or_default() += 1;
+            let val2 = temp_hashmap.get(&c).unwrap_or(&0) + 1;
+            let val1 = hashmap.get(&c).unwrap_or(&0);
 
-            if let (Some(val1), Some(val2)) = (hashmap.get(&c), temp_hashmap.get(&c)) {
-                if val2 > val1 {
-                    flag = false;
-                }
-            } else {
+            temp_hashmap.insert(c, val2);
+
+            if val2 > *val1 {
                 flag = false;
-            }
-
-            if !flag {
                 break;
             }
         }
