@@ -34,6 +34,7 @@ mod range_sum_query_immutable;
 mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
+mod special_array_1;
 mod string_matching_in_an_array;
 mod top_k_frequent_elements;
 mod two_sum;
@@ -44,5 +45,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_lucky_integer_in_an_array::main();
+    special_array_1::main();
 }
