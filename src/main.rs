@@ -6,6 +6,7 @@ mod can_place_flowers;
 mod check_if_array_is_sorted_and_rotated;
 mod concatenation_of_array;
 mod contains_duplicate;
+mod count_the_number_of_consistent_strings;
 mod design_hashmap;
 mod design_hashset;
 mod divide_array_into_equal_pairs;
@@ -52,5 +53,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_words_that_can_be_formed_by_characters::main();
+    count_the_number_of_consistent_strings::main();
 }
