@@ -39,6 +39,7 @@ mod pascals_triangle;
 mod pascals_triangle_2;
 mod product_of_array_except_self;
 mod range_sum_query_immutable;
+mod ransom_note;
 mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
@@ -53,5 +54,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    count_the_number_of_consistent_strings::main();
+    ransom_note::main();
 }
