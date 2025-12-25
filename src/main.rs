@@ -14,6 +14,7 @@ mod find_all_numbers_disappeared_in_an_array;
 mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
+mod find_words_that_can_be_formed_by_characters;
 mod group_anagrams;
 mod group_shifted_strings;
 mod height_checker;
@@ -51,5 +52,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    pascals_triangle_2::main();
+    find_words_that_can_be_formed_by_characters::main();
 }
