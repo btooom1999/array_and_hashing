@@ -1,7 +1,9 @@
 #![allow(unused)]
+#![allow(non_snake_case)]
 
 mod append_characters_to_string_to_make_subsequence;
 mod can_place_flowers;
+mod check_if_array_is_sorted_and_rotated;
 mod concatenation_of_array;
 mod contains_duplicate;
 mod design_hashmap;
@@ -45,5 +47,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    special_array_1::main();
+    check_if_array_is_sorted_and_rotated::main();
 }
