@@ -33,6 +33,7 @@ mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
 mod maximum_number_of_balloons;
+mod maximum_product_difference_between_two_pairs;
 mod monotonic_array;
 mod next_greater_element_1;
 mod number_of_good_pairs;
@@ -56,5 +57,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    destination_city::main();
+    maximum_product_difference_between_two_pairs::main();
 }
