@@ -28,6 +28,7 @@ mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
 mod maximum_number_of_balloons;
+mod monotonic_array;
 mod next_greater_element_1;
 mod number_of_senior_citizens;
 mod pascals_triangle;
@@ -47,5 +48,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    check_if_array_is_sorted_and_rotated::main();
+    monotonic_array::main();
 }
