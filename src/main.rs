@@ -6,6 +6,7 @@ mod can_place_flowers;
 mod check_if_array_is_sorted_and_rotated;
 mod circular_sentence;
 mod concatenation_of_array;
+mod confusing_number;
 mod contains_duplicate;
 mod count_the_number_of_consistent_strings;
 mod design_hashmap;
@@ -61,5 +62,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_changes_to_make_alternating_binary_string::main();
+    confusing_number::main();
 }
