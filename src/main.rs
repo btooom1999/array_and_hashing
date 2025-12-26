@@ -35,6 +35,7 @@ mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
 mod maximum_number_of_balloons;
 mod maximum_product_difference_between_two_pairs;
+mod maximum_score_after_splitting_a_string;
 mod monotonic_array;
 mod next_greater_element_1;
 mod number_of_good_pairs;
@@ -58,5 +59,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    circular_sentence::main();
+    maximum_score_after_splitting_a_string::main();
 }
