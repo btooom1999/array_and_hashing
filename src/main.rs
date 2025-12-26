@@ -52,6 +52,7 @@ mod ransom_note;
 mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
+mod sentence_similarity;
 mod special_array_1;
 mod string_matching_in_an_array;
 mod top_k_frequent_elements;
@@ -63,5 +64,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_anagram_mappings::main();
+    sentence_similarity::main();
 }
