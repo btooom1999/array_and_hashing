@@ -69,4 +69,44 @@ mod tests {
         let res = anagram_mappings(a, b);
         assert_eq!(res, vec![]);
     }
+
+    #[test]
+    fn test_reverse_order() {
+        let a = vec![1, 2, 3];
+        let b = vec![3, 2, 1];
+        let res = anagram_mappings(a, b);
+        assert_eq!(res, vec![2, 1, 0]);
+    }
+
+    #[test]
+    fn test_all_same_elements() {
+        let a = vec![7, 7, 7];
+        let b = vec![7, 7, 7];
+        let res = anagram_mappings(a, b);
+        assert_eq!(res, vec![0, 1, 2]);
+    }
+
+    #[test]
+    fn test_large_numbers() {
+        let a = vec![100000, 99999];
+        let b = vec![99999, 100000];
+        let res = anagram_mappings(a, b);
+        assert_eq!(res, vec![1, 0]);
+    }
+
+    #[test]
+    fn test_not_found_multiple() {
+        let a = vec![1, 2, 3];
+        let b = vec![2, 4, 5];
+        let res = anagram_mappings(a, b);
+        assert_eq!(res, vec![-1, 0, -1]);
+    }
+
+    #[test]
+    fn test_single_element_not_found() {
+        let a = vec![42];
+        let b = vec![24];
+        let res = anagram_mappings(a, b);
+        assert_eq!(res, vec![-1]);
+    }
 }
