@@ -15,6 +15,7 @@ mod destination_city;
 mod divide_array_into_equal_pairs;
 mod encode_and_decode_strings;
 mod find_all_numbers_disappeared_in_an_array;
+mod find_anagram_mappings;
 mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
@@ -62,5 +63,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    confusing_number::main();
+    find_anagram_mappings::main();
 }

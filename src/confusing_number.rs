@@ -30,31 +30,31 @@ mod tests {
 
     #[test]
     fn test_confusing_number_11() {
-        assert!(!confusing_number(11)); // xoay thành 11, giống gốc
+        assert!(!confusing_number(11));
     }
 
     #[test]
     fn test_confusing_number_10() {
-        assert!(confusing_number(10)); // xoay thành 96, khác gốc
+        assert!(confusing_number(10));
     }
 
     #[test]
     fn test_confusing_number_69() {
-        assert!(confusing_number(69)); // xoay thành 96, khác gốc
+        assert!(confusing_number(69));
     }
 
     #[test]
     fn test_confusing_number_818() {
-        assert!(!confusing_number(818)); // xoay thành 818, giống gốc
+        assert!(!confusing_number(818));
     }
 
     #[test]
     fn test_confusing_number_2() {
-        assert!(!confusing_number(2)); // chữ số không hợp lệ
+        assert!(!confusing_number(2));
     }
 
     #[test]
     fn test_confusing_number_609() {
-        assert!(confusing_number(609)); // xoay thành 906, khác gốc
+        assert!(confusing_number(609));
     }
 }
