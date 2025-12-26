@@ -4,6 +4,7 @@
 mod append_characters_to_string_to_make_subsequence;
 mod can_place_flowers;
 mod check_if_array_is_sorted_and_rotated;
+mod circular_sentence;
 mod concatenation_of_array;
 mod contains_duplicate;
 mod count_the_number_of_consistent_strings;
@@ -57,5 +58,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    maximum_product_difference_between_two_pairs::main();
+    circular_sentence::main();
 }

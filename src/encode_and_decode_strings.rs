@@ -8,6 +8,7 @@ fn encode_and_decode_strings(strings: Vec<String>) -> Vec<String> {
     println!("encoded_string: {}", encoded_strings);
 
     let mut decoded_strings: Vec<String> = Vec::new();
+
     let mut i: usize = 0;
     let mut from_number: usize = 0;
 
