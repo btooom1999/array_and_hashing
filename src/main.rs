@@ -64,7 +64,8 @@ mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
 mod single_row_keyboard;
+mod palindrome_permutation;
 
 fn main() {
-    single_row_keyboard::main();
+    palindrome_permutation::main();
 }
