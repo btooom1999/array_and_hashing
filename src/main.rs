@@ -50,6 +50,7 @@ mod monotonic_array;
 mod next_greater_element_1;
 mod number_of_good_pairs;
 mod number_of_senior_citizens;
+mod number_of_students_unable_to_eat_lunch;
 mod palindrome_permutation;
 mod pascals_triangle;
 mod pascals_triangle_2;
@@ -76,5 +77,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_common_characters::main();
+    number_of_students_unable_to_eat_lunch::main();
 }
