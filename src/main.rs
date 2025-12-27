@@ -65,7 +65,8 @@ mod valid_word_spare;
 mod word_pattern;
 mod single_row_keyboard;
 mod palindrome_permutation;
+mod counting_elements;
 
 fn main() {
-    palindrome_permutation::main();
+    counting_elements::main();
 }
