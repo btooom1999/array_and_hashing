@@ -4,7 +4,7 @@ fn special_array(mut sums: Vec<i32>) -> i32 {
     let mut i = 0;
     let mut x = 0;
     loop {
-        if x > sums.len() as i32 || i > sums.len() - 1 {
+        if i > sums.len() - 1 {
             return -1;
         }
 
