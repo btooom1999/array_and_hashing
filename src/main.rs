@@ -25,6 +25,7 @@ mod first_unique_character_in_a_string;
 mod group_anagrams;
 mod group_shifted_strings;
 mod height_checker;
+mod intersection_of_two_arrays;
 mod is_subsequence;
 mod isomorphic_strings;
 mod kth_distinct_string_in_an_array;
@@ -74,5 +75,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    first_unique_character_in_a_string::main();
+    intersection_of_two_arrays::main();
 }
