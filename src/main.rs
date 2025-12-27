@@ -67,6 +67,7 @@ mod sentence_similarity;
 mod set_mismatch;
 mod single_row_keyboard;
 mod special_array_1;
+mod special_array_with_x_elements_greater_than_or_equals_x;
 mod string_matching_in_an_array;
 mod time_needed_to_buy_tickets;
 mod top_k_frequent_elements;
@@ -78,5 +79,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    time_needed_to_buy_tickets::main();
+    special_array_with_x_elements_greater_than_or_equals_x::main();
 }
