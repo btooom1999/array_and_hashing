@@ -60,6 +60,7 @@ mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
 mod sentence_similarity;
+mod set_mismatch;
 mod single_row_keyboard;
 mod special_array_1;
 mod string_matching_in_an_array;
@@ -72,5 +73,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    largest_substring_between_two_equal_characters::main();
+    set_mismatch::main();
 }
