@@ -68,6 +68,7 @@ mod set_mismatch;
 mod single_row_keyboard;
 mod special_array_1;
 mod string_matching_in_an_array;
+mod time_needed_to_buy_tickets;
 mod top_k_frequent_elements;
 mod two_sum;
 mod unique_email_addresses;
@@ -77,5 +78,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    number_of_students_unable_to_eat_lunch::main();
+    time_needed_to_buy_tickets::main();
 }
