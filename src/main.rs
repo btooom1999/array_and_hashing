@@ -32,6 +32,7 @@ mod largest_unique_number;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
+mod longest_palindrome;
 mod longest_strictly_increasing_or_strictly_decreasing_subarray;
 mod majority_element;
 mod max_consecutive_ones;
@@ -70,5 +71,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    redistribute_characters_to_make_all_strings_equal::main();
+    longest_palindrome::main();
 }
