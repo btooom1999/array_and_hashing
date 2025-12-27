@@ -63,7 +63,8 @@ mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
+mod single_row_keyboard;
 
 fn main() {
-    largest_unique_number::main();
+    single_row_keyboard::main();
 }

@@ -57,6 +57,7 @@ mod tests {
 
     #[test]
     fn test_zero_in_array() {
+        let nums = vec![0, 1, 1, 2, 2];
         assert_eq!(largest_unique_number(nums), 0);
     }
 
