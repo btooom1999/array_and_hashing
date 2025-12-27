@@ -66,7 +66,8 @@ mod word_pattern;
 mod single_row_keyboard;
 mod palindrome_permutation;
 mod counting_elements;
+mod perform_string_shifts;
 
 fn main() {
-    counting_elements::main();
+    perform_string_shifts::main();
 }
