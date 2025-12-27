@@ -27,6 +27,7 @@ mod is_subsequence;
 mod isomorphic_strings;
 mod kth_distinct_string_in_an_array;
 mod largest_3_same_digit_number_in_string;
+mod largest_unique_number;
 mod length_of_last_word;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
@@ -64,5 +65,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    sentence_similarity::main();
+    largest_unique_number::main();
 }
