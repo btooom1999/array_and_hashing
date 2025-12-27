@@ -21,6 +21,7 @@ mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
 mod find_words_that_can_be_formed_by_characters;
+mod first_unique_character_in_a_string;
 mod group_anagrams;
 mod group_shifted_strings;
 mod height_checker;
@@ -73,5 +74,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    set_mismatch::main();
+    first_unique_character_in_a_string::main();
 }
