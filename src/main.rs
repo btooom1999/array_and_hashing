@@ -9,6 +9,7 @@ mod concatenation_of_array;
 mod confusing_number;
 mod contains_duplicate;
 mod count_the_number_of_consistent_strings;
+mod count_vowel_strings_in_ranges;
 mod counting_elements;
 mod design_hashmap;
 mod design_hashset;
@@ -79,5 +80,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    special_array_with_x_elements_greater_than_or_equals_x::main();
+    count_vowel_strings_in_ranges::main();
 }
