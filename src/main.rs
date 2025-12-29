@@ -70,6 +70,7 @@ mod sentence_similarity;
 mod set_mismatch;
 mod single_row_keyboard;
 mod sort_an_array;
+mod sort_array_by_increasing_frequency;
 mod sort_colors;
 mod sort_the_people;
 mod special_array_1;
@@ -85,5 +86,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    sort_the_people::main();
+    sort_array_by_increasing_frequency::main();
 }
