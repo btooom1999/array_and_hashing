@@ -12,6 +12,7 @@ mod contains_duplicate;
 mod count_the_number_of_consistent_strings;
 mod count_vowel_strings_in_ranges;
 mod counting_elements;
+mod custom_sort_string;
 mod design_hashmap;
 mod design_hashset;
 mod destination_city;
@@ -87,5 +88,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    moving_average_from_data_stream::main();
+    custom_sort_string::main();
 }
