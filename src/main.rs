@@ -37,6 +37,7 @@ mod largest_3_same_digit_number_in_string;
 mod largest_substring_between_two_equal_characters;
 mod largest_unique_number;
 mod length_of_last_word;
+mod lonely_pixel_1;
 mod longest_common_prefix;
 mod longest_consecutive_sequence;
 mod longest_palindrome;
@@ -89,5 +90,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    maximum_distance_in_arrays::main();
+    lonely_pixel_1::main();
 }
