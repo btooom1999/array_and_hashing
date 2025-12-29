@@ -22,9 +22,6 @@ fn max_distance(arrays: Vec<Vec<i32>>) -> i32 {
         }
     }
 
-    println!("{:?} {:?}", max, min);
-    println!("{:?} {:?}", prev_max, prev_min);
-
     if max.1 != min.1 {
         max.0 - min.0
     } else {

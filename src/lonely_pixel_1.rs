@@ -13,8 +13,6 @@ fn count_lonely_pixels(picture: Vec<Vec<char>>) -> i32 {
         }
     }
 
-    println!("{:#?}", hashmap);
-
     blacks.into_iter().fold(0, |count, (i, j)| {
         if let (Some(val1), Some(val2)) = (
             hashmap.get(&format!("r{}", j)),
