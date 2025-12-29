@@ -45,6 +45,7 @@ mod majority_element;
 mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
+mod maximum_distance_in_arrays;
 mod maximum_number_of_balloons;
 mod maximum_product_difference_between_two_pairs;
 mod maximum_score_after_splitting_a_string;
@@ -88,5 +89,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    custom_sort_string::main();
+    maximum_distance_in_arrays::main();
 }
