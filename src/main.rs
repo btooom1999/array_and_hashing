@@ -49,6 +49,7 @@ mod maximum_product_difference_between_two_pairs;
 mod maximum_score_after_splitting_a_string;
 mod minimum_changes_to_make_alternating_binary_string;
 mod monotonic_array;
+mod moving_average_from_data_stream;
 mod next_greater_element_1;
 mod number_of_good_pairs;
 mod number_of_senior_citizens;
@@ -86,5 +87,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    sort_array_by_increasing_frequency::main();
+    moving_average_from_data_stream::main();
 }
