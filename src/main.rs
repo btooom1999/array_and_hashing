@@ -2,6 +2,7 @@
 #![allow(non_snake_case)]
 
 mod append_characters_to_string_to_make_subsequence;
+mod average_waiting_time;
 mod can_place_flowers;
 mod check_if_array_is_sorted_and_rotated;
 mod circular_sentence;
@@ -80,5 +81,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    count_vowel_strings_in_ranges::main();
+    average_waiting_time::main();
 }
