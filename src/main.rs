@@ -69,6 +69,7 @@ mod sentence_similarity;
 mod set_mismatch;
 mod single_row_keyboard;
 mod sort_an_array;
+mod sort_colors;
 mod special_array_1;
 mod special_array_with_x_elements_greater_than_or_equals_x;
 mod string_matching_in_an_array;
@@ -82,5 +83,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    sort_an_array::main();
+    sort_colors::main();
 }
