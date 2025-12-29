@@ -62,6 +62,7 @@ mod product_of_array_except_self;
 mod range_sum_query_immutable;
 mod ransom_note;
 mod redistribute_characters_to_make_all_strings_equal;
+mod relative_sort_array;
 mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
 mod score_of_a_string;
@@ -83,5 +84,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    sort_colors::main();
+    relative_sort_array::main();
 }
