@@ -89,7 +89,8 @@ mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
+mod candy_crush;
 
 fn main() {
-    square_matrix_multiplication::main();
+    candy_crush::main();
 }
