@@ -91,7 +91,8 @@ mod valid_word_spare;
 mod word_pattern;
 mod candy_crush;
 mod range_sum_query_2d_immutable;
+mod find_smallest_common_element_in_all_rows;
 
 fn main() {
-    range_sum_query_2d_immutable::main();
+    find_smallest_common_element_in_all_rows::main();
 }
