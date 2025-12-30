@@ -1,5 +1,3 @@
-use std::{collections::HashSet, usize};
-
 fn candy_crush(mut board: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let m = board.len();
     let n = board[0].len();

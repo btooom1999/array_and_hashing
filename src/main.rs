@@ -90,7 +90,8 @@ mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
 mod candy_crush;
+mod range_sum_query_2d_immutable;
 
 fn main() {
-    candy_crush::main();
+    range_sum_query_2d_immutable::main();
 }
