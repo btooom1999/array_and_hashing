@@ -1,103 +1,60 @@
-use std::collections::HashSet;
+use std::{collections::HashSet, usize};
 
-fn candy_crush(board: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-    let mut hashset = HashSet::<(usize, usize)>::new();
-    let mut board = board.iter().enumerate().fold(
-        vec![vec![0; board.len()]; board[0].len()], 
-        |mut vec, (i, b)| {
-            for (j, num) in b.iter().enumerate() {
-                vec[j][i] = *num;
-            }
-            vec
-        }
-    );
+fn candy_crush(mut board: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+    let m = board.len();
+    let n = board[0].len();
+
     loop {
-        let mut count = 0;   
+        let mut can_crush = false;
 
-        for (i, col) in board.iter().enumerate() {
-            let mut duplicate_counts = 0;
-            let mut prev_num = -1;
-            for (j, num) in col.iter().enumerate() {
-                if *num == 0 {
-                    duplicate_counts = 0;
-                    prev_num = -1;
-                    continue;
-                }
-
-                if prev_num == *num {
-                    duplicate_counts += 1;
-                } else {
-                    duplicate_counts = 1;
-                    prev_num = *num;
-                }
-
-                if duplicate_counts == 3 {
-                    count += 1;
-                    hashset.insert((i, j-2));
-                    hashset.insert((i, j-1));
-                    hashset.insert((i, j));
-                } else if duplicate_counts > 3 {
-                    hashset.insert((i, j));
+        // check horizontally
+        for i in 0..m {
+            for j in 0..n-2 {
+                let v = board[i][j].abs();
+                if v != 0 && v == board[i][j+1].abs() && v == board[i][j+2].abs() {
+                    can_crush = true;
+                    board[i][j] = -v;
+                    board[i][j+1] = -v;
+                    board[i][j+2] = -v;
                 }
             }
         }
 
-        for j in 0..board[0].len() {
-            let mut duplicate_counts = 0;
-            let mut prev_num = -1;
-            for i in 0..board.len() {
-                let num = board[i][j];
-                if num == 0 {
-                    duplicate_counts = 0;
-                    prev_num = -1;
-                    continue;
-                }
-
-                if prev_num == num {
-                    duplicate_counts += 1;
-                } else {
-                    duplicate_counts = 1;
-                    prev_num = num;
-                }
-
-                if duplicate_counts == 3 {
-                    count += 1;
-                    hashset.insert((i-2, j));
-                    hashset.insert((i-1, j));
-                    hashset.insert((i, j));
-                } else if duplicate_counts > 3 {
-                    hashset.insert((i, j));
+        // check vertically
+        for j in 0..n {
+            for i in 0..m-2 {
+                let v = board[i][j].abs();
+                if v != 0 && v == board[i+1][j].abs() && v == board[i+2][j].abs() {
+                    can_crush = true;
+                    board[i][j] = -v;
+                    board[i+1][j] = -v;
+                    board[i+2][j] = -v;
                 }
             }
         }
 
-        if count == 0 {
+        if !can_crush {
             break;
         }
 
+        // crush 
+        for j in 0..n {
+            let mut w = m as i32 - 1;
+            for i in (0..m).rev() {
+                if board[i][j] > 0 {
+                    board[w as usize][j] = board[i][j];
+                    w -= 1;
+                }
+            }
 
-        let mut positions = hashset.iter().copied().collect::<Vec<(usize, usize)>>();
-        positions.sort_by(|(_, a), (_, b)| a.cmp(b));
-
-        for (i, j) in positions {
-            if let Some(vec) = board.get_mut(i) {
-                vec.remove(j);
-                vec.insert(0, 0);
+            while w >= 0 {
+                board[w as usize][j] = 0;
+                w -= 1;
             }
         }
-
-        hashset.clear();
     }
 
-    board.iter().enumerate().fold(
-        vec![vec![0; board.len()]; board[0].len()], 
-        |mut vec, (j,b)| {
-            for (i, num) in b.iter().enumerate() {
-                vec[i][j] = *num;
-            }
-            vec
-        }
-    )
+    board
 }
 
 pub fn main() {
