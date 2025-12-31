@@ -81,9 +81,9 @@ mod sort_an_array;
 mod sort_array_by_increasing_frequency;
 mod sort_colors;
 mod sort_the_people;
+mod sparse_matrix_multiplication;
 mod special_array_1;
 mod special_array_with_x_elements_greater_than_or_equals_x;
-mod square_matrix_multiplication;
 mod string_matching_in_an_array;
 mod time_needed_to_buy_tickets;
 mod top_k_frequent_elements;
@@ -95,5 +95,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    confusing_number::main();
+    group_shifted_strings::main();
 }

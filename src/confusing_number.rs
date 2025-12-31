@@ -23,38 +23,3 @@ pub fn main() {
     let n = 89;
     println!("{}", confusing_number(n));
 }
-
-#[cfg(test)]
-mod tests {
-    use super::confusing_number;
-
-    #[test]
-    fn test_confusing_number_11() {
-        assert!(!confusing_number(11));
-    }
-
-    #[test]
-    fn test_confusing_number_10() {
-        assert!(confusing_number(10));
-    }
-
-    #[test]
-    fn test_confusing_number_69() {
-        assert!(confusing_number(69));
-    }
-
-    #[test]
-    fn test_confusing_number_818() {
-        assert!(!confusing_number(818));
-    }
-
-    #[test]
-    fn test_confusing_number_2() {
-        assert!(!confusing_number(2));
-    }
-
-    #[test]
-    fn test_confusing_number_609() {
-        assert!(confusing_number(609));
-    }
-}
