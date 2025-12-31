@@ -54,6 +54,7 @@ mod maximum_number_of_balloons;
 mod maximum_product_difference_between_two_pairs;
 mod maximum_score_after_splitting_a_string;
 mod minimum_changes_to_make_alternating_binary_string;
+mod minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod monotonic_array;
 mod moving_average_from_data_stream;
 mod next_greater_element_1;
@@ -95,5 +96,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    group_shifted_strings::main();
+    minimum_number_of_operations_to_move_all_balls_to_each_box::main();
 }
