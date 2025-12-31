@@ -1,9 +1,11 @@
 #![allow(unused)]
 #![allow(non_snake_case)]
 
+mod analyze_user_website_visit_pattern;
 mod append_characters_to_string_to_make_subsequence;
 mod average_waiting_time;
 mod can_place_flowers;
+mod candy_crush;
 mod check_if_array_is_sorted_and_rotated;
 mod circular_sentence;
 mod concatenation_of_array;
@@ -24,6 +26,7 @@ mod find_common_characters;
 mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
+mod find_smallest_common_element_in_all_rows;
 mod find_words_that_can_be_formed_by_characters;
 mod first_unique_character_in_a_string;
 mod group_anagrams;
@@ -63,6 +66,7 @@ mod pascals_triangle_2;
 mod path_crossing;
 mod perform_string_shifts;
 mod product_of_array_except_self;
+mod range_sum_query_2d_immutable;
 mod range_sum_query_immutable;
 mod ransom_note;
 mod redistribute_characters_to_make_all_strings_equal;
@@ -89,10 +93,7 @@ mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
-mod candy_crush;
-mod range_sum_query_2d_immutable;
-mod find_smallest_common_element_in_all_rows;
 
 fn main() {
-    find_smallest_common_element_in_all_rows::main();
+    confusing_number::main();
 }
