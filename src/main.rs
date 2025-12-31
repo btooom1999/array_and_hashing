@@ -20,6 +20,7 @@ mod design_hashset;
 mod destination_city;
 mod divide_array_into_equal_pairs;
 mod encode_and_decode_strings;
+mod encode_and_decode_tinyurl;
 mod find_all_numbers_disappeared_in_an_array;
 mod find_anagram_mappings;
 mod find_common_characters;
@@ -96,5 +97,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_number_of_operations_to_move_all_balls_to_each_box::main();
+    encode_and_decode_tinyurl::main();
 }
