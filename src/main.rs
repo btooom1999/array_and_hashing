@@ -4,6 +4,7 @@
 mod analyze_user_website_visit_pattern;
 mod append_characters_to_string_to_make_subsequence;
 mod average_waiting_time;
+mod best_time_to_buy_and_sell_stock_2;
 mod brick_wall;
 mod can_place_flowers;
 mod candy_crush;
@@ -98,5 +99,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    brick_wall::main();
+    best_time_to_buy_and_sell_stock_2::main();
 }
