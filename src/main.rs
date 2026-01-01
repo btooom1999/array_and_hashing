@@ -4,6 +4,7 @@
 mod analyze_user_website_visit_pattern;
 mod append_characters_to_string_to_make_subsequence;
 mod average_waiting_time;
+mod brick_wall;
 mod can_place_flowers;
 mod candy_crush;
 mod check_if_array_is_sorted_and_rotated;
@@ -97,5 +98,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    encode_and_decode_tinyurl::main();
+    brick_wall::main();
 }

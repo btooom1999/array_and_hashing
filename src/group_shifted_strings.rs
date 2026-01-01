@@ -18,7 +18,6 @@ fn group_strings(strings: Vec<String>) -> Vec<Vec<String>> {
         for i in 0..(nums.len() - 1) {
             let mut d = (nums[i + 1] as i32 - nums[i] as i32);
             if d < 0 {
-                println!("check {:?}", d);
                 d = (nums[i + 1] - b'a' + 1) as i32 + (b'z' - nums[i]) as i32;
             }
 
