@@ -50,6 +50,7 @@ mod longest_consecutive_sequence;
 mod longest_palindrome;
 mod longest_strictly_increasing_or_strictly_decreasing_subarray;
 mod majority_element;
+mod majority_element_2;
 mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
@@ -100,5 +101,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    best_time_to_buy_and_sell_stock::main();
+    majority_element_2::main();
 }
