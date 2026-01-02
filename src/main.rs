@@ -52,6 +52,7 @@ mod longest_strictly_increasing_or_strictly_decreasing_subarray;
 mod majority_element;
 mod majority_element_2;
 mod make_sum_divisible_by_p;
+mod matrix_block_sum;
 mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
@@ -106,5 +107,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    running_sum_of_1d_array::main();
+    matrix_block_sum::main();
 }
