@@ -51,6 +51,7 @@ mod longest_palindrome;
 mod longest_strictly_increasing_or_strictly_decreasing_subarray;
 mod majority_element;
 mod majority_element_2;
+mod make_sum_divisible_by_p;
 mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
@@ -80,6 +81,7 @@ mod redistribute_characters_to_make_all_strings_equal;
 mod relative_sort_array;
 mod remove_element;
 mod replace_elements_with_greatest_element_on_right_side;
+mod running_sum_of_1d_array;
 mod score_of_a_string;
 mod sentence_similarity;
 mod set_mismatch;
@@ -104,5 +106,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    subarray_sums_divisible_by_k::main();
+    running_sum_of_1d_array::main();
 }
