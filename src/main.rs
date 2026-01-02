@@ -31,6 +31,7 @@ mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
 mod find_smallest_common_element_in_all_rows;
+mod find_the_highest_altitude;
 mod find_words_that_can_be_formed_by_characters;
 mod first_unique_character_in_a_string;
 mod group_anagrams;
@@ -107,5 +108,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    matrix_block_sum::main();
+    find_the_highest_altitude::main();
 }
