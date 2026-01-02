@@ -92,6 +92,7 @@ mod sparse_matrix_multiplication;
 mod special_array_1;
 mod special_array_with_x_elements_greater_than_or_equals_x;
 mod string_matching_in_an_array;
+mod subarray_sum;
 mod time_needed_to_buy_tickets;
 mod top_k_frequent_elements;
 mod two_sum;
@@ -102,5 +103,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_index_of_a_valid_split::main();
+    subarray_sum::main();
 }
