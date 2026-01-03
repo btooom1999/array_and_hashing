@@ -14,6 +14,7 @@ mod circular_sentence;
 mod concatenation_of_array;
 mod confusing_number;
 mod contains_duplicate;
+mod count_number_of_nice_subarrays;
 mod count_the_number_of_consistent_strings;
 mod count_vowel_strings_in_ranges;
 mod counting_elements;
@@ -108,5 +109,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_the_highest_altitude::main();
+    count_number_of_nice_subarrays::main();
 }
