@@ -110,5 +110,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_the_longest_substring_containing_vowels_in_event_counts::main();
+    make_sum_divisible_by_p::main();
 }
