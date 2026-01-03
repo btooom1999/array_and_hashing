@@ -19,6 +19,7 @@ mod confusing_number;
 mod contains_duplicate;
 mod continuous_subarray_sum;
 mod count_number_of_nice_subarrays;
+mod count_partitions_with_even_sum_difference;
 mod count_the_number_of_consistent_strings;
 mod count_vowel_strings_in_ranges;
 mod counting_elements;
@@ -116,5 +117,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    number_of_sub_arrays_with_odd_sum::main();
+    count_partitions_with_even_sum_difference::main();
 }

@@ -3,20 +3,24 @@ use std::collections::HashMap;
 const MOD: i64 = 1_000_000_007;
 
 fn num_of_subarrays(arr: Vec<i32>) -> i32 {
-    let all = ((arr.len() as i64 * (arr.len() as i64 + 1)) / 2);
-    let mut hashmap = HashMap::<i32, i64>::from([(0, 1)]);
-    let mut sum = 0;
+    let mut prefix = 0;
+    let mut odd_count = 0;
+    let mut even_count = 0;
     let mut res = 0;
     for num in &arr {
-        sum += *num as i64;
-        if let Some(val) = hashmap.get(&((sum % 2) as i32)) {
-            res += *val;
+        prefix += *num as i64;
+        if prefix % 2 == 1 {
+            odd_count += 1;
+            res += even_count + 1;
+        } else {
+            even_count += 1;
+            res += odd_count;
         }
 
-        *hashmap.entry((sum % 2) as i32).or_default() += 1;
+        res %= MOD;
     }
 
-    ((all - res) % MOD) as i32
+    res as i32
 }
 
 pub fn main() {
