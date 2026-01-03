@@ -77,6 +77,7 @@ mod next_greater_element_1;
 mod number_of_good_pairs;
 mod number_of_senior_citizens;
 mod number_of_students_unable_to_eat_lunch;
+mod number_of_sub_arrays_with_odd_sum;
 mod palindrome_permutation;
 mod pascals_triangle;
 mod pascals_triangle_2;
@@ -115,5 +116,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    binary_subarrays_with_sum::main();
+    number_of_sub_arrays_with_odd_sum::main();
 }
