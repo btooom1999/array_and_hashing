@@ -20,10 +20,10 @@ fn number_of_subarrays(nums: Vec<i32>, k: i32) -> i32 {
 }
 
 pub fn main() {
-    // let nums = vec![1, 1, 2, 1, 1];
+    let nums = vec![1, 1, 2, 1, 1];
     // let nums = vec![2, 4, 6];
-    let nums = vec![2, 2, 2, 1, 2, 2, 1, 2, 2, 2];
+    // let nums = vec![2, 2, 2, 1, 2, 2, 1, 2, 2, 2];
 
-    let k = 2;
+    let k = 3;
     println!("{}", number_of_subarrays(nums, k));
 }

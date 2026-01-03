@@ -33,6 +33,7 @@ mod find_missing_and_repeated_values;
 mod find_pivot_index;
 mod find_smallest_common_element_in_all_rows;
 mod find_the_highest_altitude;
+mod find_the_longest_substring_containing_vowels_in_event_counts;
 mod find_words_that_can_be_formed_by_characters;
 mod first_unique_character_in_a_string;
 mod group_anagrams;
@@ -109,5 +110,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    count_number_of_nice_subarrays::main();
+    find_the_longest_substring_containing_vowels_in_event_counts::main();
 }
