@@ -52,6 +52,7 @@ mod longest_common_prefix;
 mod longest_consecutive_sequence;
 mod longest_palindrome;
 mod longest_strictly_increasing_or_strictly_decreasing_subarray;
+mod longest_subsequence_with_limited_sum;
 mod majority_element;
 mod majority_element_2;
 mod make_sum_divisible_by_p;
@@ -110,5 +111,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    make_sum_divisible_by_p::main();
+    longest_subsequence_with_limited_sum::main();
 }
