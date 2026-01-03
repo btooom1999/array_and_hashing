@@ -14,6 +14,7 @@ mod circular_sentence;
 mod concatenation_of_array;
 mod confusing_number;
 mod contains_duplicate;
+mod continuous_subarray_sum;
 mod count_number_of_nice_subarrays;
 mod count_the_number_of_consistent_strings;
 mod count_vowel_strings_in_ranges;
@@ -111,5 +112,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    longest_subsequence_with_limited_sum::main();
+    continuous_subarray_sum::main();
 }
