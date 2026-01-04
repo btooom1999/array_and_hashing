@@ -73,6 +73,7 @@ mod maximum_score_after_splitting_a_string;
 mod minimum_changes_to_make_alternating_binary_string;
 mod minimum_index_of_a_valid_split;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
+mod minimum_operations_to_reduce_x_to_zero;
 mod minimum_size_subarray_sum;
 mod monotonic_array;
 mod moving_average_from_data_stream;
@@ -120,5 +121,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    sum_of_all_odd_length_subarrays::main();
+    minimum_operations_to_reduce_x_to_zero::main();
 }
