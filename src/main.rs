@@ -116,11 +116,12 @@ mod time_needed_to_buy_tickets;
 mod top_k_frequent_elements;
 mod two_sum;
 mod unique_email_addresses;
+mod unique_length_3_palindromic_subsequences;
 mod valid_anagram;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_value_to_get_positive_step_by_step_sum::main();
+    unique_length_3_palindromic_subsequences::main();
 }
