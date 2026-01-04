@@ -109,6 +109,7 @@ mod special_array_with_x_elements_greater_than_or_equals_x;
 mod string_matching_in_an_array;
 mod subarray_sum;
 mod subarray_sums_divisible_by_k;
+mod sum_of_all_odd_length_subarrays;
 mod time_needed_to_buy_tickets;
 mod top_k_frequent_elements;
 mod two_sum;
@@ -119,5 +120,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_size_subarray_sum::main();
+    sum_of_all_odd_length_subarrays::main();
 }
