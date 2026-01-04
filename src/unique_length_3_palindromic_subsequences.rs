@@ -1,33 +1,31 @@
 use std::collections::HashSet;
 
 fn count_palindromic_subsequence(s: String) -> i32 {
-    let s = s.as_bytes();
-    let mut hashset = HashSet::<String>::new();
-    let mut words = [(-1, 0); 26]; // (index, count)
-    for (j, c) in s.iter().enumerate() {
-        let k = (c - b'a') as usize;
-        if words[k].0 != -1 {
-            let i = words[k].0 as usize;
-            let mut valid = false;
-            for x in (i + 1)..j {
-                valid = true;
-                hashset.insert(format!("{}{}{}", s[i] as char, s[x] as char, *c as char));
-            }
+    let n = s.len();
+    let s = s.chars().collect::<Vec<_>>();
+    let mut first = [n; 26];
+    let mut last = [0; 26];
 
-            words[k].1 += 1;
-            if words[k].1 == 3 {
-                hashset.insert((*c as char).to_string().repeat(words[k].1));
-            }
+    for (i, c) in s.iter().enumerate() {
+        let k = (*c as u8 - b'a') as usize;
+        if first[k] == n {
+            first[k] = i;
+        }
+        last[k] = i;
+    }
 
-            if valid {
-                words[k].0 = j as i32;
+    let mut res = 0;
+    for k in 0..26 {
+        if first[k] < last[k] {
+            let mut chars = [false; 26];
+            for i in first[k] + 1..last[k] {
+                chars[(s[i] as u8 - b'a') as usize] = true;
             }
-        } else {
-            words[k] = (j as i32, words[k].1 + 1);
+            res += chars.iter().filter(|v| **v).count();
         }
     }
 
-    hashset.len() as i32
+    res as i32
 }
 
 pub fn main() {
