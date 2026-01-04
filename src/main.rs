@@ -73,6 +73,7 @@ mod maximum_score_after_splitting_a_string;
 mod minimum_changes_to_make_alternating_binary_string;
 mod minimum_index_of_a_valid_split;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
+mod minimum_number_of_swaps_to_make_the_string_balanced;
 mod minimum_operations_to_reduce_x_to_zero;
 mod minimum_size_subarray_sum;
 mod minimum_value_to_get_positive_step_by_step_sum;
@@ -123,5 +124,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    unique_length_3_palindromic_subsequences::main();
+    minimum_number_of_swaps_to_make_the_string_balanced::main();
 }
