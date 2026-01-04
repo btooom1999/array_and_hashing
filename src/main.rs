@@ -75,6 +75,7 @@ mod minimum_index_of_a_valid_split;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod minimum_operations_to_reduce_x_to_zero;
 mod minimum_size_subarray_sum;
+mod minimum_value_to_get_positive_step_by_step_sum;
 mod monotonic_array;
 mod moving_average_from_data_stream;
 mod next_greater_element_1;
@@ -121,5 +122,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_operations_to_reduce_x_to_zero::main();
+    minimum_value_to_get_positive_step_by_step_sum::main();
 }
