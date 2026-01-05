@@ -33,6 +33,7 @@ mod encode_and_decode_tinyurl;
 mod find_all_numbers_disappeared_in_an_array;
 mod find_anagram_mappings;
 mod find_common_characters;
+mod find_first_palindromic_string_in_the_array;
 mod find_lucky_integer_in_an_array;
 mod find_missing_and_repeated_values;
 mod find_pivot_index;
@@ -129,5 +130,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    valid_palindrome_2::main();
+    find_first_palindromic_string_in_the_array::main();
 }
