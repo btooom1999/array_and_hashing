@@ -125,10 +125,11 @@ mod unique_length_3_palindromic_subsequences;
 mod valid_anagram;
 mod valid_palindrome;
 mod valid_palindrome_2;
+mod valid_palindrome_4;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    find_first_palindromic_string_in_the_array::main();
+    valid_palindrome_4::main();
 }
