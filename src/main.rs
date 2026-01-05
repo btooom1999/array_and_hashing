@@ -81,6 +81,7 @@ mod monotonic_array;
 mod moving_average_from_data_stream;
 mod next_greater_element_1;
 mod number_of_good_pairs;
+mod number_of_pairs_of_interchangeable_rectangles;
 mod number_of_senior_citizens;
 mod number_of_students_unable_to_eat_lunch;
 mod number_of_sub_arrays_with_odd_sum;
@@ -125,5 +126,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    one_edit_distance::main();
+    number_of_pairs_of_interchangeable_rectangles::main();
 }
