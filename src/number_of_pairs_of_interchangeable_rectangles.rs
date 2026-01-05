@@ -1,17 +1,28 @@
 use std::collections::HashMap;
 
+fn gcd(mut a: i32, mut b: i32) -> i32 {
+    while b != 0 {
+        (a, b) = (b, a % b);
+    }
+    a
+}
+
 fn interchangeable_rectangles(rectangles: Vec<Vec<i32>>) -> i64 {
-    let mut hashmap = HashMap::<String, i64>::new();
+    let mut hashmap = HashMap::<Vec<i32>, i64>::new();
+    let mut res = 0i64;
     for rec in &rectangles {
-        hashmap
-            .entry((rec[0] as f64 / rec[1] as f64).to_string())
-            .and_modify(|v| *v += 1)
-            .or_default();
+        let mut a = rec[0];
+        let mut b = rec[1];
+        let gcd = gcd(a, b);
+        a /= gcd;
+        b /= gcd;
+        let val = hashmap.entry(vec![a, b]).or_default();
+
+        res += *val;
+        *val += 1;
     }
 
-    hashmap
-        .values()
-        .fold(0i64, |mut sum, v| sum + (v * (v + 1)) / 2)
+    res
 }
 
 pub fn main() {
