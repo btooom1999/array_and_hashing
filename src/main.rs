@@ -84,6 +84,7 @@ mod number_of_good_pairs;
 mod number_of_senior_citizens;
 mod number_of_students_unable_to_eat_lunch;
 mod number_of_sub_arrays_with_odd_sum;
+mod one_edit_distance;
 mod palindrome_permutation;
 mod pascals_triangle;
 mod pascals_triangle_2;
@@ -124,5 +125,5 @@ mod valid_word_spare;
 mod word_pattern;
 
 fn main() {
-    minimum_number_of_swaps_to_make_the_string_balanced::main();
+    one_edit_distance::main();
 }
