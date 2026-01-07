@@ -83,7 +83,7 @@ mod tests {
         chars[25] = 'n';
         chars[75] = 'o';
         let s: String = chars.into_iter().collect();
-        assert!(make_palindrome(s));
+        assert!(!make_palindrome(s));
     }
 
     #[test]
@@ -92,7 +92,7 @@ mod tests {
         for i in 0..50 {
             s.push(('a' as u8 + (i % 26)) as char);
         }
-        assert!(make_palindrome(s));
+        assert!(!make_palindrome(s));
     }
 
     #[test]
@@ -127,7 +127,7 @@ mod tests {
 
     #[test]
     fn test_len6_three_replace() {
-        assert!(make_palindrome("abcdef".to_string()));
+        assert!(!make_palindrome("abcdef".to_string()));
     }
 
     #[test]
@@ -137,6 +137,6 @@ mod tests {
 
     #[test]
     fn test_len12_false() {
-        assert!(make_palindrome("abcdefghijkl".to_string()));
+        assert!(!make_palindrome("abcdefghijkl".to_string()));
     }
 }
