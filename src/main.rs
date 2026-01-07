@@ -131,7 +131,8 @@ mod word_pattern;
 mod grid_game;
 mod wiggle_sort;
 mod kth_largest_element_in_an_array;
+mod third_maximum_number;
 
 fn main() {
-    top_k_frequent_elements::main();
+    third_maximum_number::main();
 }
