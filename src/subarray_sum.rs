@@ -9,7 +9,7 @@ fn subarray_sum(mut nums: Vec<i32>, k: i32) -> i32 {
         if let Some(val) = hashmap.get(&(sum - k)) {
             res += *val;
         }
-        *hashmap.entry(sum).or_default() += 1;
+        *hashmap.entry(*num).or_default() += 1;
     }
 
     res

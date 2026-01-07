@@ -9,7 +9,7 @@ fn top_k_frequent(nums: Vec<i32>, k: i32) -> Vec<i32> {
 
     let mut arr = hashmap.iter().collect::<Vec<_>>();
     arr.sort_by(|a, b| b.1.cmp(a.1));
-    
+
     arr.into_iter().map(|t| t.0.to_owned()).collect::<Vec<_>>()[0..(k as usize)].to_owned()
 }
 

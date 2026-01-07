@@ -70,7 +70,6 @@ mod maximum_difference_between_even_and_odd_frequency_1;
 mod maximum_distance_in_arrays;
 mod maximum_number_of_balloons;
 mod maximum_product_difference_between_two_pairs;
-mod maximum_prouct_of_the_length_of_two_palindromic_subsequences;
 mod maximum_score_after_splitting_a_string;
 mod minimum_changes_to_make_alternating_binary_string;
 mod minimum_index_of_a_valid_split;
@@ -129,7 +128,8 @@ mod valid_palindrome_4;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
+mod grid_game;
 
 fn main() {
-    valid_palindrome_4::main();
+    grid_game::main();
 }

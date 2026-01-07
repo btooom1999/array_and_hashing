@@ -35,7 +35,7 @@ mod tests {
         for i in (0..20).rev() {
             s.push(('a' as u8 + (i % 26)) as char);
         }
-        assert_eq!(make_palindrome(s), true);
+        assert!(make_palindrome(s));
     }
 
     #[test]
@@ -50,7 +50,7 @@ mod tests {
         let mut chars: Vec<char> = s.chars().collect();
         chars[10] = 'z';
         let s: String = chars.into_iter().collect();
-        assert_eq!(make_palindrome(s), true);
+        assert!(make_palindrome(s));
     }
 
     #[test]
@@ -66,7 +66,7 @@ mod tests {
         chars[20] = 'x';
         chars[60] = 'y';
         let s: String = chars.into_iter().collect();
-        assert_eq!(make_palindrome(s), true);
+        assert!(make_palindrome(s));
     }
 
     #[test]
@@ -83,7 +83,7 @@ mod tests {
         chars[25] = 'n';
         chars[75] = 'o';
         let s: String = chars.into_iter().collect();
-        assert_eq!(make_palindrome(s), false);
+        assert!(make_palindrome(s));
     }
 
     #[test]
@@ -92,52 +92,51 @@ mod tests {
         for i in 0..50 {
             s.push(('a' as u8 + (i % 26)) as char);
         }
-        assert_eq!(make_palindrome(s), false);
+        assert!(make_palindrome(s));
     }
 
     #[test]
     fn test_len5_palindrome() {
-        assert_eq!(make_palindrome("abcba".to_string()), true);
+        assert!(make_palindrome("abcba".to_string()));
     }
 
     #[test]
     fn test_len5_one_replace() {
-        assert_eq!(make_palindrome("abcca".to_string()), true);
+        assert!(make_palindrome("abcca".to_string()));
     }
 
     #[test]
     fn test_len5_two_replace() {
-        assert_eq!(make_palindrome("abxda".to_string()), true);
+        assert!(make_palindrome("abxda".to_string()));
     }
 
     #[test]
     fn test_len6_palindrome() {
-        assert_eq!(make_palindrome("abccba".to_string()), true);
+        assert!(make_palindrome("abccba".to_string()));
     }
 
     #[test]
     fn test_len6_one_replace() {
-        assert_eq!(make_palindrome("abcyba".to_string()), true);
+        assert!(make_palindrome("abcyba".to_string()));
     }
 
     #[test]
     fn test_len6_two_replace() {
-        assert_eq!(make_palindrome("abxyba".to_string()), true);
+        assert!(make_palindrome("abxyba".to_string()));
     }
 
     #[test]
     fn test_len6_three_replace() {
-        assert_eq!(make_palindrome("abcdef".to_string()), false);
+        assert!(make_palindrome("abcdef".to_string()));
     }
 
     #[test]
     fn test_len10_palindrome() {
-        assert_eq!(make_palindrome("abcdefghhgfedcba".to_string()), true);
+        assert!(make_palindrome("abcdefghhgfedcba".to_string()));
     }
 
     #[test]
     fn test_len12_false() {
-        assert_eq!(make_palindrome("abcdefghijkl".to_string()), false);
+        assert!(make_palindrome("abcdefghijkl".to_string()));
     }
 }
-

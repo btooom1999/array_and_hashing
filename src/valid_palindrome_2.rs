@@ -21,12 +21,12 @@ fn valid_palindrome(s: String) -> bool {
     let mut valid_2 = 1;
     while l < r {
         r -= 1;
-        if valid_1 < 0 {
+        if valid_2 < 0 {
             break;
         }
         if s[l] != s[r] {
             r += 1;
-            valid_1 -= 1;
+            valid_2 -= 1;
         }
 
         l += 1;
