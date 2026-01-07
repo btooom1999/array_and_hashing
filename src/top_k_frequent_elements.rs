@@ -1,22 +1,45 @@
-use std::collections::HashMap;
+use std::collections::BTreeMap;
 
+const N: i32 = 10_000;
 fn top_k_frequent(nums: Vec<i32>, k: i32) -> Vec<i32> {
-    let mut hashmap: HashMap<i32, i32> = HashMap::new();
+    let mut btreemap: BTreeMap<i32, Vec<i32>> = BTreeMap::new();
+    let mut hashmap = vec![0; (N * 2 + 1) as usize];
 
-    for num in nums.iter() {
-        hashmap.entry(*num).and_modify(|v| *v +=1).or_insert(1);
+    for num in &nums {
+        hashmap[(*num + N) as usize] += 1;
     }
 
-    let mut arr = hashmap.iter().collect::<Vec<_>>();
-    arr.sort_by(|a, b| b.1.cmp(a.1));
+    for (i, count) in hashmap.iter().enumerate() {
+        if *count == 0 {
+            continue;
+        }
 
-    arr.into_iter().map(|t| t.0.to_owned()).collect::<Vec<_>>()[0..(k as usize)].to_owned()
+        let vec= btreemap.entry(*count).or_default();
+        if (vec.len() as i32) < k {
+            vec.push(i as i32 - N);
+        }
+    }
+
+    let mut need = k;
+    let mut res = Vec::new();
+    for value in btreemap.values().rev() {
+        for num in value {
+            res.push(*num);
+            need -= 1;
+            if need == 0 {
+                return res
+            }
+        }
+    }
+
+    res
+
 }
 
 pub fn main () {
     // let nums = vec![1,1,1,2,2,3];
     // let nums  = vec![1];
-    let nums = vec![1,2,1,2,1,2,3,1,3,2];
+    let nums = vec![1, 2, 2, 3, 3, 3];
     let k = 2;
 
     let res = top_k_frequent(nums, k);
