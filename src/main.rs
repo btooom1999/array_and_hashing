@@ -130,7 +130,8 @@ mod valid_word_spare;
 mod word_pattern;
 mod grid_game;
 mod wiggle_sort;
+mod kth_largest_element_in_an_array;
 
 fn main() {
-    wiggle_sort::main();
+    kth_largest_element_in_an_array::main();
 }
