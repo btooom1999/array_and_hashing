@@ -129,7 +129,8 @@ mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
 mod grid_game;
+mod wiggle_sort;
 
 fn main() {
-    grid_game::main();
+    wiggle_sort::main();
 }
