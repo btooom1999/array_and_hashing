@@ -133,7 +133,8 @@ mod wiggle_sort;
 mod kth_largest_element_in_an_array;
 mod third_maximum_number;
 mod kth_largest_element_in_a_stream;
+mod first_missing_positive;
 
 fn main() {
-    kth_largest_element_in_a_stream::main();
+    first_missing_positive::main();
 }
