@@ -132,7 +132,8 @@ mod third_maximum_number;
 mod kth_largest_element_in_a_stream;
 mod first_missing_positive;
 mod unique_number_of_occurrences;
+mod missing_number;
 
 fn main() {
-    unique_number_of_occurrences::main();
+    missing_number::main();
 }

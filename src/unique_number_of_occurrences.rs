@@ -11,11 +11,11 @@ fn unique_occurrences(arr: Vec<i32>) -> bool {
 
     let mut hashset = vec![false; max as usize + 1];
     for num in hashmap.into_values() {
-        if !hashset[num as usize] {
-            hashset[num as usize] = true;
-        } else {
+        if hashset[num as usize] {
             return false;
         }
+
+        hashset[num as usize] = true;
     }
 
     true
