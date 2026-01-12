@@ -134,7 +134,8 @@ mod first_missing_positive;
 mod unique_number_of_occurrences;
 mod missing_number;
 mod search_insert_position;
+mod plus_one;
 
 fn main() {
-    search_insert_position::main();
+    plus_one::main();
 }
