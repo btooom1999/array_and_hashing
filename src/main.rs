@@ -133,7 +133,8 @@ mod kth_largest_element_in_a_stream;
 mod first_missing_positive;
 mod unique_number_of_occurrences;
 mod missing_number;
+mod search_insert_position;
 
 fn main() {
-    missing_number::main();
+    search_insert_position::main();
 }
