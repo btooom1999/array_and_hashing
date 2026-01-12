@@ -122,9 +122,6 @@ mod two_sum;
 mod unique_email_addresses;
 mod unique_length_3_palindromic_subsequences;
 mod valid_anagram;
-mod valid_palindrome;
-mod valid_palindrome_2;
-mod valid_palindrome_4;
 mod valid_sudoku;
 mod valid_word_spare;
 mod word_pattern;
@@ -134,7 +131,8 @@ mod kth_largest_element_in_an_array;
 mod third_maximum_number;
 mod kth_largest_element_in_a_stream;
 mod first_missing_positive;
+mod unique_number_of_occurrences;
 
 fn main() {
-    first_missing_positive::main();
+    unique_number_of_occurrences::main();
 }
