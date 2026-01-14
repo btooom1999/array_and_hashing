@@ -80,7 +80,6 @@ mod minimum_size_subarray_sum;
 mod minimum_value_to_get_positive_step_by_step_sum;
 mod monotonic_array;
 mod moving_average_from_data_stream;
-mod next_greater_element_1;
 mod number_of_good_pairs;
 mod number_of_pairs_of_interchangeable_rectangles;
 mod number_of_senior_citizens;
@@ -135,7 +134,8 @@ mod unique_number_of_occurrences;
 mod missing_number;
 mod search_insert_position;
 mod plus_one;
+mod max_chunks_to_make_sorted;
 
 fn main() {
-    plus_one::main();
+    max_chunks_to_make_sorted::main();
 }
