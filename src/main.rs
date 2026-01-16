@@ -1,8 +1,6 @@
 #![allow(unused)]
 #![allow(non_snake_case)]
 
-use std::collections::binary_heap;
-
 mod analyze_user_website_visit_pattern;
 mod append_characters_to_string_to_make_subsequence;
 mod average_waiting_time;
@@ -135,7 +133,8 @@ mod missing_number;
 mod search_insert_position;
 mod plus_one;
 mod max_chunks_to_make_sorted;
+mod minimize_string_length;
 
 fn main() {
-    max_chunks_to_make_sorted::main();
+    minimize_string_length::main();
 }
