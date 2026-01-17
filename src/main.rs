@@ -137,7 +137,8 @@ mod minimize_string_length;
 mod count_number_of_pairs_with_absolute_difference_k;
 mod count_equal_and_divisible_pairs_in_an_array;
 mod count_number_of_bad_pairs;
+mod count_nice_pairs_in_an_array;
 
 fn main() {
-    count_number_of_bad_pairs::main();
+    count_nice_pairs_in_an_array::main();
 }
