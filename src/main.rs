@@ -134,7 +134,8 @@ mod search_insert_position;
 mod plus_one;
 mod max_chunks_to_make_sorted;
 mod minimize_string_length;
+mod count_number_of_pairs_with_absolute_difference_k;
 
 fn main() {
-    minimize_string_length::main();
+    count_number_of_pairs_with_absolute_difference_k::main();
 }
