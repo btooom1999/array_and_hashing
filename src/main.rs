@@ -135,7 +135,8 @@ mod plus_one;
 mod max_chunks_to_make_sorted;
 mod minimize_string_length;
 mod count_number_of_pairs_with_absolute_difference_k;
+mod count_equal_and_divisible_pairs_in_an_array;
 
 fn main() {
-    count_number_of_pairs_with_absolute_difference_k::main();
+    count_equal_and_divisible_pairs_in_an_array::main();
 }
