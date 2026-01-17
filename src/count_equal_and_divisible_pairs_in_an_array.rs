@@ -5,14 +5,11 @@ fn count_pairs(nums: Vec<i32>, k: i32) -> i32 {
     let mut res = 0;
     for (j, num) in nums.into_iter().enumerate() {
         let vec = hashmap.entry(num).or_default();
-        if vec.is_empty() {
-            vec.push(j);
-            continue;
-        }
-
-        for i in vec.iter() {
-            if i * j % k as usize == 0 {
-                res += 1;
+        if !vec.is_empty() {
+            for i in vec.iter() {
+                if i * j % k as usize == 0 {
+                    res += 1;
+                }
             }
         }
 
