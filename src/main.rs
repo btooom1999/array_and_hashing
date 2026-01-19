@@ -130,7 +130,6 @@ mod kth_largest_element_in_a_stream;
 mod first_missing_positive;
 mod unique_number_of_occurrences;
 mod missing_number;
-mod search_insert_position;
 mod plus_one;
 mod max_chunks_to_make_sorted;
 mod minimize_string_length;
