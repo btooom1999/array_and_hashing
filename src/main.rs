@@ -138,7 +138,8 @@ mod count_equal_and_divisible_pairs_in_an_array;
 mod count_number_of_bad_pairs;
 mod count_nice_pairs_in_an_array;
 mod max_consecutive_ones_2;
+mod find_all_lonely_numbers_in_the_array;
 
 fn main() {
-    max_consecutive_ones_2::main();
+    find_all_lonely_numbers_in_the_array::main();
 }
