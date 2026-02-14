@@ -140,7 +140,8 @@ mod count_nice_pairs_in_an_array;
 mod max_consecutive_ones_2;
 mod find_all_lonely_numbers_in_the_array;
 mod count_elements_with_maximum_frequency;
+mod max_consecutive_ones_3;
 
 fn main() {
-    count_elements_with_maximum_frequency::main();
+    max_consecutive_ones_3::main();
 }
