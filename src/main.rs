@@ -144,7 +144,8 @@ mod max_consecutive_ones_3;
 mod consecutive_characters;
 mod longer_contiguous_segments_of_ones_than_zeros;
 mod check_if_binary_string_has_at_most_one_segment_of_ones;
+mod length_of_the_longest_alphabetical_continuous_substring;
 
 fn main() {
-    check_if_binary_string_has_at_most_one_segment_of_ones::main();
+    length_of_the_longest_alphabetical_continuous_substring::main();
 }
