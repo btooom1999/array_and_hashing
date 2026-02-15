@@ -142,7 +142,8 @@ mod find_all_lonely_numbers_in_the_array;
 mod count_elements_with_maximum_frequency;
 mod max_consecutive_ones_3;
 mod consecutive_characters;
+mod longer_contiguous_segments_of_ones_than_zeros;
 
 fn main() {
-    consecutive_characters::main();
+    longer_contiguous_segments_of_ones_than_zeros::main();
 }
