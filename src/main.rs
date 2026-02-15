@@ -143,7 +143,8 @@ mod count_elements_with_maximum_frequency;
 mod max_consecutive_ones_3;
 mod consecutive_characters;
 mod longer_contiguous_segments_of_ones_than_zeros;
+mod check_if_binary_string_has_at_most_one_segment_of_ones;
 
 fn main() {
-    longer_contiguous_segments_of_ones_than_zeros::main();
+    check_if_binary_string_has_at_most_one_segment_of_ones::main();
 }
