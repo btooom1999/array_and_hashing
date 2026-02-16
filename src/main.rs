@@ -148,7 +148,8 @@ mod length_of_the_longest_alphabetical_continuous_substring;
 mod fruits_into_baskets_2;
 mod defuse_the_bomb;
 mod minimum_positive_sum_subarray;
+mod maximum_product_after_k_increments;
 
 fn main() {
-    minimum_positive_sum_subarray::main();
+    maximum_product_after_k_increments::main();
 }
