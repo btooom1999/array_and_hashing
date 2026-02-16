@@ -151,7 +151,8 @@ mod minimum_positive_sum_subarray;
 mod maximum_product_after_k_increments;
 mod minimum_increment_to_make_array_unique;
 mod minimum_operations_to_make_the_array_increasing;
+mod minimum_number_of_operations_to_make_elements_in_array_distinct;
 
 fn main() {
-    minimum_operations_to_make_the_array_increasing::main();
+    minimum_number_of_operations_to_make_elements_in_array_distinct::main();
 }
