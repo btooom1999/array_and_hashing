@@ -149,7 +149,8 @@ mod fruits_into_baskets_2;
 mod defuse_the_bomb;
 mod minimum_positive_sum_subarray;
 mod maximum_product_after_k_increments;
+mod minimum_increment_to_make_array_unique;
 
 fn main() {
-    maximum_product_after_k_increments::main();
+    minimum_increment_to_make_array_unique::main();
 }
