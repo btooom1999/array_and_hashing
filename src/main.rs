@@ -150,7 +150,8 @@ mod defuse_the_bomb;
 mod minimum_positive_sum_subarray;
 mod maximum_product_after_k_increments;
 mod minimum_increment_to_make_array_unique;
+mod minimum_operations_to_make_the_array_increasing;
 
 fn main() {
-    minimum_increment_to_make_array_unique::main();
+    minimum_operations_to_make_the_array_increasing::main();
 }
