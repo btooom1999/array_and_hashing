@@ -152,7 +152,8 @@ mod maximum_product_after_k_increments;
 mod minimum_increment_to_make_array_unique;
 mod minimum_operations_to_make_the_array_increasing;
 mod minimum_number_of_operations_to_make_elements_in_array_distinct;
+mod find_closet_number_to_zero;
 
 fn main() {
-    minimum_number_of_operations_to_make_elements_in_array_distinct::main();
+    find_closet_number_to_zero::main();
 }
