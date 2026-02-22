@@ -154,7 +154,8 @@ mod minimum_operations_to_make_the_array_increasing;
 mod minimum_number_of_operations_to_make_elements_in_array_distinct;
 mod find_closet_number_to_zero;
 mod partition_array_such_that_maximum_difference_is_k;
+mod find_the_duplicate_number;
 
 fn main() {
-    partition_array_such_that_maximum_difference_is_k::main();
+    find_the_duplicate_number::main();
 }
