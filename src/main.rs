@@ -154,7 +154,9 @@ mod minimum_operations_to_make_the_array_increasing;
 mod minimum_number_of_operations_to_make_elements_in_array_distinct;
 mod find_closet_number_to_zero;
 mod partition_array_such_that_maximum_difference_is_k;
+mod check_balanced_string;
+mod count_prefix_and_suffix_pairs_1;
 
 fn main() {
-    partition_array_such_that_maximum_difference_is_k::main();
+    count_prefix_and_suffix_pairs_1::main();
 }
