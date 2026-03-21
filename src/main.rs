@@ -160,7 +160,8 @@ mod counting_words_with_a_given_prefix;
 mod implement_trie;
 mod extra_characters_in_a_string;
 mod design_add_and_search_words_data_structure;
+mod remove_sub_folders_from_the_filesystem;
 
 fn main() {
-    design_add_and_search_words_data_structure::main();
+    remove_sub_folders_from_the_filesystem::main();
 }
