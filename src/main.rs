@@ -163,7 +163,8 @@ mod design_add_and_search_words_data_structure;
 mod remove_sub_folders_from_the_filesystem;
 mod word_break;
 mod lexicographical_number;
+mod replace_words;
 
 fn main() {
-    lexicographical_number::main();
+    replace_words::main();
 }
