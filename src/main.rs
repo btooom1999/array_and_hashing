@@ -162,7 +162,8 @@ mod extra_characters_in_a_string;
 mod design_add_and_search_words_data_structure;
 mod remove_sub_folders_from_the_filesystem;
 mod word_break;
+mod lexicographical_number;
 
 fn main() {
-    word_break::main();
+    lexicographical_number::main();
 }
