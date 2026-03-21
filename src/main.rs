@@ -161,7 +161,8 @@ mod implement_trie;
 mod extra_characters_in_a_string;
 mod design_add_and_search_words_data_structure;
 mod remove_sub_folders_from_the_filesystem;
+mod word_break;
 
 fn main() {
-    remove_sub_folders_from_the_filesystem::main();
+    word_break::main();
 }
