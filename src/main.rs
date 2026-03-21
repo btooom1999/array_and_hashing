@@ -164,7 +164,8 @@ mod remove_sub_folders_from_the_filesystem;
 mod word_break;
 mod lexicographical_number;
 mod replace_words;
+mod implement_magic_dictionary;
 
 fn main() {
-    replace_words::main();
+    implement_magic_dictionary::main();
 }
