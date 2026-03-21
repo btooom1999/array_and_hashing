@@ -165,7 +165,8 @@ mod word_break;
 mod lexicographical_number;
 mod replace_words;
 mod implement_magic_dictionary;
+mod map_sum_pairs;
 
 fn main() {
-    implement_magic_dictionary::main();
+    map_sum_pairs::main();
 }

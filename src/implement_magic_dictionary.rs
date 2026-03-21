@@ -18,13 +18,13 @@ impl MagicDictionary {
 
     fn search(&self, search_word: String) -> bool {
         if let Some(list) = self.hashmap.get(&search_word.len()) {
-            return list
+            list
                 .iter()
                 .filter(|&list| list != search_word.as_bytes())
                 .any(|candidate| {
                     let mut once = false;
 
-                    return candidate
+                    candidate
                         .iter()
                         .zip(search_word.as_bytes())
                         .all(|(c1, c2)| {
@@ -37,7 +37,11 @@ impl MagicDictionary {
                         })
                 })
         } else {
-            return false;
+            false
         }
     }
+}
+
+pub fn main() {
+
 }
