@@ -158,7 +158,9 @@ mod check_balanced_string;
 mod count_prefix_and_suffix_pairs_1;
 mod counting_words_with_a_given_prefix;
 mod implement_trie;
+mod extra_characters_in_a_string;
+mod design_add_and_search_words_data_structure;
 
 fn main() {
-    implement_trie::main();
+    design_add_and_search_words_data_structure::main();
 }
