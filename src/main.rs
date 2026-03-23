@@ -168,7 +168,8 @@ mod implement_magic_dictionary;
 mod map_sum_pairs;
 mod longest_word_in_dictionary;
 mod camelcase_matching;
+mod short_encoding_of_words;
 
 fn main() {
-    camelcase_matching::main();
+    short_encoding_of_words::main();
 }
