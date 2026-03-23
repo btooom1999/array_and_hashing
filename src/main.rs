@@ -169,7 +169,8 @@ mod map_sum_pairs;
 mod longest_word_in_dictionary;
 mod camelcase_matching;
 mod short_encoding_of_words;
+mod find_the_length_of_the_longest_common_prefix;
 
 fn main() {
-    short_encoding_of_words::main();
+    find_the_length_of_the_longest_common_prefix::main();
 }
