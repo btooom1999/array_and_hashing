@@ -167,7 +167,8 @@ mod replace_words;
 mod implement_magic_dictionary;
 mod map_sum_pairs;
 mod longest_word_in_dictionary;
+mod camelcase_matching;
 
 fn main() {
-    longest_word_in_dictionary::main();
+    camelcase_matching::main();
 }
