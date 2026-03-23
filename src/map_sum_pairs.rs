@@ -11,13 +11,9 @@ impl MapSum {
     }
 
     fn insert(&mut self, key: String, val: i32) {
-        let old = self.store.get(&key);
+        let delta = val - self.store.get(&key).unwrap_or(&0);
         for i in 1..=key.len() {
-            if let Some(&old) = old {
-                self.hashmap.entry(key[..i].to_string()).and_modify(|v| *v = *v - old + val);
-            } else {
-                *self.hashmap.entry(key[..i].to_string()).or_default() += val;
-            }
+            *self.hashmap.entry(key[..i].to_string()).or_default() += delta;
         }
 
         self.store.insert(key, val);
@@ -26,4 +22,8 @@ impl MapSum {
     fn sum(&self, prefix: String) -> i32 {
         *self.hashmap.get(&prefix).unwrap_or(&0)
     }
+}
+
+pub fn main() {
+
 }
