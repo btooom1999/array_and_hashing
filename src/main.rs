@@ -156,6 +156,7 @@ mod find_closet_number_to_zero;
 mod partition_array_such_that_maximum_difference_is_k;
 mod check_balanced_string;
 mod count_prefix_and_suffix_pairs_1;
+mod partition_string;
 mod counting_words_with_a_given_prefix;
 mod implement_trie;
 mod extra_characters_in_a_string;
@@ -175,5 +176,5 @@ mod words_within_two_edits_of_dictionary;
 mod sum_of_prefix_scores_of_strings;
 
 fn main() {
-    sum_of_prefix_scores_of_strings::main();
+    partition_string::main();
 }

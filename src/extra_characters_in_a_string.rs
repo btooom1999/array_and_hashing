@@ -1,62 +1,51 @@
-use std::collections::{HashMap, HashSet};
+#[derive(Debug, Default, Clone)]
+struct TrieNode {
+    children: [Option<Box<TrieNode>>; 26],
+}
+
+impl TrieNode {
+    fn new() -> Self {
+        const NONE: Option<Box<TrieNode>> = None;
+        Self { children: [NONE; 26] }
+    }
+}
 
 fn min_extra_char(s: String, dictionary: Vec<String>) -> i32 {
-    let mut words = HashSet::new();
-    let mut prefix = HashSet::new();
+    let mut root = TrieNode::new();
 
-    for word in &dictionary {
-        words.insert(word.to_owned());
-
-        if prefix.contains(word) {
-            continue;
+    fn dfs(
+        root: Box<TrieNode>,
+        node: Box<TrieNode>,
+        start: bool,
+        idx: usize,
+        s: &[u8],
+    ) -> i32 {
+        if idx >= s.len() {
+            return 0;
         }
 
-        for i in 1..=word.len() {
-            prefix.insert(word[..i].to_string());
+        let k = (s[idx] - b'a') as usize;
+
+        if node.children[k].is_some() {
+            return dfs(root, node.children[k].clone().unwrap(), false, idx+1, s);
+        }
+
+        if start {
+            return 1 + dfs(root.clone(), root.clone(), true, idx+1, s);
+        }
+
+        dfs(root.clone(), root.clone(), true, idx, s)
+    }
+
+    for dict in dictionary {
+        let mut curr = &mut root;
+        for b in dict.as_bytes() {
+            let i = (b - b'a') as usize;
+            curr = curr.children[i].get_or_insert_default();
         }
     }
 
-    let mut max = 0;
-    let s = s.as_bytes();
-    let mut hashmap = HashMap::<Vec<(String, i32)>, i32>::new();
-    for (i, &byte) in s.iter().enumerate() {
-        let mut j = i;
-        while j < s.len() {
-            let str = String::from_utf8(s[i..=j].into()).unwrap();
-            if !prefix.contains(&str) { break; }
-
-            if words.contains(&str) {
-                let mut temp_hashmap = hashmap.clone();
-                hashmap.clear();
-
-                if temp_hashmap.is_empty() {
-                    hashmap.insert(vec![(str, j as i32)], (j-i+1) as i32);
-                    continue;
-                }
-
-                for (key, value) in temp_hashmap.into_iter() {
-                    let mut key = key.clone();
-                    let mut value = value;
-
-                    let last = key.last().unwrap().clone();
-                    if last.1 >= i as i32 {
-                        hashmap.insert(key.clone(), value);
-                        key.pop();
-                        value = std::cmp::max(0, value - last.0.len() as i32);
-                    }
-
-                    key.push((str.clone(), j as i32));
-                    value += (j-i+1) as i32;
-                    hashmap.insert(key, value);
-                    max = std::cmp::max(max, value);
-                }
-            }
-
-            j += 1;
-        }
-    }
-
-    s.len() as i32 - max
+    dfs(Box::new(root.clone()), Box::new(root.clone()), true, 0, s.as_bytes())
 }
 
 pub fn main() {
