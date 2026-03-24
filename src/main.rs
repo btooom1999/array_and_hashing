@@ -170,7 +170,8 @@ mod longest_word_in_dictionary;
 mod camelcase_matching;
 mod short_encoding_of_words;
 mod find_the_length_of_the_longest_common_prefix;
+mod number_of_matching_subsequences;
 
 fn main() {
-    find_the_length_of_the_longest_common_prefix::main();
+    number_of_matching_subsequences::main();
 }
