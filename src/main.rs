@@ -171,7 +171,8 @@ mod camelcase_matching;
 mod short_encoding_of_words;
 mod find_the_length_of_the_longest_common_prefix;
 mod number_of_matching_subsequences;
+mod words_within_two_edits_of_dictionary;
 
 fn main() {
-    number_of_matching_subsequences::main();
+    words_within_two_edits_of_dictionary::main();
 }
