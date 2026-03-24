@@ -175,7 +175,8 @@ mod number_of_matching_subsequences;
 mod words_within_two_edits_of_dictionary;
 mod sum_of_prefix_scores_of_strings;
 mod palindrome_number;
+mod reverse_integer;
 
 fn main() {
-    palindrome_number::main();
+    reverse_integer::main();
 }
