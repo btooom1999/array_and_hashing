@@ -172,7 +172,8 @@ mod short_encoding_of_words;
 mod find_the_length_of_the_longest_common_prefix;
 mod number_of_matching_subsequences;
 mod words_within_two_edits_of_dictionary;
+mod sum_of_prefix_scores_of_strings;
 
 fn main() {
-    words_within_two_edits_of_dictionary::main();
+    sum_of_prefix_scores_of_strings::main();
 }
