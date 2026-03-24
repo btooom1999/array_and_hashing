@@ -1,4 +1,4 @@
-fn reverse(mut x: i32) -> i32 {
+ fn reverse(mut x: i32) -> i32 {
     let stringify_num = x.to_string();
     let mut stringify_num = stringify_num.chars().rev().collect::<String>();
     let mut is_negative = false;
@@ -51,6 +51,7 @@ fn reverse(mut x: i32) -> i32 {
 }
 
 pub fn main() {
-    let x = 123;
+    // let x = 123;
+    let x = i32::MIN;
     println!("{}", reverse(x));
 }
