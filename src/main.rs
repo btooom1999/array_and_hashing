@@ -174,7 +174,9 @@ mod words_within_two_edits_of_dictionary;
 mod sum_of_prefix_scores_of_strings;
 mod palindrome_number;
 mod reverse_integer;
+mod subsets;
+mod percentage_of_letter_in_string;
 
 fn main() {
-    reverse_integer::main();
+    percentage_of_letter_in_string::main();
 }
