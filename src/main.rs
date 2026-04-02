@@ -160,7 +160,6 @@ mod implement_trie;
 mod extra_characters_in_a_string;
 mod design_add_and_search_words_data_structure;
 mod remove_sub_folders_from_the_filesystem;
-mod word_break;
 mod lexicographical_number;
 mod replace_words;
 mod implement_magic_dictionary;
@@ -175,7 +174,8 @@ mod sum_of_prefix_scores_of_strings;
 mod palindrome_number;
 mod reverse_integer;
 mod percentage_of_letter_in_string;
+mod happy_number;
 
 fn main() {
-    percentage_of_letter_in_string::main();
+    happy_number::main();
 }
