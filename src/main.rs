@@ -176,7 +176,8 @@ mod reverse_integer;
 mod percentage_of_letter_in_string;
 mod happy_number;
 mod add_digits;
+mod sum_of_digits_of_string_after_convert;
 
 fn main() {
-    add_digits::main();
+    sum_of_digits_of_string_after_convert::main();
 }
