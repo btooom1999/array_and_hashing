@@ -181,7 +181,8 @@ mod count_integers_with_even_digit_sum;
 mod separate_the_digits_in_an_array;
 mod alternating_digit_sum;
 mod compute_alternating_sum;
+mod minimum_sum_of_four_digit_number_after_splitting_digits;
 
 fn main() {
-    compute_alternating_sum::main();
+    minimum_sum_of_four_digit_number_after_splitting_digits::main();
 }
