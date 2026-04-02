@@ -179,7 +179,8 @@ mod add_digits;
 mod sum_of_digits_of_string_after_convert;
 mod count_integers_with_even_digit_sum;
 mod separate_the_digits_in_an_array;
+mod alternating_digit_sum;
 
 fn main() {
-    separate_the_digits_in_an_array::main();
+    alternating_digit_sum::main();
 }
