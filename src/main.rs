@@ -177,7 +177,8 @@ mod percentage_of_letter_in_string;
 mod happy_number;
 mod add_digits;
 mod sum_of_digits_of_string_after_convert;
+mod count_integers_with_even_digit_sum;
 
 fn main() {
-    sum_of_digits_of_string_after_convert::main();
+    count_integers_with_even_digit_sum::main();
 }
