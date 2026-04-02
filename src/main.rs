@@ -175,7 +175,8 @@ mod palindrome_number;
 mod reverse_integer;
 mod percentage_of_letter_in_string;
 mod happy_number;
+mod add_digits;
 
 fn main() {
-    happy_number::main();
+    add_digits::main();
 }

@@ -24,6 +24,6 @@ fn is_happy(n: i32) -> bool {
 }
 
 pub fn main() {
-    let n = i32::MAX;
+    let n = 19;
     println!("{}", is_happy(n));
 }
