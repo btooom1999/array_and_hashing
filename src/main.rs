@@ -178,7 +178,8 @@ mod happy_number;
 mod add_digits;
 mod sum_of_digits_of_string_after_convert;
 mod count_integers_with_even_digit_sum;
+mod separate_the_digits_in_an_array;
 
 fn main() {
-    count_integers_with_even_digit_sum::main();
+    separate_the_digits_in_an_array::main();
 }
