@@ -183,7 +183,8 @@ mod alternating_digit_sum;
 mod compute_alternating_sum;
 mod minimum_sum_of_four_digit_number_after_splitting_digits;
 mod difference_between_element_sum_and_digit_sum_of_an_array;
+mod calculate_digit_sum_of_a_string;
 
 fn main() {
-    difference_between_element_sum_and_digit_sum_of_an_array::main();
+    calculate_digit_sum_of_a_string::main();
 }
