@@ -193,7 +193,8 @@ mod find_the_count_of_numbers_which_are_not_special;
 mod prime_pairs_with_target_sum;
 mod ugly_number;
 mod count_the_digits_that_divide_a_number;
+mod self_dividing_numbers;
 
 fn main() {
-    count_the_digits_that_divide_a_number::main();
+    self_dividing_numbers::main();
 }
