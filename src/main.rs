@@ -196,7 +196,8 @@ mod count_the_digits_that_divide_a_number;
 mod self_dividing_numbers;
 mod perfect_number;
 mod check_if_number_has_equal_digit_count_and_digit_value;
+mod smallest_value_after_replacing_with_sum_of_prime_factors;
 
 fn main() {
-    check_if_number_has_equal_digit_count_and_digit_value::main();
+    smallest_value_after_replacing_with_sum_of_prime_factors::main();
 }
