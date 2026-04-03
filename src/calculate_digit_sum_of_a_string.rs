@@ -1,9 +1,5 @@
 fn digit_sum(mut s: String, k: i32) -> String {
-    loop {
-        if s.len() as i32 <= k {
-            return s;
-        }
-
+    while s.len() as i32 > k {
         let mut j = k as usize-1;
         let mut res = String::new();
         let mut temp = 0;
@@ -19,6 +15,8 @@ fn digit_sum(mut s: String, k: i32) -> String {
 
         s = res;
     }
+
+    s
 }
 
 pub fn main() {

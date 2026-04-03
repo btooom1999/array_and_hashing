@@ -184,7 +184,8 @@ mod compute_alternating_sum;
 mod minimum_sum_of_four_digit_number_after_splitting_digits;
 mod difference_between_element_sum_and_digit_sum_of_an_array;
 mod calculate_digit_sum_of_a_string;
+mod find_triangular_sum_of_an_array;
 
 fn main() {
-    calculate_digit_sum_of_a_string::main();
+    find_triangular_sum_of_an_array::main();
 }
