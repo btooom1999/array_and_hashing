@@ -187,7 +187,8 @@ mod calculate_digit_sum_of_a_string;
 mod find_triangular_sum_of_an_array;
 mod min_max_game;
 mod elimination_game;
+mod count_primes;
 
 fn main() {
-    elimination_game::main();
+    count_primes::main();
 }
