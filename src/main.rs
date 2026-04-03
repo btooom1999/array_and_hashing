@@ -188,7 +188,8 @@ mod find_triangular_sum_of_an_array;
 mod min_max_game;
 mod elimination_game;
 mod count_primes;
+mod number_of_common_factors;
 
 fn main() {
-    count_primes::main();
+    number_of_common_factors::main();
 }
