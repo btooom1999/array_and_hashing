@@ -191,7 +191,8 @@ mod count_primes;
 mod number_of_common_factors;
 mod find_the_count_of_numbers_which_are_not_special;
 mod prime_pairs_with_target_sum;
+mod ugly_number;
 
 fn main() {
-    prime_pairs_with_target_sum::main();
+    ugly_number::main();
 }
