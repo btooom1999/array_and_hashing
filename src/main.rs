@@ -190,7 +190,8 @@ mod elimination_game;
 mod count_primes;
 mod number_of_common_factors;
 mod find_the_count_of_numbers_which_are_not_special;
+mod prime_pairs_with_target_sum;
 
 fn main() {
-    find_the_count_of_numbers_which_are_not_special::main();
+    prime_pairs_with_target_sum::main();
 }
