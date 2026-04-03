@@ -194,7 +194,8 @@ mod prime_pairs_with_target_sum;
 mod ugly_number;
 mod count_the_digits_that_divide_a_number;
 mod self_dividing_numbers;
+mod perfect_number;
 
 fn main() {
-    self_dividing_numbers::main();
+    perfect_number::main();
 }
