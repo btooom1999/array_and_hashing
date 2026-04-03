@@ -195,7 +195,8 @@ mod ugly_number;
 mod count_the_digits_that_divide_a_number;
 mod self_dividing_numbers;
 mod perfect_number;
+mod check_if_number_has_equal_digit_count_and_digit_value;
 
 fn main() {
-    perfect_number::main();
+    check_if_number_has_equal_digit_count_and_digit_value::main();
 }
