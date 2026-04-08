@@ -207,7 +207,8 @@ mod find_champion_2;
 mod number_of_islands;
 mod max_area_of_island;
 mod maximum_number_of_fish_in_a_grid;
+mod islands_and_treasure;
 
 fn main() {
-    maximum_number_of_fish_in_a_grid::main();
+    islands_and_treasure::main();
 }
