@@ -205,7 +205,8 @@ mod count_servers_that_communicate;
 mod find_champion_1;
 mod find_champion_2;
 mod number_of_islands;
+mod max_area_of_island;
 
 fn main() {
-    number_of_islands::main();
+    max_area_of_island::main();
 }
