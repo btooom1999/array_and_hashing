@@ -202,7 +202,8 @@ mod verifying_an_ailen_dictionary;
 mod find_the_town_judge;
 mod flood_fill;
 mod count_servers_that_communicate;
+mod find_champion_1;
 
 fn main() {
-    count_servers_that_communicate::main();
+    find_champion_1::main();
 }
