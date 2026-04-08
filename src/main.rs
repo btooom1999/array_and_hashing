@@ -204,7 +204,8 @@ mod flood_fill;
 mod count_servers_that_communicate;
 mod find_champion_1;
 mod find_champion_2;
+mod number_of_islands;
 
 fn main() {
-    find_champion_2::main();
+    number_of_islands::main();
 }
