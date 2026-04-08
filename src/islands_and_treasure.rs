@@ -1,64 +1,51 @@
-use std::collections::HashSet;
-
 const DIRECTIONS: [(i32, i32); 4] = [(-1,0), (1,0), (0, -1), (0, 1)];
 
 fn dfs(
     m: i32,
     n: i32,
-    i: i32,
-    j: i32,
     grid: &mut Vec<Vec<i32>>,
-    moved: &mut HashSet<(i32, i32)>,
-) -> i32 {
-    let mut positions = Vec::new();
-    let mut step = i32::MAX;
-
-    for direct in DIRECTIONS {
-        let ni = direct.0 + i;
-        let nj = direct.1 + j;
-        if ni < 0 || nj < 0 || ni == m || nj == n || moved.contains(&(ni, nj)) {
-            continue;
-        }
-
-        let val = grid[ni as usize][nj as usize];
-        if val == -1 {
-            continue;
-        }
-
-        if val == 0 {
-            grid[i as usize][j as usize] = 1;
-            return 1;
-        }
-
-        if val == i32::MAX {
-            positions.push((ni, nj));
-        } else {
-            step = step.min(1 + val);
-        }
-    }
-
-    moved.insert((i, j));
+    positions: Vec<(i32, i32)>,
+    count: &mut i32,
+    num: i32,
+) -> Vec<(i32, i32)> {
+    let mut res = Vec::new();
     for (i, j) in positions {
-        let val = dfs(m, n, i, j, grid, moved);
-        if val != i32::MAX {
-            step = step.min(1 + val);
+        for direct in DIRECTIONS {
+            let i = i+direct.0;
+            let j = j+direct.1;
+            if i < 0 || j < 0 || i == m || j == n {
+                continue;
+            }
+            if grid[i as usize][j as usize] == i32::MAX {
+                grid[i as usize][j as usize] = num;
+                *count -= 1;
+                res.push((i, j));
+            }
         }
     }
-    moved.remove(&(i, j));
 
-    grid[i as usize][j as usize] = step;
-    step
+    res
 }
 
 fn islands_and_treasure(grid: &mut Vec<Vec<i32>>) {
-    let (m, n) = (grid.len() as i32, grid[0].len() as i32);
-    let mut hashset = HashSet::new();
+    let mut count = 0;
+    let mut positions = Vec::new();
+    let (m, n) = (grid.len(), grid[0].len());
     for i in 0..m {
         for j in 0..n {
-            if grid[i as usize][j as usize] > 0 {
-                dfs(m, n, i, j, grid, &mut hashset);
+            if grid[i][j] == i32::MAX {
+                count += 1;
+            }
+            if grid[i][j] == 0 {
+                positions.push((i as i32, j as i32));
             }
         }
+    }
+
+    let mut i = 0;
+    while count > 0 {
+        positions = dfs(m as i32, n as i32, grid, positions, &mut count, i+1);
+        i += 1;
     }
 }
 
