@@ -199,7 +199,8 @@ mod check_if_number_has_equal_digit_count_and_digit_value;
 mod smallest_value_after_replacing_with_sum_of_prime_factors;
 mod island_perimeter;
 mod verifying_an_ailen_dictionary;
+mod find_the_town_judge;
 
 fn main() {
-    verifying_an_ailen_dictionary::main();
+    find_the_town_judge::main();
 }
