@@ -203,7 +203,8 @@ mod find_the_town_judge;
 mod flood_fill;
 mod count_servers_that_communicate;
 mod find_champion_1;
+mod find_champion_2;
 
 fn main() {
-    find_champion_1::main();
+    find_champion_2::main();
 }
