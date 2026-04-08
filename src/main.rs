@@ -60,9 +60,9 @@ mod longest_strictly_increasing_or_strictly_decreasing_subarray;
 mod longest_subsequence_with_limited_sum;
 mod majority_element;
 mod majority_element_2;
+mod max_consecutive_ones;
 mod make_sum_divisible_by_p;
 mod matrix_block_sum;
-mod max_consecutive_ones;
 mod maximum_ascending_subarray_sum;
 mod maximum_difference_between_even_and_odd_frequency_1;
 mod maximum_distance_in_arrays;
@@ -197,7 +197,8 @@ mod self_dividing_numbers;
 mod perfect_number;
 mod check_if_number_has_equal_digit_count_and_digit_value;
 mod smallest_value_after_replacing_with_sum_of_prime_factors;
+mod island_perimeter;
 
 fn main() {
-    smallest_value_after_replacing_with_sum_of_prime_factors::main();
+    island_perimeter::main();
 }
