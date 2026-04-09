@@ -210,7 +210,8 @@ mod maximum_number_of_fish_in_a_grid;
 mod islands_and_treasure;
 mod surrounded_regions;
 mod course_schedule;
+mod course_schedule_2;
 
 fn main() {
-    course_schedule::main();
+    course_schedule_2::main();
 }
