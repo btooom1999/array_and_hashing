@@ -215,7 +215,8 @@ mod course_schedule_4;
 mod graph_valid_tree;
 mod find_eventual_safe_states;
 mod to_lower_case;
+mod capitalize_the_title;
 
 fn main() {
-    to_lower_case::main();
+    capitalize_the_title::main();
 }
