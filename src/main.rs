@@ -211,7 +211,8 @@ mod islands_and_treasure;
 mod surrounded_regions;
 mod course_schedule;
 mod course_schedule_2;
+mod graph_valid_tree;
 
 fn main() {
-    course_schedule_2::main();
+    graph_valid_tree::main();
 }
