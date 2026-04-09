@@ -209,7 +209,8 @@ mod max_area_of_island;
 mod maximum_number_of_fish_in_a_grid;
 mod islands_and_treasure;
 mod surrounded_regions;
+mod course_schedule;
 
 fn main() {
-    surrounded_regions::main();
+    course_schedule::main();
 }
