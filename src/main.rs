@@ -213,7 +213,8 @@ mod course_schedule;
 mod course_schedule_2;
 mod course_schedule_4;
 mod graph_valid_tree;
+mod find_eventual_safe_states;
 
 fn main() {
-    course_schedule_4::main();
+    find_eventual_safe_states::main();
 }
