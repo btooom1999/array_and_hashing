@@ -214,7 +214,8 @@ mod course_schedule_2;
 mod course_schedule_4;
 mod graph_valid_tree;
 mod find_eventual_safe_states;
+mod to_lower_case;
 
 fn main() {
-    find_eventual_safe_states::main();
+    to_lower_case::main();
 }
