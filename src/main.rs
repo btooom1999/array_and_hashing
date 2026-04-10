@@ -216,7 +216,8 @@ mod graph_valid_tree;
 mod find_eventual_safe_states;
 mod to_lower_case;
 mod capitalize_the_title;
+mod shortest_path_in_binary_matrix;
 
 fn main() {
-    capitalize_the_title::main();
+    shortest_path_in_binary_matrix::main();
 }
