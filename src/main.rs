@@ -220,7 +220,8 @@ mod shortest_path_in_binary_matrix;
 mod shortest_bridge;
 mod number_of_connected_components_in_an_undirected_graph;
 mod find_closest_node_to_given_two_nodes;
+mod as_far_from_land_as_possible;
 
 fn main() {
-    find_closest_node_to_given_two_nodes::main();
+    as_far_from_land_as_possible::main();
 }
