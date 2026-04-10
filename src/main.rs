@@ -218,7 +218,8 @@ mod to_lower_case;
 mod capitalize_the_title;
 mod shortest_path_in_binary_matrix;
 mod shortest_bridge;
+mod number_of_connected_components_in_an_undirected_graph;
 
 fn main() {
-    shortest_bridge::main();
+    number_of_connected_components_in_an_undirected_graph::main();
 }
