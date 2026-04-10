@@ -219,7 +219,8 @@ mod capitalize_the_title;
 mod shortest_path_in_binary_matrix;
 mod shortest_bridge;
 mod number_of_connected_components_in_an_undirected_graph;
+mod find_closest_node_to_given_two_nodes;
 
 fn main() {
-    number_of_connected_components_in_an_undirected_graph::main();
+    find_closest_node_to_given_two_nodes::main();
 }
