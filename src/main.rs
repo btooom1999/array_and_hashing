@@ -217,7 +217,8 @@ mod find_eventual_safe_states;
 mod to_lower_case;
 mod capitalize_the_title;
 mod shortest_path_in_binary_matrix;
+mod shortest_bridge;
 
 fn main() {
-    shortest_path_in_binary_matrix::main();
+    shortest_bridge::main();
 }
