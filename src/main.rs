@@ -226,8 +226,9 @@ mod count_sub_islands;
 mod number_of_enclaves;
 mod number_of_provinces;
 mod minimum_number_of_vertices_to_reach_all_nodes;
-mod is_graph_bipartite;
+mod count_the_number_of_complete_components;
+mod evaluate_division;
 
 fn main() {
-    is_graph_bipartite::main();
+    evaluate_division::main();
 }
