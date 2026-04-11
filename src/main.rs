@@ -228,7 +228,8 @@ mod number_of_provinces;
 mod minimum_number_of_vertices_to_reach_all_nodes;
 mod count_the_number_of_complete_components;
 mod evaluate_division;
+mod find_all_possibile_recipes_from_given_supplies;
 
 fn main() {
-    evaluate_division::main();
+    find_all_possibile_recipes_from_given_supplies::main();
 }
