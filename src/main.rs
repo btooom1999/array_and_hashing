@@ -222,7 +222,8 @@ mod number_of_connected_components_in_an_undirected_graph;
 mod find_closest_node_to_given_two_nodes;
 mod as_far_from_land_as_possible;
 mod number_of_closed_island;
+mod count_sub_islands;
 
 fn main() {
-    number_of_closed_island::main();
+    count_sub_islands::main();
 }
