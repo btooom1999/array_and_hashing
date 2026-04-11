@@ -224,7 +224,8 @@ mod as_far_from_land_as_possible;
 mod number_of_closed_island;
 mod count_sub_islands;
 mod number_of_enclaves;
+mod number_of_provinces;
 
 fn main() {
-    number_of_enclaves::main();
+    number_of_provinces::main();
 }
