@@ -1,22 +1,3 @@
-use std::collections::HashSet;
-
-fn dfs(
-    vertice: usize,
-    hashmap: &Vec<Vec<usize>>,
-    visited: &mut Vec<bool>,
-    result: &mut Vec<i32>,
-) {
-    if visited[vertice] {
-        return;
-    }
-
-    visited[vertice] = true;
-    for vertice in hashmap[vertice].clone() {
-        result[vertice] += 1;
-        dfs(vertice, hashmap, visited, result);
-    }
-}
-
 fn find_smallest_set_of_vertices(n: i32, edges: Vec<Vec<i32>>) -> Vec<i32> {
     let mut result = vec![0; n as usize];
     for vertices in edges {
