@@ -233,7 +233,8 @@ mod shortest_distance_after_road_addition_queries_1;
 mod rotting_oranges;
 mod check_if_move_is_legal;
 mod shortest_path_with_alternating_colors;
+mod minimum_score_of_a_path_between_two_cities;
 
 fn main() {
-    shortest_path_with_alternating_colors::main();
+    minimum_score_of_a_path_between_two_cities::main();
 }
