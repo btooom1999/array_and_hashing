@@ -234,7 +234,8 @@ mod rotting_oranges;
 mod check_if_move_is_legal;
 mod shortest_path_with_alternating_colors;
 mod minimum_score_of_a_path_between_two_cities;
+mod path_with_maximum_gold;
 
 fn main() {
-    minimum_score_of_a_path_between_two_cities::main();
+    path_with_maximum_gold::main();
 }
