@@ -236,7 +236,8 @@ mod shortest_path_with_alternating_colors;
 mod minimum_score_of_a_path_between_two_cities;
 mod path_with_maximum_gold;
 mod most_profitable_path_in_a_tree;
+mod combination_sum_3;
 
 fn main() {
-    most_profitable_path_in_a_tree::main();
+    combination_sum_3::main();
 }
