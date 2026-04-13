@@ -231,7 +231,8 @@ mod evaluate_division;
 mod find_all_possibile_recipes_from_given_supplies;
 mod shortest_distance_after_road_addition_queries_1;
 mod rotting_oranges;
+mod check_if_move_is_legal;
 
 fn main() {
-    rotting_oranges::main();
+    check_if_move_is_legal::main();
 }
