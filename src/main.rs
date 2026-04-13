@@ -230,7 +230,8 @@ mod count_the_number_of_complete_components;
 mod evaluate_division;
 mod find_all_possibile_recipes_from_given_supplies;
 mod shortest_distance_after_road_addition_queries_1;
+mod rotting_oranges;
 
 fn main() {
-    shortest_distance_after_road_addition_queries_1::main();
+    rotting_oranges::main();
 }
