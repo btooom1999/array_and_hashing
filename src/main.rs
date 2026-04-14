@@ -127,7 +127,7 @@ mod wiggle_sort;
 mod third_maximum_number;
 mod first_missing_positive;
 mod unique_number_of_occurrences;
-mod missing_number;
+mod add_to_array_form_of_integer;
 mod plus_one;
 mod max_chunks_to_make_sorted;
 mod minimize_string_length;
@@ -239,5 +239,5 @@ mod most_profitable_path_in_a_tree;
 mod combination_sum_3;
 
 fn main() {
-    combination_sum_3::main();
+    add_to_array_form_of_integer::main();
 }
