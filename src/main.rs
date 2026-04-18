@@ -238,7 +238,8 @@ mod path_with_maximum_gold;
 mod most_profitable_path_in_a_tree;
 mod combination_sum_3;
 mod longest_subarray_with_maximum_bitwise_and;
+mod longest_nice_subarray;
 
 fn main() {
-    longest_subarray_with_maximum_bitwise_and::main();
+    longest_nice_subarray::main();
 }
