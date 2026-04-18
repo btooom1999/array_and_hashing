@@ -237,7 +237,8 @@ mod minimum_score_of_a_path_between_two_cities;
 mod path_with_maximum_gold;
 mod most_profitable_path_in_a_tree;
 mod combination_sum_3;
+mod longest_subarray_with_maximum_bitwise_and;
 
 fn main() {
-    add_to_array_form_of_integer::main();
+    longest_subarray_with_maximum_bitwise_and::main();
 }
