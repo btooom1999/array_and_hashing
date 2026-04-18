@@ -37,7 +37,6 @@ mod find_missing_and_repeated_values;
 mod find_pivot_index;
 mod find_smallest_common_element_in_all_rows;
 mod find_the_highest_altitude;
-mod find_the_longest_substring_containing_vowels_in_event_counts;
 mod find_the_middle_index_in_array;
 mod find_words_that_can_be_formed_by_characters;
 mod first_unique_character_in_a_string;
@@ -238,8 +237,7 @@ mod path_with_maximum_gold;
 mod most_profitable_path_in_a_tree;
 mod combination_sum_3;
 mod longest_subarray_with_maximum_bitwise_and;
-mod longest_nice_subarray;
 
 fn main() {
-    longest_nice_subarray::main();
+    longest_subarray_with_maximum_bitwise_and::main();
 }
