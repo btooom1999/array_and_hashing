@@ -240,7 +240,8 @@ mod buy_two_chocolates;
 mod lemonade_change;
 mod minimum_number_of_moves_to_seat_everyone;
 mod maximum_odd_binary_number;
+mod check_if_one_string_swap_can_make_strings_equal;
 
 fn main() {
-    maximum_odd_binary_number::main();
+    check_if_one_string_swap_can_make_strings_equal::main();
 }
