@@ -239,7 +239,8 @@ mod longest_subarray_with_maximum_bitwise_and;
 mod buy_two_chocolates;
 mod lemonade_change;
 mod minimum_number_of_moves_to_seat_everyone;
+mod maximum_odd_binary_number;
 
 fn main() {
-    minimum_number_of_moves_to_seat_everyone::main();
+    maximum_odd_binary_number::main();
 }
