@@ -171,7 +171,6 @@ mod number_of_matching_subsequences;
 mod words_within_two_edits_of_dictionary;
 mod sum_of_prefix_scores_of_strings;
 mod palindrome_number;
-mod reverse_integer;
 mod percentage_of_letter_in_string;
 mod happy_number;
 mod add_digits;
@@ -237,7 +236,8 @@ mod path_with_maximum_gold;
 mod most_profitable_path_in_a_tree;
 mod combination_sum_3;
 mod longest_subarray_with_maximum_bitwise_and;
+mod buy_two_chocolates;
 
 fn main() {
-    longest_subarray_with_maximum_bitwise_and::main();
+    buy_two_chocolates::main();
 }
