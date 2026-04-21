@@ -242,7 +242,8 @@ mod minimum_number_of_moves_to_seat_everyone;
 mod maximum_odd_binary_number;
 mod check_if_one_string_swap_can_make_strings_equal;
 mod minimum_operations_to_make_binary_array_elements_equal_to_one_1;
+mod buildings_with_an_ocean_view;
 
 fn main() {
-    minimum_operations_to_make_binary_array_elements_equal_to_one_1::main();
+    buildings_with_an_ocean_view::main();
 }
