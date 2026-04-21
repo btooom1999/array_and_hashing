@@ -238,7 +238,8 @@ mod combination_sum_3;
 mod longest_subarray_with_maximum_bitwise_and;
 mod buy_two_chocolates;
 mod lemonade_change;
+mod minimum_number_of_moves_to_seat_everyone;
 
 fn main() {
-    lemonade_change::main();
+    minimum_number_of_moves_to_seat_everyone::main();
 }
