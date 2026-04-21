@@ -237,7 +237,8 @@ mod most_profitable_path_in_a_tree;
 mod combination_sum_3;
 mod longest_subarray_with_maximum_bitwise_and;
 mod buy_two_chocolates;
+mod lemonade_change;
 
 fn main() {
-    buy_two_chocolates::main();
+    lemonade_change::main();
 }
