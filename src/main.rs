@@ -247,7 +247,8 @@ mod minimum_length_of_string_after_operations;
 mod construct_k_palindrome_strings;
 mod separate_black_and_white_balls;
 mod how_many_apples_can_you_put_into_the_basket;
+mod longest_turbulent_subarray;
 
 fn main() {
-    how_many_apples_can_you_put_into_the_basket::main();
+    longest_turbulent_subarray::main();
 }
