@@ -244,7 +244,8 @@ mod check_if_one_string_swap_can_make_strings_equal;
 mod minimum_operations_to_make_binary_array_elements_equal_to_one_1;
 mod buildings_with_an_ocean_view;
 mod minimum_length_of_string_after_operations;
+mod construct_k_palindrome_strings;
 
 fn main() {
-    minimum_length_of_string_after_operations::main();
+    construct_k_palindrome_strings::main();
 }
