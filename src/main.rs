@@ -246,7 +246,8 @@ mod buildings_with_an_ocean_view;
 mod minimum_length_of_string_after_operations;
 mod construct_k_palindrome_strings;
 mod separate_black_and_white_balls;
+mod how_many_apples_can_you_put_into_the_basket;
 
 fn main() {
-    separate_black_and_white_balls::main();
+    how_many_apples_can_you_put_into_the_basket::main();
 }
