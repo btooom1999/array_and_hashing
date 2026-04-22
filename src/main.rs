@@ -248,7 +248,10 @@ mod construct_k_palindrome_strings;
 mod separate_black_and_white_balls;
 mod how_many_apples_can_you_put_into_the_basket;
 mod longest_turbulent_subarray;
+mod hand_of_straights;
+mod divide_array_in_sets_of_k_consecutive_numbers;
+mod make_two_arrays_equal_by_reversing_subarrays;
 
 fn main() {
-    longest_turbulent_subarray::main();
+    make_two_arrays_equal_by_reversing_subarrays::main();
 }
