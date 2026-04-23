@@ -259,7 +259,8 @@ mod minimum_number_of_pushes_to_type_word_1;
 mod minimum_number_of_pushes_to_type_word_2;
 mod maximum_points_you_can_obtain_from_cards;
 mod merge_triplets_to_form_target_triplet;
+mod partition_labels;
 
 fn main() {
-    merge_triplets_to_form_target_triplet::main();
+    partition_labels::main();
 }
