@@ -253,7 +253,10 @@ mod divide_array_in_sets_of_k_consecutive_numbers;
 mod make_two_arrays_equal_by_reversing_subarrays;
 mod minimum_number_of_changes_to_make_binary_string_beautiful;
 mod minimize_maximum_of_array;
+mod minimum_difference_between_largest_and_smallest_value_in_three_moves;
+mod maximum_total_importance_of_roads;
+mod minimum_number_of_pushes_to_type_word_1;
 
 fn main() {
-    minimize_maximum_of_array::main();
+    minimum_number_of_pushes_to_type_word_1::main();
 }
