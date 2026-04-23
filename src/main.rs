@@ -257,7 +257,8 @@ mod minimum_difference_between_largest_and_smallest_value_in_three_moves;
 mod maximum_total_importance_of_roads;
 mod minimum_number_of_pushes_to_type_word_1;
 mod minimum_number_of_pushes_to_type_word_2;
+mod maximum_points_you_can_obtain_from_cards;
 
 fn main() {
-    minimum_number_of_pushes_to_type_word_2::main();
+    maximum_points_you_can_obtain_from_cards::main();
 }
