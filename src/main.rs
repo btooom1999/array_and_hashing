@@ -261,7 +261,8 @@ mod maximum_points_you_can_obtain_from_cards;
 mod merge_triplets_to_form_target_triplet;
 mod partition_labels;
 mod valid_parenthesis_string;
+mod one_bit_and_two_bits_characters;
 
 fn main() {
-    valid_parenthesis_string::main();
+    one_bit_and_two_bits_characters::main();
 }
