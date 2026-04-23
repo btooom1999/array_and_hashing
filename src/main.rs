@@ -251,7 +251,9 @@ mod longest_turbulent_subarray;
 mod hand_of_straights;
 mod divide_array_in_sets_of_k_consecutive_numbers;
 mod make_two_arrays_equal_by_reversing_subarrays;
+mod minimum_number_of_changes_to_make_binary_string_beautiful;
+mod minimize_maximum_of_array;
 
 fn main() {
-    make_two_arrays_equal_by_reversing_subarrays::main();
+    minimize_maximum_of_array::main();
 }
