@@ -262,7 +262,8 @@ mod merge_triplets_to_form_target_triplet;
 mod partition_labels;
 mod valid_parenthesis_string;
 mod one_bit_and_two_bits_characters;
+mod maximum_element_after_decreasing_and_rearranging;
 
 fn main() {
-    one_bit_and_two_bits_characters::main();
+    maximum_element_after_decreasing_and_rearranging::main();
 }
