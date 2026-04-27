@@ -268,7 +268,8 @@ mod construct_string_with_repeat_limit;
 mod maximum_matrix_sum;
 mod shortest_subarray_to_be_removed_to_make_array_sorted;
 mod next_permutation;
+mod maximum_swap;
 
 fn main() {
-    next_permutation::main();
+    maximum_swap::main();
 }
