@@ -263,7 +263,8 @@ mod partition_labels;
 mod valid_parenthesis_string;
 mod one_bit_and_two_bits_characters;
 mod maximum_element_after_decreasing_and_rearranging;
+mod reveal_cards_in_increasing_order;
 
 fn main() {
-    maximum_element_after_decreasing_and_rearranging::main();
+    reveal_cards_in_increasing_order::main();
 }
