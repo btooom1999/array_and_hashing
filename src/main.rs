@@ -264,7 +264,8 @@ mod valid_parenthesis_string;
 mod one_bit_and_two_bits_characters;
 mod maximum_element_after_decreasing_and_rearranging;
 mod reveal_cards_in_increasing_order;
+mod construct_string_with_repeat_limit;
 
 fn main() {
-    reveal_cards_in_increasing_order::main();
+    construct_string_with_repeat_limit::main();
 }
