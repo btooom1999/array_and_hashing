@@ -265,8 +265,8 @@ mod one_bit_and_two_bits_characters;
 mod maximum_element_after_decreasing_and_rearranging;
 mod reveal_cards_in_increasing_order;
 mod construct_string_with_repeat_limit;
-mod score_after_flipping_matrix;
+mod maximum_matrix_sum;
 
 fn main() {
-    score_after_flipping_matrix::main();
+    maximum_matrix_sum::main();
 }
