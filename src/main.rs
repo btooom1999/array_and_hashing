@@ -270,7 +270,8 @@ mod shortest_subarray_to_be_removed_to_make_array_sorted;
 mod next_permutation;
 mod maximum_swap;
 mod maximum_frequency_after_subarray_operation;
+mod find_valid_matrix_given_row_and_column_sums;
 
 fn main() {
-    maximum_frequency_after_subarray_operation::main();
+    find_valid_matrix_given_row_and_column_sums::main();
 }
