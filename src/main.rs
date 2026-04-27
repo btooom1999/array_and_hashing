@@ -269,7 +269,8 @@ mod maximum_matrix_sum;
 mod shortest_subarray_to_be_removed_to_make_array_sorted;
 mod next_permutation;
 mod maximum_swap;
+mod maximum_frequency_after_subarray_operation;
 
 fn main() {
-    maximum_swap::main();
+    maximum_frequency_after_subarray_operation::main();
 }
