@@ -278,7 +278,8 @@ mod merge_intervals;
 mod non_overlapping_intervals;
 mod interval_list_intersections;
 mod meeting_rooms;
+mod meeting_rooms_2;
 
 fn main() {
-    meeting_rooms::main();
+    meeting_rooms_2::main();
 }
