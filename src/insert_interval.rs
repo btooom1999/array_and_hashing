@@ -9,10 +9,7 @@ fn insert(mut intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>>
         let (a, b) = (pair[0], pair[1]);
         if let Some(last) = res.last_mut() && (last[1] >= a || last[1] >= b) {
             last[1] = last[1].max(b);
-            continue;
-        }
-
-        if a <= x {
+        } else if a <= x {
             if b < x {
                 res.push(vec![a, b]);
             } else {
