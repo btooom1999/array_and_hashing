@@ -273,7 +273,8 @@ mod maximum_frequency_after_subarray_operation;
 mod find_valid_matrix_given_row_and_column_sums;
 mod missing_ranges;
 mod remove_interval;
+mod insert_interval;
 
 fn main() {
-    remove_interval::main();
+    insert_interval::main();
 }
