@@ -275,7 +275,8 @@ mod missing_ranges;
 mod remove_interval;
 mod insert_interval;
 mod merge_intervals;
+mod non_overlapping_intervals;
 
 fn main() {
-    merge_intervals::main();
+    non_overlapping_intervals::main();
 }
