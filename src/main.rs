@@ -276,7 +276,8 @@ mod remove_interval;
 mod insert_interval;
 mod merge_intervals;
 mod non_overlapping_intervals;
+mod interval_list_intersections;
 
 fn main() {
-    non_overlapping_intervals::main();
+    interval_list_intersections::main();
 }
