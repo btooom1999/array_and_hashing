@@ -279,7 +279,8 @@ mod non_overlapping_intervals;
 mod interval_list_intersections;
 mod meeting_rooms;
 mod meeting_rooms_2;
+mod divide_intervals_into_minimum_number_of_groups;
 
 fn main() {
-    meeting_rooms_2::main();
+    divide_intervals_into_minimum_number_of_groups::main();
 }
