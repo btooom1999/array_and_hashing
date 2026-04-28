@@ -7,7 +7,7 @@ fn min_groups(mut intervals: Vec<Vec<i32>>) -> i32 {
     max_heap.push(intervals[n-1][0]);
     for i in (0..n-1).rev() {
         let peek = *max_heap.peek().unwrap();
-        if intervals[i][1] <= peek {
+        if intervals[i][1] < peek {
             max_heap.pop();
         }
         max_heap.push(intervals[i][0]);
