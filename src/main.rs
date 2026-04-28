@@ -271,7 +271,8 @@ mod next_permutation;
 mod maximum_swap;
 mod maximum_frequency_after_subarray_operation;
 mod find_valid_matrix_given_row_and_column_sums;
+mod missing_ranges;
 
 fn main() {
-    find_valid_matrix_given_row_and_column_sums::main();
+    missing_ranges::main();
 }
