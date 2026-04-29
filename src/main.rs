@@ -285,7 +285,8 @@ mod minimum_number_of_arrows_to_burst_balloons;
 mod my_calendar_1;
 mod count_days_without_meetings;
 mod teemo_attacking;
+mod determine_if_two_events_have_conflict;
 
 fn main() {
-    teemo_attacking::main();
+    determine_if_two_events_have_conflict::main();
 }
