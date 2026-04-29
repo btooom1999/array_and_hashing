@@ -287,7 +287,8 @@ mod count_days_without_meetings;
 mod teemo_attacking;
 mod determine_if_two_events_have_conflict;
 mod points_that_intersect_with_cars;
+mod can_make_arithmetic_progession_from_sequence;
 
 fn main() {
-    points_that_intersect_with_cars::main();
+    can_make_arithmetic_progession_from_sequence::main();
 }
