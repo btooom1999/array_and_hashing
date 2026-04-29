@@ -283,7 +283,8 @@ mod divide_intervals_into_minimum_number_of_groups;
 mod remove_covered_intervals;
 mod minimum_number_of_arrows_to_burst_balloons;
 mod my_calendar_1;
+mod count_days_without_meetings;
 
 fn main() {
-    my_calendar_1::main();
+    count_days_without_meetings::main();
 }
