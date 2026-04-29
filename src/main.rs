@@ -282,7 +282,8 @@ mod meeting_rooms_2;
 mod divide_intervals_into_minimum_number_of_groups;
 mod remove_covered_intervals;
 mod minimum_number_of_arrows_to_burst_balloons;
+mod my_calendar_1;
 
 fn main() {
-    minimum_number_of_arrows_to_burst_balloons::main();
+    my_calendar_1::main();
 }
