@@ -284,7 +284,8 @@ mod remove_covered_intervals;
 mod minimum_number_of_arrows_to_burst_balloons;
 mod my_calendar_1;
 mod count_days_without_meetings;
+mod teemo_attacking;
 
 fn main() {
-    count_days_without_meetings::main();
+    teemo_attacking::main();
 }
