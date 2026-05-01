@@ -288,7 +288,8 @@ mod teemo_attacking;
 mod determine_if_two_events_have_conflict;
 mod points_that_intersect_with_cars;
 mod can_make_arithmetic_progession_from_sequence;
+mod add_bold_tag_in_string;
 
 fn main() {
-    can_make_arithmetic_progession_from_sequence::main();
+    add_bold_tag_in_string::main();
 }
