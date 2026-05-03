@@ -291,7 +291,8 @@ mod points_that_intersect_with_cars;
 mod can_make_arithmetic_progession_from_sequence;
 mod add_bold_tag_in_string;
 mod check_if_grid_can_be_cut_into_sections;
+mod broken_calculator;
 
 fn main() {
-    my_calendar_2::main();
+    broken_calculator::main();
 }
