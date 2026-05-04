@@ -21,9 +21,6 @@ fn largest_merge(word1: String, word2: String) -> String {
     String::from_utf8(res).unwrap()
 }
 
-// urr
-// urrru
-
 pub fn main() {
     // let word1 = "abcabc".to_string();
     // let word2 = "abdcaba".to_string();

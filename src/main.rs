@@ -293,7 +293,8 @@ mod add_bold_tag_in_string;
 mod check_if_grid_can_be_cut_into_sections;
 mod broken_calculator;
 mod largest_merge_of_two_strings;
+mod largest_number;
 
 fn main() {
-    largest_merge_of_two_strings::main();
+    largest_number::main();
 }
