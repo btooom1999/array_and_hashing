@@ -297,7 +297,8 @@ mod largest_number;
 mod largest_even_number;
 mod largest_odd_number_in_string;
 mod largest_values_from_labels;
+mod sum_of_largest_prime_substrings;
 
 fn main() {
-    largest_values_from_labels::main();
+    sum_of_largest_prime_substrings::main();
 }
