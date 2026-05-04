@@ -296,7 +296,8 @@ mod largest_merge_of_two_strings;
 mod largest_number;
 mod largest_even_number;
 mod largest_odd_number_in_string;
+mod largest_values_from_labels;
 
 fn main() {
-    largest_odd_number_in_string::main();
+    largest_values_from_labels::main();
 }
