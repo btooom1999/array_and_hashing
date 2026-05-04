@@ -294,7 +294,8 @@ mod check_if_grid_can_be_cut_into_sections;
 mod broken_calculator;
 mod largest_merge_of_two_strings;
 mod largest_number;
+mod largest_even_number;
 
 fn main() {
-    largest_number::main();
+    largest_even_number::main();
 }
