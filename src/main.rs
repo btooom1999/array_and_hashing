@@ -295,7 +295,8 @@ mod broken_calculator;
 mod largest_merge_of_two_strings;
 mod largest_number;
 mod largest_even_number;
+mod largest_odd_number_in_string;
 
 fn main() {
-    largest_even_number::main();
+    largest_odd_number_in_string::main();
 }
