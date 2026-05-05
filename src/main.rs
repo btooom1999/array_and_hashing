@@ -300,7 +300,8 @@ mod largest_values_from_labels;
 mod sum_of_largest_prime_substrings;
 mod largest_palindromic_number;
 mod count_largest_group;
+mod largest_time_for_given_digits;
 
 fn main() {
-    count_largest_group::main();
+    largest_time_for_given_digits::main();
 }
