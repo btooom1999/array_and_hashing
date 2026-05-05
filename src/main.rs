@@ -301,7 +301,8 @@ mod sum_of_largest_prime_substrings;
 mod largest_palindromic_number;
 mod count_largest_group;
 mod largest_time_for_given_digits;
+mod largest_number_after_mutating_substring;
 
 fn main() {
-    largest_time_for_given_digits::main();
+    largest_number_after_mutating_substring::main();
 }
