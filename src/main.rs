@@ -298,7 +298,8 @@ mod largest_even_number;
 mod largest_odd_number_in_string;
 mod largest_values_from_labels;
 mod sum_of_largest_prime_substrings;
+mod largest_palindromic_number;
 
 fn main() {
-    sum_of_largest_prime_substrings::main();
+    largest_palindromic_number::main();
 }
