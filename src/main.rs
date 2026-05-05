@@ -299,7 +299,8 @@ mod largest_odd_number_in_string;
 mod largest_values_from_labels;
 mod sum_of_largest_prime_substrings;
 mod largest_palindromic_number;
+mod largest_plus_sign;
 
 fn main() {
-    largest_palindromic_number::main();
+    largest_plus_sign::main();
 }
