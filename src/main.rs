@@ -299,7 +299,8 @@ mod largest_odd_number_in_string;
 mod largest_values_from_labels;
 mod sum_of_largest_prime_substrings;
 mod largest_palindromic_number;
+mod count_largest_group;
 
 fn main() {
-    largest_palindromic_number::main();
+    count_largest_group::main();
 }
