@@ -5,7 +5,7 @@ fn min_distance(word1: String, word2: String) -> i32 {
     let mut dp = vec![vec![0; n+1]; m+1];
 
     dp[m] = (0..n+1).rev().collect::<Vec<_>>();
-    for i in (0..m+1) {
+    for i in 0..m+1 {
         dp[m-i][n] = i;
     }
 
