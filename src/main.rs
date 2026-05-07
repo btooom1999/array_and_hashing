@@ -303,7 +303,8 @@ mod count_largest_group;
 mod largest_time_for_given_digits;
 mod largest_number_after_mutating_substring;
 mod maximum_alternating_subsequence_sum;
+mod edit_distance;
 
 fn main() {
-    maximum_alternating_subsequence_sum::main();
+    edit_distance::main();
 }
