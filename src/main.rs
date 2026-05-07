@@ -302,7 +302,8 @@ mod largest_palindromic_number;
 mod count_largest_group;
 mod largest_time_for_given_digits;
 mod largest_number_after_mutating_substring;
+mod target_sum;
 
 fn main() {
-    largest_number_after_mutating_substring::main();
+    target_sum::main();
 }
