@@ -303,9 +303,7 @@ mod count_largest_group;
 mod largest_time_for_given_digits;
 mod largest_number_after_mutating_substring;
 mod maximum_alternating_subsequence_sum;
-mod edit_distance;
-mod number_of_dice_rolls_with_target_sum;
 
 fn main() {
-    number_of_dice_rolls_with_target_sum::main();
+    maximum_alternating_subsequence_sum::main();
 }
