@@ -304,9 +304,7 @@ mod largest_number_after_mutating_substring;
 mod maximum_alternating_subsequence_sum;
 mod rotate_image;
 mod rotate_non_negative_elements;
-mod count_numbers_with_unique_digits;
-mod unique_substrings_in_wraparound_string;
 
 fn main() {
-    unique_substrings_in_wraparound_string::main();
+    rotate_non_negative_elements::main();
 }
