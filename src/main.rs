@@ -305,7 +305,8 @@ mod maximum_alternating_subsequence_sum;
 mod rotate_image;
 mod rotate_non_negative_elements;
 mod count_numbers_with_unique_digits;
+mod unique_substrings_in_wraparound_string;
 
 fn main() {
-    count_numbers_with_unique_digits::main();
+    unique_substrings_in_wraparound_string::main();
 }
