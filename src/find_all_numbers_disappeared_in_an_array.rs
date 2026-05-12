@@ -1,6 +1,6 @@
 use std::collections::HashSet;
 
-fn find_disappeared_numbers(mut nums: Vec<i32>) -> Vec<i32> {
+fn find_disappeared_numbers(nums: Vec<i32>) -> Vec<i32> {
     HashSet::from_iter(1..=nums.len() as i32)
         .difference(&HashSet::<i32>::from_iter(nums))
         .cloned()

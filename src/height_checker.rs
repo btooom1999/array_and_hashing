@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 fn height_checker(heights: Vec<i32>) -> i32 {
     let mut expected = heights.clone();
     expected.sort();

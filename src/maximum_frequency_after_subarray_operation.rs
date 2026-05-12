@@ -1,6 +1,5 @@
 fn max_frequency(nums: Vec<i32>, k: i32) -> i32 {
-    let n = nums.len();
-    let mut count_k = nums.iter().filter(|v| **v == k).count() as i32;
+    let count_k = nums.iter().filter(|v| **v == k).count() as i32;
     let mut res = 0;
 
     for i in 1..51 {

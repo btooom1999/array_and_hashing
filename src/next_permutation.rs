@@ -1,6 +1,5 @@
-fn next_permutation(nums: &mut Vec<i32>) {
-    let mut n = nums.len();
-    let mut executed = false;
+fn next_permutation(nums: &mut [i32]) {
+    let n = nums.len();
     for i in (1..n).rev() {
         if nums[i-1] < nums[i] {
             let mut j = n-1;

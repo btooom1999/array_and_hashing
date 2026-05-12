@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 fn vowel_strings(words: Vec<String>, queries: Vec<Vec<i32>>) -> Vec<i32> {
     let mut hashmap = vec![(0, false); 100_000];
     let is_vol = |b: u8| matches!(b, b'a' | b'e' | b'i' | b'u' | b'o');

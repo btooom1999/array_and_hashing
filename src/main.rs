@@ -1,5 +1,4 @@
-#![allow(unused)]
-#![allow(non_snake_case)]
+#![allow(dead_code)]
 
 mod analyze_user_website_visit_pattern;
 mod append_characters_to_string_to_make_subsequence;
@@ -303,7 +302,8 @@ mod count_largest_group;
 mod largest_time_for_given_digits;
 mod largest_number_after_mutating_substring;
 mod maximum_alternating_subsequence_sum;
+mod rotate_image;
 
 fn main() {
-    maximum_alternating_subsequence_sum::main();
+    rotate_image::main();
 }

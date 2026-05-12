@@ -13,11 +13,11 @@ fn count_k_difference(nums: Vec<i32>, k: i32) -> i32 {
         let need2 = key + k;
 
         if !hashset.contains(&need1) && let Some(count1) = hashmap.get(&need1) {
-            res += (count * count1);
+            res += count * count1;
         }
 
         if !hashset.contains(&need2) && let Some(count2) = hashmap.get(&need2) {
-            res += (count * count2);
+            res += count * count2;
         }
 
         hashset.insert(*key);

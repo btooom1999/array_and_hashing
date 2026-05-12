@@ -14,7 +14,7 @@ impl TrieNode {
 fn longest_word(mut words: Vec<String>) -> String {
     words.sort();
 
-    let mut trie = Rc::new(TrieNode::new());
+    let trie = Rc::new(TrieNode::new());
     let mut max = (0, String::new());
 
     for w in words.into_iter() {

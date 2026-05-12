@@ -11,7 +11,7 @@ fn minimum_length_encoding(words: Vec<String>) -> i32 {
     temp.sort();
 
     let mut count = 0;
-    for (i, w) in temp.iter().enumerate() {
+    for i in 0..temp.len() {
         if i == temp.len() - 1 || !temp[i+1].starts_with(&temp[i]) {
             count += temp[i].len() + 1;
         }

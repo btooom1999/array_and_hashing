@@ -1,4 +1,4 @@
-fn minimum_steps(mut s: String) -> i64 {
+fn minimum_steps(s: String) -> i64 {
     let mut ones = 0;
     let mut swap = 0;
     for c in s.chars() {

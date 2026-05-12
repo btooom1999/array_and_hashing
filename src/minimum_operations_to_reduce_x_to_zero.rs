@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 fn min_operations(nums: Vec<i32>, x: i32) -> i32 {
     let target = nums.iter().sum::<i32>() - x;
     let mut sum = 0;

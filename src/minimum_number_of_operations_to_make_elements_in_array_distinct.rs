@@ -2,7 +2,6 @@ use std::collections::HashMap;
 
 fn minimum_operations(nums: Vec<i32>) -> i32 {
     let mut hashmap = HashMap::new();
-    let mut res = 0;
     let mut errors = 0;
     for &num in &nums {
         let val = hashmap.entry(num).or_insert(0);

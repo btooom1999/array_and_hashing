@@ -62,7 +62,7 @@ fn alice_dfs(
 fn most_profitable_path(edges: Vec<Vec<i32>>, bob: i32, amount: Vec<i32>) -> i32 {
     let n = edges.len()+1;
     let mut map = vec![vec![]; n];
-    for (i, vertices) in edges.iter().enumerate() {
+    for vertices in edges.iter() {
         let (a, b) = (vertices[0] as usize, vertices[1] as usize);
         map[a].push(b);
         map[b].push(a);

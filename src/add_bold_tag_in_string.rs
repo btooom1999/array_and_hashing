@@ -11,7 +11,7 @@ impl TrieNode {
     }
 }
 
-fn add_bold_tag(s: String, mut words: Vec<String>) -> String {
+fn add_bold_tag(s: String, words: Vec<String>) -> String {
     let mut trie = Box::new(TrieNode::new());
 
     for word in words {

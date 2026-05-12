@@ -11,7 +11,7 @@ fn max_frequency_elements(nums: Vec<i32>) -> i32 {
         max = max.max(*val);
     }
 
-    hashmap.into_iter().fold(0, |acc, (k, v)| acc + (if max == v { v } else { 0 }))
+    hashmap.into_iter().fold(0, |acc, (_, v)| acc + (if max == v { v } else { 0 }))
 }
 
 pub fn main() {

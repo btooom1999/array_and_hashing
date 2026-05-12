@@ -8,7 +8,7 @@ fn minimum_sum_subarray(nums: Vec<i32>, l: i32, r: i32) -> i32 {
     }
 
     let mut i = 0;
-    for (j, &num) in nums.iter().enumerate() {
+    for j in 0..nums.len() {
         if j >= r {
             i += 1;
         }

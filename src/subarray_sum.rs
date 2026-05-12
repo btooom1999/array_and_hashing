@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-fn subarray_sum(mut nums: Vec<i32>, k: i32) -> i32 {
+fn subarray_sum(nums: Vec<i32>, k: i32) -> i32 {
     let mut hashmap = HashMap::<i32, i32>::from([(0, 1)]);
     let mut res = 0;
     let mut sum = 0;

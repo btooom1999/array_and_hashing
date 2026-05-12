@@ -1,5 +1,3 @@
-use std::collections::HashSet;
-
 fn find_error_nums(nums: Vec<i32>) -> Vec<i32> {
     let mut hashset = vec![false; nums.len()];
     let mut duplicate = -1;

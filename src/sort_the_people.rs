@@ -1,8 +1,6 @@
-use std::collections::HashMap;
-
 fn sort_people(names: Vec<String>, heights: Vec<i32>) -> Vec<String> {
     let mut hashmap = Vec::with_capacity(names.len());
-    for (i, (name, height)) in names.iter().zip(heights.iter()).enumerate() {
+    for (name, height) in names.iter().zip(heights.iter()) {
         hashmap.push((name.to_string(), *height));
     }
 

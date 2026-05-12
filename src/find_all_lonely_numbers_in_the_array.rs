@@ -1,4 +1,4 @@
-use std::collections::{HashMap, HashSet};
+use std::collections::HashMap;
 
 fn find_lonely(nums: Vec<i32>) -> Vec<i32> {
     let mut hashmap = HashMap::<i32, bool>::new();

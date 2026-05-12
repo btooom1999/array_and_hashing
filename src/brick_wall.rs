@@ -1,10 +1,10 @@
 use std::collections::HashMap;
 
-fn least_bricks(mut wall: Vec<Vec<i32>>) -> i32 {
+fn least_bricks(wall: Vec<Vec<i32>>) -> i32 {
     let mut hashmap = HashMap::<i64, i32>::new();
     for vec in &wall {
         let mut sum: i64 = 0;
-        for (i, num) in vec.iter().enumerate().take(vec.len() - 1) {
+        for num in vec.iter().take(vec.len() - 1) {
             sum += *num as i64;
             *hashmap.entry(sum).or_default() += 1;
         }

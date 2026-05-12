@@ -1,5 +1,5 @@
 fn camel_match(queries: Vec<String>, pattern: String) -> Vec<bool> {
-    let mut pattern = pattern.as_bytes();
+    let pattern = pattern.as_bytes();
 
     let mut res = Vec::new();
     for query in queries {
@@ -10,7 +10,7 @@ fn camel_match(queries: Vec<String>, pattern: String) -> Vec<bool> {
         loop {
             match (query.get(i), pattern.get(j)) {
                 (Some(val1), Some(val2)) => {
-                    if (val1.is_ascii_uppercase() && val2.is_ascii_uppercase()) {
+                    if val1.is_ascii_uppercase() && val2.is_ascii_uppercase() {
                         if val1 != val2 {
                             res.push(false);
                             break;
@@ -30,7 +30,7 @@ fn camel_match(queries: Vec<String>, pattern: String) -> Vec<bool> {
                         }
                     }
                 }
-                (_, Some(val)) => {
+                (_, Some(_)) => {
                     res.push(false);
                     break;
                 }

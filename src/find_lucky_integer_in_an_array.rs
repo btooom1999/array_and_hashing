@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 fn find_lucky(mut arr: Vec<i32>) -> i32 {
     arr.sort();
 

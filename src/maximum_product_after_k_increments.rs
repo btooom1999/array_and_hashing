@@ -2,8 +2,7 @@ use std::{cmp::Reverse, collections::BinaryHeap};
 
 const MOD: i64 = 1_000_000_007;
 
-fn maximum_product(mut nums: Vec<i32>, k: i32) -> i32 {
-    let mut k = k;
+fn maximum_product(nums: Vec<i32>, k: i32) -> i32 {
     let mut heap = nums.into_iter().map(Reverse).collect::<BinaryHeap<_>>();
 
     for _ in 0..k {

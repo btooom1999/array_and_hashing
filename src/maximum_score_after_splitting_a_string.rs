@@ -1,5 +1,5 @@
 fn max_score(s: String) -> i32 {
-    let mut s = s
+    let s = s
         .chars()
         .map(|v| v.to_digit(10).unwrap() as i32)
         .collect::<Vec<_>>();

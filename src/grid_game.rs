@@ -1,4 +1,4 @@
-fn grid_game(mut grid: Vec<Vec<i32>>) -> i64 {
+fn grid_game(grid: Vec<Vec<i32>>) -> i64 {
     let mut sum1 = grid[0].iter().map(|v| *v as i64).sum::<i64>() - *grid.first().unwrap().first().unwrap() as i64;
     let mut sum2 = 0;
     let mut res = sum1;

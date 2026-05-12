@@ -4,8 +4,8 @@ fn answer_queries(mut nums: Vec<i32>, queries: Vec<i32>) -> Vec<i32> {
     let mut res = vec![0; queries.len()];
     for (i, q) in queries.iter().enumerate() {
         let mut sum = 0;
-        for (j, num) in nums.iter().enumerate() {
-            sum += *num;
+        for &num in &nums {
+            sum += num;
             if sum > *q {
                 break;
             }

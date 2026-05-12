@@ -15,7 +15,7 @@ fn most_visited_pattern(
 
     let (mut start, mut candidate) = (0, None);
     let mut hashmap = HashMap::<String, HashSet<Vec<String>>>::new();
-    for (i, (u, w, _)) in infos.iter().enumerate() {
+    for (i, (u, _, _)) in infos.iter().enumerate() {
         if candidate.as_ref().is_none_or(|v| v != u) {
             candidate = Some(u.to_owned());
             start = i;

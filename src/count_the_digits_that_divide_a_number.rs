@@ -13,5 +13,5 @@ fn count_digits(num: i32) -> i32 {
 
 pub fn main() {
     let num = 7;
-    println!("{}", count_digits(1));
+    println!("{}", count_digits(num));
 }

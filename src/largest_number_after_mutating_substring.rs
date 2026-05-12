@@ -1,5 +1,5 @@
 fn maximum_number(mut num: String, change: Vec<i32>) -> String {
-    let mut temp = unsafe { num.as_bytes_mut() };
+    let temp = unsafe { num.as_bytes_mut() };
 
     let n = temp.len();
     let mut i = 0;

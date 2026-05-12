@@ -19,13 +19,13 @@ impl MyHashSet {
 }
 
 pub fn main() {
-    let mut myHashSet = MyHashSet::new();
-    myHashSet.add(1); // set = [1]
-    myHashSet.add(2); // set = [1, 2]
-    myHashSet.contains(1); // return True
-    myHashSet.contains(3); // return False, (not found)
-    myHashSet.add(2); // set = [1, 2]
-    myHashSet.contains(2); // return True
-    myHashSet.remove(2); // set = [1]
-    myHashSet.contains(2); // return False, (already removed)
+    let mut my_hashset = MyHashSet::new();
+    my_hashset.add(1); // set = [1]
+    my_hashset.add(2); // set = [1, 2]
+    my_hashset.contains(1); // return True
+    my_hashset.contains(3); // return False, (not found)
+    my_hashset.add(2); // set = [1, 2]
+    my_hashset.contains(2); // return True
+    my_hashset.remove(2); // set = [1]
+    my_hashset.contains(2); // return False, (already removed)
 }

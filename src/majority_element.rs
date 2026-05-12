@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 fn majority_element(nums: Vec<i32>) -> i32 {
     let mut count = 0;
     let mut candidate = -1;

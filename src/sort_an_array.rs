@@ -1,3 +1,4 @@
+#[allow(non_snake_case)]
 fn merge(nums: &mut [i32], l: i32, m: i32, r: i32) {
     let n1 = m - l + 1;
     let n2 = r - m;
@@ -39,6 +40,7 @@ fn merge(nums: &mut [i32], l: i32, m: i32, r: i32) {
         k += 1;
     }
 }
+
 fn merge_sort(nums: &mut Vec<i32>, l: i32, r: i32) {
     if l >= r {
         return;

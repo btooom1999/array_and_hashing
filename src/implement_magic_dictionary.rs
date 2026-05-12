@@ -1,4 +1,4 @@
-use std::collections::{HashMap, HashSet};
+use std::collections::HashMap;
 
 struct MagicDictionary {
     hashmap: HashMap<usize, Vec<Vec<u8>>>,

@@ -2,7 +2,6 @@ use std::collections::HashMap;
 
 fn check_subarray_sum(nums: Vec<i32>, k: i32) -> bool {
     let mut hashmap = HashMap::<i32, i32>::from([(0, -1)]);
-    let mut res = 0;
     let mut sum = 0;
     for (j, num) in nums.iter().enumerate() {
         sum += *num;

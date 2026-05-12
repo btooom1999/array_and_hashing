@@ -1,6 +1,5 @@
 fn min_operations(mut nums: Vec<i32>) -> i32 {
     let n = nums.len();
-    let mut zeroes = 0;
     let mut count = 0;
     for i in 0..n-2 {
         if nums[i] == 0 {

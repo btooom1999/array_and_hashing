@@ -1,6 +1,6 @@
-fn time_required_to_buy(mut tickets: Vec<i32>, mut k: i32) -> i32 {
+fn time_required_to_buy(tickets: Vec<i32>, k: i32) -> i32 {
     let mut t = 0;
-    for (i, num) in tickets.iter().enumerate() {
+    for i in 0..tickets.len() {
         if i as i32 <= k {
             t += std::cmp::min(tickets[i], tickets[k as usize]);
         } else {

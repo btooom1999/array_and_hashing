@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 struct TrieNode {
     hashmap: [Option<Box<TrieNode>>; 26],
     count: i32,

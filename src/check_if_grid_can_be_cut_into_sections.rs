@@ -1,9 +1,10 @@
 fn check_valid_cuts(n: i32, mut rectangles: Vec<Vec<i32>>) -> bool {
+    let n = n as usize;
     rectangles.sort_by(|a, b| a[0].cmp(&b[0]));
 
     let mut res = 0;
     let mut max = rectangles[0][2];
-    for i in 1..rectangles.len() {
+    for i in 1..n {
         if max <= rectangles[i][0] {
             max = rectangles[i][2];
             res += 1;
@@ -19,7 +20,7 @@ fn check_valid_cuts(n: i32, mut rectangles: Vec<Vec<i32>>) -> bool {
     rectangles.sort_by(|a, b| a[1].cmp(&b[1]));
     let mut res = 0;
     let mut max = rectangles[0][3];
-    for i in 1..rectangles.len() {
+    for i in 1..n {
         if max <= rectangles[i][1] {
             max = rectangles[i][3];
             res += 1;

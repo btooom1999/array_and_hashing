@@ -2,7 +2,6 @@ fn longest_continuous_substring(s: String) -> i32 {
     let s = s.as_bytes();
     let mut res = 1;
     let mut count = 1;
-    let mut i = 0;
     for i in 1..s.len() {
         if s[i-1] + 1 == s[i] {
             count += 1;

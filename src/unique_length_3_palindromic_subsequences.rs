@@ -1,5 +1,3 @@
-use std::collections::HashSet;
-
 fn count_palindromic_subsequence(s: String) -> i32 {
     let n = s.len();
     let s = s.chars().collect::<Vec<_>>();

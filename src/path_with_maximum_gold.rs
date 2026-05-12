@@ -8,7 +8,7 @@ fn dfs(
     visited: &mut Vec<Vec<bool>>,
     grid: &Vec<Vec<i32>>,
     mut sum: i32,
-    mut max: &mut i32,
+    max: &mut i32,
 ) {
     sum += grid[i as usize][j as usize];
     visited[i as usize][j as usize] = true;

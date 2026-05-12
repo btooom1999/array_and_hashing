@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 fn num_matching_subseq(s: String, words: Vec<String>) -> i32 {
-    let mut hashmap = HashMap::new();;
+    let mut hashmap = HashMap::new();
 
     let mut count = 0;
     let s = s.as_bytes();
