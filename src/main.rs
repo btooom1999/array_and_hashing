@@ -305,7 +305,8 @@ mod maximum_alternating_subsequence_sum;
 mod rotate_image;
 mod rotate_non_negative_elements;
 mod map_of_highest_peak;
+mod zero_one_matrix;
 
 fn main() {
-    map_of_highest_peak::main();
+    zero_one_matrix::main();
 }
