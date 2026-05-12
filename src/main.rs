@@ -304,7 +304,8 @@ mod largest_number_after_mutating_substring;
 mod maximum_alternating_subsequence_sum;
 mod rotate_image;
 mod rotate_non_negative_elements;
+mod map_of_highest_peak;
 
 fn main() {
-    rotate_non_negative_elements::main();
+    map_of_highest_peak::main();
 }
