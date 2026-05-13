@@ -306,7 +306,8 @@ mod rotate_image;
 mod rotate_non_negative_elements;
 mod map_of_highest_peak;
 mod zero_one_matrix;
+mod maximum_unique_subarray_sum_after_deletion;
 
 fn main() {
-    zero_one_matrix::main();
+    maximum_unique_subarray_sum_after_deletion::main();
 }
