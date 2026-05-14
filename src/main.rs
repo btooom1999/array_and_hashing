@@ -309,7 +309,8 @@ mod zero_one_matrix;
 mod maximum_unique_subarray_sum_after_deletion;
 mod maximum_subarray_sum_with_one_deletion;
 mod maximum_difference_between_increasing_elements;
+mod two_furthest_houses_with_different_colors;
 
 fn main() {
-    maximum_difference_between_increasing_elements::main();
+    two_furthest_houses_with_different_colors::main();
 }
