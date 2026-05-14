@@ -310,7 +310,8 @@ mod maximum_unique_subarray_sum_after_deletion;
 mod maximum_subarray_sum_with_one_deletion;
 mod maximum_difference_between_increasing_elements;
 mod two_furthest_houses_with_different_colors;
+mod maximum_distance_between_a_pair_of_values;
 
 fn main() {
-    two_furthest_houses_with_different_colors::main();
+    maximum_distance_between_a_pair_of_values::main();
 }
