@@ -318,7 +318,8 @@ mod find_longest_special_substring_that_occurs_thrice_2;
 mod minimum_consecutive_cards_to_pick_up;
 mod count_complete_subarrays_in_an_array;
 mod degree_of_an_array;
+mod maximum_value_of_a_string_in_an_array;
 
 fn main() {
-    degree_of_an_array::main();
+    maximum_value_of_a_string_in_an_array::main();
 }
