@@ -308,7 +308,8 @@ mod map_of_highest_peak;
 mod zero_one_matrix;
 mod maximum_unique_subarray_sum_after_deletion;
 mod maximum_subarray_sum_with_one_deletion;
+mod maximum_difference_between_increasing_elements;
 
 fn main() {
-    maximum_subarray_sum_with_one_deletion::main();
+    maximum_difference_between_increasing_elements::main();
 }
