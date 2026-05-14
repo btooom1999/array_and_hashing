@@ -313,7 +313,8 @@ mod two_furthest_houses_with_different_colors;
 mod maximum_distance_between_a_pair_of_values;
 mod sum_of_beauty_in_the_array;
 mod partition_array_into_disjoint_intervals;
+mod find_longest_special_substring_that_occurs_thrice_1;
 
 fn main() {
-    partition_array_into_disjoint_intervals::main();
+    find_longest_special_substring_that_occurs_thrice_1::main();
 }
