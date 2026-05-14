@@ -315,7 +315,9 @@ mod sum_of_beauty_in_the_array;
 mod partition_array_into_disjoint_intervals;
 mod find_longest_special_substring_that_occurs_thrice_1;
 mod find_longest_special_substring_that_occurs_thrice_2;
+mod minimum_consecutive_cards_to_pick_up;
+mod count_complete_subarrays_in_an_array;
 
 fn main() {
-    find_longest_special_substring_that_occurs_thrice_2::main();
+    count_complete_subarrays_in_an_array::main();
 }
