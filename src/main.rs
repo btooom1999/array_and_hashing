@@ -319,7 +319,8 @@ mod minimum_consecutive_cards_to_pick_up;
 mod count_complete_subarrays_in_an_array;
 mod degree_of_an_array;
 mod maximum_value_of_a_string_in_an_array;
+mod k_items_with_the_maximum_sum;
 
 fn main() {
-    maximum_value_of_a_string_in_an_array::main();
+    k_items_with_the_maximum_sum::main();
 }
