@@ -321,7 +321,8 @@ mod degree_of_an_array;
 mod maximum_value_of_a_string_in_an_array;
 mod k_items_with_the_maximum_sum;
 mod maximum_good_subarray_sum;
+mod maximum_total_subarray_value_1;
 
 fn main() {
-    maximum_good_subarray_sum::main();
+    maximum_total_subarray_value_1::main();
 }
