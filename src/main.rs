@@ -324,7 +324,8 @@ mod maximum_good_subarray_sum;
 mod maximum_total_subarray_value_1;
 mod find_greatest_common_divisor_of_array;
 mod greatest_common_divisor_of_strings;
+mod smallest_even_multiple;
 
 fn main() {
-    greatest_common_divisor_of_strings::main();
+    smallest_even_multiple::main();
 }
