@@ -323,7 +323,8 @@ mod k_items_with_the_maximum_sum;
 mod maximum_good_subarray_sum;
 mod maximum_total_subarray_value_1;
 mod find_greatest_common_divisor_of_array;
+mod greatest_common_divisor_of_strings;
 
 fn main() {
-    find_greatest_common_divisor_of_array::main();
+    greatest_common_divisor_of_strings::main();
 }
