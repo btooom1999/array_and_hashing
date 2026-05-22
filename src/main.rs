@@ -327,7 +327,8 @@ mod greatest_common_divisor_of_strings;
 mod smallest_even_multiple;
 mod three_divisors;
 mod maximum_subarray_with_equal_products;
+mod number_of_subarrays_with_gcd_equal_to_k;
 
 fn main() {
-    maximum_subarray_with_equal_products::main();
+    number_of_subarrays_with_gcd_equal_to_k::main();
 }
