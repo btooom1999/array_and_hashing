@@ -329,7 +329,8 @@ mod three_divisors;
 mod maximum_subarray_with_equal_products;
 mod number_of_subarrays_with_gcd_equal_to_k;
 mod number_of_subarrays_with_lcm_equal_to_k;
+mod maximum_length_of_repeated_subarray;
 
 fn main() {
-    number_of_subarrays_with_lcm_equal_to_k::main();
+    maximum_length_of_repeated_subarray::main();
 }
