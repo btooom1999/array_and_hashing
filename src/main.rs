@@ -326,7 +326,8 @@ mod find_greatest_common_divisor_of_array;
 mod greatest_common_divisor_of_strings;
 mod smallest_even_multiple;
 mod three_divisors;
+mod maximum_subarray_with_equal_products;
 
 fn main() {
-    three_divisors::main();
+    maximum_subarray_with_equal_products::main();
 }
