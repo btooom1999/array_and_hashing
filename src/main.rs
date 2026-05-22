@@ -330,7 +330,8 @@ mod maximum_subarray_with_equal_products;
 mod number_of_subarrays_with_gcd_equal_to_k;
 mod number_of_subarrays_with_lcm_equal_to_k;
 mod maximum_length_of_repeated_subarray;
+mod find_the_maximum_length_of_a_good_subsequence_1;
 
 fn main() {
-    maximum_length_of_repeated_subarray::main();
+    find_the_maximum_length_of_a_good_subsequence_1::main();
 }
