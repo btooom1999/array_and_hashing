@@ -334,7 +334,8 @@ mod find_the_maximum_length_of_a_good_subsequence_1;
 mod increasing_triplet_subsequence;
 mod count_special_quadruplets;
 mod four_sum_2;
+mod longest_continuous_increasing_subsequence;
 
 fn main() {
-    four_sum_2::main();
+    longest_continuous_increasing_subsequence::main();
 }
