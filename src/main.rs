@@ -336,7 +336,8 @@ mod count_special_quadruplets;
 mod four_sum_2;
 mod longest_continuous_increasing_subsequence;
 mod count_number_of_homogenous_substrings;
+mod number_of_substrings_with_only_1s;
 
 fn main() {
-    count_number_of_homogenous_substrings::main();
+    number_of_substrings_with_only_1s::main();
 }
