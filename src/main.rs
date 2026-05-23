@@ -332,7 +332,8 @@ mod number_of_subarrays_with_lcm_equal_to_k;
 mod maximum_length_of_repeated_subarray;
 mod find_the_maximum_length_of_a_good_subsequence_1;
 mod increasing_triplet_subsequence;
+mod count_special_quadruplets;
 
 fn main() {
-    increasing_triplet_subsequence::main();
+    count_special_quadruplets::main();
 }
