@@ -333,7 +333,8 @@ mod maximum_length_of_repeated_subarray;
 mod find_the_maximum_length_of_a_good_subsequence_1;
 mod increasing_triplet_subsequence;
 mod count_special_quadruplets;
+mod four_sum_2;
 
 fn main() {
-    count_special_quadruplets::main();
+    four_sum_2::main();
 }
