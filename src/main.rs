@@ -338,7 +338,8 @@ mod longest_continuous_increasing_subsequence;
 mod count_number_of_homogenous_substrings;
 mod number_of_substrings_with_only_1s;
 mod number_of_different_integers_in_a_string;
+mod remove_colored_pieces_if_both_neighbors_are_the_same_color;
 
 fn main() {
-    number_of_different_integers_in_a_string::main();
+    remove_colored_pieces_if_both_neighbors_are_the_same_color::main();
 }
