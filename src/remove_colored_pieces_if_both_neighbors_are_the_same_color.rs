@@ -18,7 +18,7 @@ fn winner_of_game(colors: String) -> bool {
     alice += a;
     bob += b;
 
-    alice > 0 && alice > bob
+    alice > bob
 }
 
 pub fn main() {
