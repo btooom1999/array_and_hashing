@@ -341,7 +341,8 @@ mod number_of_different_integers_in_a_string;
 mod remove_colored_pieces_if_both_neighbors_are_the_same_color;
 mod longest_mountain_in_array;
 mod find_good_days_to_rob_the_bank;
+mod non_decreasing_array;
 
 fn main() {
-    find_good_days_to_rob_the_bank::main();
+    non_decreasing_array::main();
 }
