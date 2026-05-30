@@ -342,7 +342,8 @@ mod remove_colored_pieces_if_both_neighbors_are_the_same_color;
 mod longest_mountain_in_array;
 mod find_good_days_to_rob_the_bank;
 mod non_decreasing_array;
+mod find_all_good_indices;
 
 fn main() {
-    non_decreasing_array::main();
+    find_all_good_indices::main();
 }
