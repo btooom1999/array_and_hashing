@@ -350,7 +350,8 @@ mod fraction_addition_and_subtraction;
 mod zigzag_conversion;
 mod string_to_integer_atoi;
 mod check_if_numbers_are_ascending_in_a_sentence;
+mod sorting_the_sentence;
 
 fn main() {
-    check_if_numbers_are_ascending_in_a_sentence::main();
+    sorting_the_sentence::main();
 }
