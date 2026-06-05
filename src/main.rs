@@ -349,7 +349,8 @@ mod maximum_consecutive_floors_without_special_floors;
 mod fraction_addition_and_subtraction;
 mod zigzag_conversion;
 mod string_to_integer_atoi;
+mod check_if_numbers_are_ascending_in_a_sentence;
 
 fn main() {
-    string_to_integer_atoi::main();
+    check_if_numbers_are_ascending_in_a_sentence::main();
 }
