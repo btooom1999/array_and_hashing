@@ -343,7 +343,8 @@ mod longest_mountain_in_array;
 mod find_good_days_to_rob_the_bank;
 mod non_decreasing_array;
 mod find_all_good_indices;
+mod maximum_gap;
 
 fn main() {
-    find_all_good_indices::main();
+    maximum_gap::main();
 }
