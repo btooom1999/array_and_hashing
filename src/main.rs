@@ -348,7 +348,8 @@ mod widest_vertical_area_between_two_points_containing_no_points;
 mod maximum_consecutive_floors_without_special_floors;
 mod fraction_addition_and_subtraction;
 mod zigzag_conversion;
+mod string_to_integer_atoi;
 
 fn main() {
-    zigzag_conversion::main();
+    string_to_integer_atoi::main();
 }
