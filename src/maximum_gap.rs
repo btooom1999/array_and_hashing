@@ -24,6 +24,5 @@ fn maximum_gap(nums: Vec<i32>) -> i32 {
 
 pub fn main() {
     let nums = [1,11,111,3,33,6,66,9,99].to_vec();
-    let nums = vec![1, 100];
     println!("{}", maximum_gap(nums));
 }

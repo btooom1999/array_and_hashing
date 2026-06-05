@@ -344,7 +344,8 @@ mod find_good_days_to_rob_the_bank;
 mod non_decreasing_array;
 mod find_all_good_indices;
 mod maximum_gap;
+mod widest_vertical_area_between_two_points_containing_no_points;
 
 fn main() {
-    maximum_gap::main();
+    widest_vertical_area_between_two_points_containing_no_points::main();
 }
