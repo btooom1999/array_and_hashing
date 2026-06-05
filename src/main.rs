@@ -345,7 +345,8 @@ mod non_decreasing_array;
 mod find_all_good_indices;
 mod maximum_gap;
 mod widest_vertical_area_between_two_points_containing_no_points;
+mod maximum_consecutive_floors_without_special_floors;
 
 fn main() {
-    widest_vertical_area_between_two_points_containing_no_points::main();
+    maximum_consecutive_floors_without_special_floors::main();
 }
