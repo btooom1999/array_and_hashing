@@ -358,7 +358,8 @@ mod three_sum_closest;
 mod number_of_arithmetic_triplets;
 mod minimum_sum_of_mountain_triplets_1;
 mod minimum_sum_of_mountain_triplets_2;
+mod maximum_value_of_an_ordered_triplet_1;
 
 fn main() {
-    minimum_sum_of_mountain_triplets_2::main();
+    maximum_value_of_an_ordered_triplet_1::main();
 }
