@@ -1,5 +1,5 @@
 fn roman_to_int(s: String) -> i32 {
-    let mut romans = vec![0; 256];
+    let mut romans = [0; 256];
     romans[b'I' as usize] = 1;
     romans[b'V' as usize] = 5;
     romans[b'X' as usize] = 10;
