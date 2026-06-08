@@ -352,7 +352,8 @@ mod string_to_integer_atoi;
 mod check_if_numbers_are_ascending_in_a_sentence;
 mod sorting_the_sentence;
 mod check_if_all_as_appears_before_all_bs;
+mod roman_to_integer;
 
 fn main() {
-    check_if_all_as_appears_before_all_bs::main();
+    roman_to_integer::main();
 }
