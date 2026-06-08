@@ -356,7 +356,9 @@ mod roman_to_integer;
 mod integer_to_roman;
 mod three_sum_closest;
 mod number_of_arithmetic_triplets;
+mod minimum_sum_of_mountain_triplets_1;
+mod minimum_sum_of_mountain_triplets_2;
 
 fn main() {
-    number_of_arithmetic_triplets::main();
+    minimum_sum_of_mountain_triplets_2::main();
 }
