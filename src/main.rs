@@ -354,7 +354,8 @@ mod sorting_the_sentence;
 mod check_if_all_as_appears_before_all_bs;
 mod roman_to_integer;
 mod integer_to_roman;
+mod three_sum_closest;
 
 fn main() {
-    integer_to_roman::main();
+    three_sum_closest::main();
 }
