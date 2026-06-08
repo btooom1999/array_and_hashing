@@ -1,31 +1,16 @@
 fn maximum_triplet_value(nums: Vec<i32>) -> i64 {
-    let n = nums.len();
-    let mut suffix = vec![i64::MIN; n];
-    suffix[n-1] = nums[n-1] as i64;
+    let mut res = 0;
+    let mut max = 0;
+    let mut distance = 0;
 
-    for i in (0..n-1).rev() {
-        suffix[i] = (nums[i] as i64).max(suffix[i+1]);
+    for num in nums {
+        let num = num as i64;
+        res = res.max(distance * num);
+        distance = distance.max(max - num);
+        max = max.max(num);
     }
 
-    let mut max = i64::MIN;
-    let mut min = i64::MAX;
-    let mut res = (nums[0] as i64 - nums[1] as i64) * nums[2] as i64;
-
-    for i in 0..nums.len() {
-        if min != i64::MAX {
-            res = res.max((max - min) * suffix[i]);
-        }
-
-        let val = nums[i] as i64;
-        if val > max {
-            max = val;
-            min = i64::MAX;
-        } else if val < min {
-            min = val;
-        }
-    }
-
-    res.max(0)
+    res
 }
 
 pub fn main() {
