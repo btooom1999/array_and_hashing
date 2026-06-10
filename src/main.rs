@@ -360,7 +360,8 @@ mod minimum_sum_of_mountain_triplets_1;
 mod minimum_sum_of_mountain_triplets_2;
 mod maximum_value_of_an_ordered_triplet_1;
 mod sum_of_digit_differences_of_all_pairs;
+mod find_the_pivot_integer;
 
 fn main() {
-    sum_of_digit_differences_of_all_pairs::main();
+    find_the_pivot_integer::main();
 }
