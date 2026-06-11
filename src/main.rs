@@ -362,7 +362,8 @@ mod maximum_value_of_an_ordered_triplet_1;
 mod sum_of_digit_differences_of_all_pairs;
 mod find_the_pivot_integer;
 mod bulb_switcher;
+mod bulb_switcher_2;
 
 fn main() {
-    bulb_switcher::main();
+    bulb_switcher_2::main();
 }
