@@ -363,7 +363,8 @@ mod sum_of_digit_differences_of_all_pairs;
 mod find_the_pivot_integer;
 mod bulb_switcher;
 mod bulb_switcher_2;
+mod pyramid_transitiom_matrix;
 
 fn main() {
-    bulb_switcher_2::main();
+    pyramid_transitiom_matrix::main();
 }
