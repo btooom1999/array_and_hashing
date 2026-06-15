@@ -364,7 +364,8 @@ mod find_the_pivot_integer;
 mod bulb_switcher;
 mod bulb_switcher_2;
 mod pyramid_transitiom_matrix;
+mod find_the_winning_player_coin_in_coin_game;
 
 fn main() {
-    pyramid_transitiom_matrix::main();
+    find_the_winning_player_coin_in_coin_game::main();
 }
