@@ -366,7 +366,8 @@ mod bulb_switcher_2;
 mod pyramid_transitiom_matrix;
 mod find_the_winning_player_coin_in_coin_game;
 mod find_the_number_of_winning_player;
+mod minimum_moves_to_reach_target_score;
 
 fn main() {
-    find_the_number_of_winning_player::main();
+    minimum_moves_to_reach_target_score::main();
 }
