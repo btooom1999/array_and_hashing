@@ -370,7 +370,8 @@ mod minimum_moves_to_reach_target_score;
 mod count_operations_to_obtain_zero;
 mod circular_permutation_in_binary_representation;
 mod check_if_a_string_contains_all_binary_codes_of_size_k;
+mod number_of_good_ways_to_split_a_string;
 
 fn main() {
-    check_if_a_string_contains_all_binary_codes_of_size_k::main();
+    number_of_good_ways_to_split_a_string::main();
 }
