@@ -369,7 +369,8 @@ mod find_the_number_of_winning_player;
 mod minimum_moves_to_reach_target_score;
 mod count_operations_to_obtain_zero;
 mod circular_permutation_in_binary_representation;
+mod check_if_a_string_contains_all_binary_codes_of_size_k;
 
 fn main() {
-    circular_permutation_in_binary_representation::main();
+    check_if_a_string_contains_all_binary_codes_of_size_k::main();
 }
