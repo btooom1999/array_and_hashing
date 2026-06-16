@@ -368,7 +368,8 @@ mod find_the_winning_player_coin_in_coin_game;
 mod find_the_number_of_winning_player;
 mod minimum_moves_to_reach_target_score;
 mod count_operations_to_obtain_zero;
+mod circular_permutation_in_binary_representation;
 
 fn main() {
-    count_operations_to_obtain_zero::main();
+    circular_permutation_in_binary_representation::main();
 }
