@@ -369,7 +369,8 @@ mod find_the_number_of_winning_player;
 mod minimum_moves_to_reach_target_score;
 mod count_operations_to_obtain_zero;
 mod number_of_good_ways_to_split_a_string;
+mod count_substrings_that_differ_by_one_character;
 
 fn main() {
-    number_of_good_ways_to_split_a_string::main();
+    count_substrings_that_differ_by_one_character::main();
 }
