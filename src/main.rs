@@ -371,7 +371,8 @@ mod count_operations_to_obtain_zero;
 mod number_of_good_ways_to_split_a_string;
 mod count_substrings_that_differ_by_one_character;
 mod distribute_money_to_maximum_children;
+mod distribute_candies_to_people;
 
 fn main() {
-    distribute_money_to_maximum_children::main();
+    distribute_candies_to_people::main();
 }

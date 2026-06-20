@@ -14,7 +14,6 @@ fn dist_money(money: i32, children: i32) -> i32 {
         if remaining_money >= children-amount {return amount;}
         let a= ((children-remaining_money-amount) as f32 / 8f32).ceil() as i32;
         let b = ((children-remaining_money-amount+a) as f32 / 8f32).ceil() as i32;
-
         return amount-b;
     }
 
