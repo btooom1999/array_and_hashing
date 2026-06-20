@@ -26,7 +26,7 @@ fn longest_mountain(arr: Vec<i32>) -> i32 {
 }
 
 pub fn main() {
-    let arr = [2,1,4,7,3,2,5].to_vec();
+    // let arr = [2,1,4,7,3,2,5].to_vec();
     let arr = [0,2,0,2,1,2,3,4,4,1].to_vec();
     println!("{}", longest_mountain(arr));
 }

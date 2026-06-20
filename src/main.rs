@@ -370,7 +370,8 @@ mod minimum_moves_to_reach_target_score;
 mod count_operations_to_obtain_zero;
 mod number_of_good_ways_to_split_a_string;
 mod count_substrings_that_differ_by_one_character;
+mod distribute_money_to_maximum_children;
 
 fn main() {
-    count_substrings_that_differ_by_one_character::main();
+    distribute_money_to_maximum_children::main();
 }
