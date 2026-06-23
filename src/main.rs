@@ -374,7 +374,8 @@ mod distribute_money_to_maximum_children;
 mod distribute_candies_to_people;
 mod distinct_prime_factors_of_product_of_array;
 mod closest_divisors;
+mod minimum_division_operations_to_make_array_non_decreasing;
 
 fn main() {
-    closest_divisors::main();
+    minimum_division_operations_to_make_array_non_decreasing::main();
 }
