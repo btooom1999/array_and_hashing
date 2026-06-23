@@ -375,7 +375,8 @@ mod distribute_candies_to_people;
 mod distinct_prime_factors_of_product_of_array;
 mod closest_divisors;
 mod minimum_division_operations_to_make_array_non_decreasing;
+mod count_the_numbers_of_square_free_subsets;
 
 fn main() {
-    minimum_division_operations_to_make_array_non_decreasing::main();
+    count_the_numbers_of_square_free_subsets::main();
 }
