@@ -372,7 +372,8 @@ mod number_of_good_ways_to_split_a_string;
 mod count_substrings_that_differ_by_one_character;
 mod distribute_money_to_maximum_children;
 mod distribute_candies_to_people;
+mod distinct_prime_factors_of_product_of_array;
 
 fn main() {
-    distribute_candies_to_people::main();
+    distinct_prime_factors_of_product_of_array::main();
 }
