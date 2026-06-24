@@ -380,8 +380,9 @@ mod minimum_operations_to_convert_number;
 mod removing_minimum_number_of_magic_beans;
 mod minimum_moves_to_equal_array_elements;
 mod minimum_moves_to_equal_array_elements_2;
+mod minimum_moves_to_equal_array_elements_3;
 mod find_minimum_operations_to_make_all_elements_divisible_by_three;
 
 fn main() {
-    find_minimum_operations_to_make_all_elements_divisible_by_three::main();
+    minimum_moves_to_equal_array_elements_3::main();
 }
