@@ -379,7 +379,8 @@ mod maximum_strength_of_a_group;
 mod minimum_operations_to_convert_number;
 mod removing_minimum_number_of_magic_beans;
 mod minimum_moves_to_equal_array_elements;
+mod minimum_moves_to_equal_array_elements_2;
 
 fn main() {
-    minimum_moves_to_equal_array_elements::main();
+    minimum_moves_to_equal_array_elements_2::main();
 }
