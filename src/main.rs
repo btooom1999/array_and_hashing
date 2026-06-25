@@ -385,7 +385,8 @@ mod find_minimum_operations_to_make_all_elements_divisible_by_three;
 mod minimum_operations_to_make_a_uni_value_grid;
 mod sum_of_distances;
 mod intervals_between_identical_elements;
+mod apply_operations_to_make_all_array_elements_equal_to_zero;
 
 fn main() {
-    sum_of_distances::main();
+    apply_operations_to_make_all_array_elements_equal_to_zero::main();
 }
