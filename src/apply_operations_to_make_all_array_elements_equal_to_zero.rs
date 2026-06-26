@@ -10,17 +10,20 @@ fn check_array(mut nums: Vec<i32>, k: i32) -> bool {
 
         if nums[i] < 0 { return false; }
         if nums[i] == 0 { continue; }
-        if i+k >= n { return false; }
+        if i+k > n { return false; }
 
         prefix_sum -= nums[i];
-        prefix[i+k] += nums[i];
+        if i+k < n {
+            prefix[i+k] += nums[i];
+        }
     }
 
     true
 }
 
 pub fn main() {
-    let nums = [2,2,3,1,1,0].to_vec();
+    // let nums = [2,2,3,1,1,0].to_vec();
+    let nums = [2,2,2,2,2,2].to_vec();
     let k = 3;
     println!("{}", check_array(nums, k));
 }

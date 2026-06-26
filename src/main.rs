@@ -386,7 +386,8 @@ mod minimum_operations_to_make_a_uni_value_grid;
 mod sum_of_distances;
 mod intervals_between_identical_elements;
 mod apply_operations_to_make_all_array_elements_equal_to_zero;
+mod minimum_cost_to_make_array_equalindromic;
 
 fn main() {
-    apply_operations_to_make_all_array_elements_equal_to_zero::main();
+    minimum_cost_to_make_array_equalindromic::main();
 }
