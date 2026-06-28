@@ -19,8 +19,8 @@ fn int_to_roman(num: i32) -> String {
             match num {
                 4 | 9 | 40 | 90 | 400 | 900 => {
                     match num {
-                        4 => res.push_str("IV"),
-                        9 => res.push_str("IX"),
+                        4 => res.push_str("iv"),
+                        9 => res.push_str("ix"),
                         40 => res.push_str("XL"),
                         90 => res.push_str("XC"),
                         400 => res.push_str("CD"),
@@ -37,7 +37,6 @@ fn int_to_roman(num: i32) -> String {
                     romans.pop();
                 }
             }
-
         }
     }
 

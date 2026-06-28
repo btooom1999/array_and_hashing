@@ -387,7 +387,7 @@ mod sum_of_distances;
 mod intervals_between_identical_elements;
 mod apply_operations_to_make_all_array_elements_equal_to_zero;
 mod minimum_cost_to_make_array_equalindromic;
+mod longest_absolute_file_path;
 
 fn main() {
-    minimum_cost_to_make_array_equalindromic::main();
-}
+    longest_absolute_file_path::main(); }

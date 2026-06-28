@@ -31,4 +31,3 @@ pub fn main() {
     let intervals = [(25,579),(218,918),(1281,1307),(623,1320),(685,1353),(1308,1358)].into_iter().map(Interval::new).collect();
     println!("{:?}", min_meeting_rooms(intervals));
 }
-
