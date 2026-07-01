@@ -389,7 +389,8 @@ mod apply_operations_to_make_all_array_elements_equal_to_zero;
 mod minimum_cost_to_make_array_equalindromic;
 mod longest_absolute_file_path;
 mod exclusive_time_of_functions;
+mod count_submatrices_with_equal_frequency_of_x_and_y;
 
 fn main() {
-    exclusive_time_of_functions::main();
+    count_submatrices_with_equal_frequency_of_x_and_y::main();
 }
