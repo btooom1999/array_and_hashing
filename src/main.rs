@@ -390,7 +390,8 @@ mod minimum_cost_to_make_array_equalindromic;
 mod longest_absolute_file_path;
 mod exclusive_time_of_functions;
 mod count_submatrices_with_equal_frequency_of_x_and_y;
+mod count_submatrices_with_top_left_element_and_sum_less_than_k;
 
 fn main() {
-    count_submatrices_with_equal_frequency_of_x_and_y::main();
+    count_submatrices_with_top_left_element_and_sum_less_than_k::main();
 }
