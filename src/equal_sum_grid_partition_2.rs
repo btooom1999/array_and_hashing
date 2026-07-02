@@ -55,11 +55,7 @@ fn can_partition_grid(grid: Vec<Vec<i32>>) -> bool {
             left += grid[i][j];
         }
 
-        if total - left == left {
-            return true;
-        }
-
-        if check((left, 0, m-1, 0, j), (total-left, 0, m-1, j+1, n-1), &current, &hashmap, &grid) {
+        if total - left == left || check((left, 0, m-1, 0, j), (total-left, 0, m-1, j+1, n-1), &current, &hashmap, &grid) {
             return true;
         }
     }
@@ -73,11 +69,7 @@ fn can_partition_grid(grid: Vec<Vec<i32>>) -> bool {
             left += grid[i][j];
         }
 
-        if total - left == left {
-            return true;
-        }
-
-        if check((left, 0, i, 0, n-1), (total-left, i+1, m-1, 0, n-1), &current, &hashmap, &grid) {
+        if total - left == left || check((left, 0, i, 0, n-1), (total-left, i+1, m-1, 0, n-1), &current, &hashmap, &grid) {
             return true;
         }
     }

@@ -394,7 +394,8 @@ mod count_submatrices_with_top_left_element_and_sum_less_than_k;
 mod count_submatrices_with_all_ones;
 mod equal_sum_grid_partition_1;
 mod equal_sum_grid_partition_2;
+mod flip_square_submatrix_vertically;
 
 fn main() {
-    equal_sum_grid_partition_2::main();
+    flip_square_submatrix_vertically::main();
 }
