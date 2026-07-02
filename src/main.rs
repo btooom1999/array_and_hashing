@@ -392,7 +392,8 @@ mod exclusive_time_of_functions;
 mod count_submatrices_with_equal_frequency_of_x_and_y;
 mod count_submatrices_with_top_left_element_and_sum_less_than_k;
 mod count_submatrices_with_all_ones;
+mod equal_sum_grid_partition_1;
 
 fn main() {
-    count_submatrices_with_all_ones::main();
+    equal_sum_grid_partition_1::main();
 }
