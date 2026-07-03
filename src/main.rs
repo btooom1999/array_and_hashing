@@ -400,7 +400,8 @@ mod matrix_similarity_after_cyclic_shifts;
 mod spiral_matrix;
 mod spiral_matrix_2;
 mod set_matrix_zeroes;
+mod game_of_life;
 
 fn main() {
-    set_matrix_zeroes::main();
+    game_of_life::main();
 }

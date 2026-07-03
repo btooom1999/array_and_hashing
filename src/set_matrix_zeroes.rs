@@ -23,17 +23,9 @@ fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
         }
     }
 
-    for j in 1..n {
-        if matrix[0][j] == 0 {
-            for i in 0..m {
-                matrix[i][j] = 0;
-            }
-        }
-    }
-
     for i in 1..m {
-        if matrix[i][0] == 0 {
-            for j in 0..n {
+        for j in 1..n {
+            if matrix[0][j] == 0 || matrix[i][0] == 0 {
                 matrix[i][j] = 0;
             }
         }
