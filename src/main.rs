@@ -397,7 +397,8 @@ mod equal_sum_grid_partition_2;
 mod flip_square_submatrix_vertically;
 mod construct_product_matrix;
 mod matrix_similarity_after_cyclic_shifts;
+mod spiral_matrix;
 
 fn main() {
-    matrix_similarity_after_cyclic_shifts::main();
+    spiral_matrix::main();
 }
