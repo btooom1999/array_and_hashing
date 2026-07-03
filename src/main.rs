@@ -398,7 +398,8 @@ mod flip_square_submatrix_vertically;
 mod construct_product_matrix;
 mod matrix_similarity_after_cyclic_shifts;
 mod spiral_matrix;
+mod spiral_matrix_2;
 
 fn main() {
-    spiral_matrix::main();
+    spiral_matrix_2::main();
 }
