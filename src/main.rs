@@ -401,7 +401,8 @@ mod spiral_matrix;
 mod spiral_matrix_2;
 mod set_matrix_zeroes;
 mod game_of_life;
+mod kth_smallest_element_in_a_sorted_matrix;
 
 fn main() {
-    game_of_life::main();
+    kth_smallest_element_in_a_sorted_matrix::main();
 }
