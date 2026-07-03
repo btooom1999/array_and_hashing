@@ -395,7 +395,9 @@ mod count_submatrices_with_all_ones;
 mod equal_sum_grid_partition_1;
 mod equal_sum_grid_partition_2;
 mod flip_square_submatrix_vertically;
+mod construct_product_matrix;
+mod matrix_similarity_after_cyclic_shifts;
 
 fn main() {
-    flip_square_submatrix_vertically::main();
+    matrix_similarity_after_cyclic_shifts::main();
 }
