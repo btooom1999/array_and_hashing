@@ -399,7 +399,8 @@ mod construct_product_matrix;
 mod matrix_similarity_after_cyclic_shifts;
 mod spiral_matrix;
 mod spiral_matrix_2;
+mod set_matrix_zeroes;
 
 fn main() {
-    spiral_matrix_2::main();
+    set_matrix_zeroes::main();
 }
