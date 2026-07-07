@@ -405,7 +405,8 @@ mod pacific_atlantic_water_flow;
 mod battleships_in_a_board;
 mod largest_submatrix_with_rearrangements;
 mod diagonal_traverse;
+mod minesweeper;
 
 fn main() {
-    diagonal_traverse::main();
+    minesweeper::main();
 }
