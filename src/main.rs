@@ -407,7 +407,8 @@ mod largest_submatrix_with_rearrangements;
 mod diagonal_traverse;
 mod minesweeper;
 mod reshape_the_matrix;
+mod convert_1d_array_into_2d_array;
 
 fn main() {
-    reshape_the_matrix::main();
+    convert_1d_array_into_2d_array::main();
 }
