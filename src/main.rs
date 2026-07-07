@@ -406,7 +406,8 @@ mod battleships_in_a_board;
 mod largest_submatrix_with_rearrangements;
 mod diagonal_traverse;
 mod minesweeper;
+mod reshape_the_matrix;
 
 fn main() {
-    minesweeper::main();
+    reshape_the_matrix::main();
 }
