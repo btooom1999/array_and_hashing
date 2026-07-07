@@ -403,7 +403,9 @@ mod set_matrix_zeroes;
 mod game_of_life;
 mod pacific_atlantic_water_flow;
 mod battleships_in_a_board;
+mod largest_submatrix_with_rearrangements;
+mod diagonal_traverse;
 
 fn main() {
-    battleships_in_a_board::main();
+    diagonal_traverse::main();
 }
