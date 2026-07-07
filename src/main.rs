@@ -402,7 +402,8 @@ mod spiral_matrix_2;
 mod set_matrix_zeroes;
 mod game_of_life;
 mod pacific_atlantic_water_flow;
+mod battleships_in_a_board;
 
 fn main() {
-    pacific_atlantic_water_flow::main();
+    battleships_in_a_board::main();
 }
