@@ -21,7 +21,7 @@ fn subarray_lcm(nums: Vec<i32>, k: i32) -> i32 {
         let mut current_lcm = nums[i];
         for j in i..n {
             current_lcm = lcm(current_lcm, nums[j]);
-            if current_lcm == - 1 {
+            if current_lcm == -1 {
                 break;
             }
             if current_lcm == k {
@@ -34,7 +34,7 @@ fn subarray_lcm(nums: Vec<i32>, k: i32) -> i32 {
 }
 
 pub fn main() {
-    let nums = [773, 613, 11, 8, 103].to_vec();
-    let k = 40;
+    let nums = [2,3,5].to_vec();
+    let k = 4;
     println!("{}", subarray_lcm(nums, k));
 }
