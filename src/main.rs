@@ -410,7 +410,8 @@ mod reshape_the_matrix;
 mod convert_1d_array_into_2d_array;
 mod image_smoother;
 mod toeplitz_matrix;
+mod valid_tic_tac_toe_state;
 
 fn main() {
-    toeplitz_matrix::main();
+    valid_tic_tac_toe_state::main();
 }
