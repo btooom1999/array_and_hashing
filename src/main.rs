@@ -408,7 +408,8 @@ mod diagonal_traverse;
 mod minesweeper;
 mod reshape_the_matrix;
 mod convert_1d_array_into_2d_array;
+mod image_smoother;
 
 fn main() {
-    convert_1d_array_into_2d_array::main();
+    image_smoother::main();
 }
