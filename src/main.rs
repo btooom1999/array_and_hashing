@@ -409,7 +409,8 @@ mod minesweeper;
 mod reshape_the_matrix;
 mod convert_1d_array_into_2d_array;
 mod image_smoother;
+mod toeplitz_matrix;
 
 fn main() {
-    image_smoother::main();
+    toeplitz_matrix::main();
 }
