@@ -412,7 +412,8 @@ mod image_smoother;
 mod toeplitz_matrix;
 mod valid_tic_tac_toe_state;
 mod max_increase_to_keep_city_skyline;
+mod magic_squares_in_grid;
 
 fn main() {
-    max_increase_to_keep_city_skyline::main();
+    magic_squares_in_grid::main();
 }
