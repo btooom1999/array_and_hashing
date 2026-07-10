@@ -413,7 +413,8 @@ mod toeplitz_matrix;
 mod valid_tic_tac_toe_state;
 mod max_increase_to_keep_city_skyline;
 mod magic_squares_in_grid;
+mod transpose_matrix;
 
 fn main() {
-    magic_squares_in_grid::main();
+    transpose_matrix::main();
 }
