@@ -411,7 +411,8 @@ mod convert_1d_array_into_2d_array;
 mod image_smoother;
 mod toeplitz_matrix;
 mod valid_tic_tac_toe_state;
+mod max_increase_to_keep_city_skyline;
 
 fn main() {
-    valid_tic_tac_toe_state::main();
+    max_increase_to_keep_city_skyline::main();
 }
