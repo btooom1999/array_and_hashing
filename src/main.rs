@@ -418,7 +418,8 @@ mod projection_area_of_3d_shapes;
 mod surface_area_of_3d_shapes;
 mod available_captures_for_rook;
 mod matrix_cells_in_distance_order;
+mod cells_in_a_range_on_an_excel_sheet;
 
 fn main() {
-    matrix_cells_in_distance_order::main();
+    cells_in_a_range_on_an_excel_sheet::main();
 }
