@@ -414,7 +414,9 @@ mod valid_tic_tac_toe_state;
 mod max_increase_to_keep_city_skyline;
 mod magic_squares_in_grid;
 mod transpose_matrix;
+mod projection_area_of_3d_shapes;
+mod surface_area_of_3d_shapes;
 
 fn main() {
-    transpose_matrix::main();
+    surface_area_of_3d_shapes::main();
 }
