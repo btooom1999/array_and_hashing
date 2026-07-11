@@ -419,7 +419,8 @@ mod surface_area_of_3d_shapes;
 mod available_captures_for_rook;
 mod matrix_cells_in_distance_order;
 mod cells_in_a_range_on_an_excel_sheet;
+mod excel_sheet_column_number;
 
 fn main() {
-    cells_in_a_range_on_an_excel_sheet::main();
+    excel_sheet_column_number::main();
 }
