@@ -417,7 +417,8 @@ mod transpose_matrix;
 mod projection_area_of_3d_shapes;
 mod surface_area_of_3d_shapes;
 mod available_captures_for_rook;
+mod matrix_cells_in_distance_order;
 
 fn main() {
-    available_captures_for_rook::main();
+    matrix_cells_in_distance_order::main();
 }
