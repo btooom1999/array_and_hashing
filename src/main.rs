@@ -422,7 +422,8 @@ mod cells_in_a_range_on_an_excel_sheet;
 mod excel_sheet_column_number;
 mod excel_sheet_column_title;
 mod shift_2d_grid;
+mod the_k_weakest_rows_in_a_matrix;
 
 fn main() {
-    shift_2d_grid::main();
+    the_k_weakest_rows_in_a_matrix::main();
 }

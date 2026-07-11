@@ -5,7 +5,7 @@ fn shift_grid(grid: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
 
     for i in 0..m {
         for j in 0..n {
-            if k == m*n { k = 0; }
+            k %= m*n;
             res[i][j] = grid[k/n][k%n];
             k += 1;
         }
