@@ -433,7 +433,8 @@ mod richest_customer_wealth;
 mod find_winner_on_a_tic_tac_toe_game;
 mod categorize_box_according_to_criteria;
 mod fizz_buzz;
+mod best_poker_hand;
 
 fn main() {
-    fizz_buzz::main();
+    best_poker_hand::main();
 }
