@@ -432,7 +432,8 @@ mod special_positions_in_a_binary_matrix;
 mod richest_customer_wealth;
 mod find_winner_on_a_tic_tac_toe_game;
 mod categorize_box_according_to_criteria;
+mod fizz_buzz;
 
 fn main() {
-    categorize_box_according_to_criteria::main();
+    fizz_buzz::main();
 }
