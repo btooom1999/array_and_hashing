@@ -428,7 +428,8 @@ mod lucky_number_in_a_matrix;
 mod matrix_diagonal_sum;
 mod check_if_every_row_and_column_contains_all_numbers;
 mod check_if_matrix_is_x_matrix;
+mod special_positions_in_a_binary_matrix;
 
 fn main() {
-    check_if_matrix_is_x_matrix::main();
+    special_positions_in_a_binary_matrix::main();
 }
