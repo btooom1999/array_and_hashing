@@ -426,7 +426,8 @@ mod the_k_weakest_rows_in_a_matrix;
 mod count_negative_numbers_in_a_sorted_matrix;
 mod lucky_number_in_a_matrix;
 mod matrix_diagonal_sum;
+mod check_if_every_row_and_column_contains_all_numbers;
 
 fn main() {
-    matrix_diagonal_sum::main();
+    check_if_every_row_and_column_contains_all_numbers::main();
 }
