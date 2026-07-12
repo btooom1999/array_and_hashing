@@ -427,7 +427,8 @@ mod count_negative_numbers_in_a_sorted_matrix;
 mod lucky_number_in_a_matrix;
 mod matrix_diagonal_sum;
 mod check_if_every_row_and_column_contains_all_numbers;
+mod check_if_matrix_is_x_matrix;
 
 fn main() {
-    check_if_every_row_and_column_contains_all_numbers::main();
+    check_if_matrix_is_x_matrix::main();
 }
