@@ -11,11 +11,9 @@ const DIRECTIONS: [[(i32, i32); 2]; 8] = [
 
 fn tictactoe(moves: Vec<Vec<i32>>) -> String {
     let mut hashset = std::collections::HashSet::new();
-    let mut current = 'A';
-    for vec in &moves {
-        let (i, j) = (vec[0], vec[1]);
-        hashset.insert((current, i, j));
-        current = if current == 'A' { 'B' } else { 'A' };
+    let n = moves.len();
+    for i in 0..n {
+        hashset.insert((if i % 2 == 0 { 'A' } else { 'B' }, moves[i][0], moves[i][1]));
     }
 
     for &value in &hashset {
@@ -26,7 +24,7 @@ fn tictactoe(moves: Vec<Vec<i32>>) -> String {
         }
     }
 
-    if moves.len() != 9 { "Pending".to_string() } else { "Draw".to_string() }
+    if n != 9 { "Pending".to_string() } else { "Draw".to_string() }
 }
 
 pub fn main() {
