@@ -429,7 +429,9 @@ mod matrix_diagonal_sum;
 mod check_if_every_row_and_column_contains_all_numbers;
 mod check_if_matrix_is_x_matrix;
 mod special_positions_in_a_binary_matrix;
+mod richest_customer_wealth;
+mod find_winner_on_a_tic_tac_toe_game;
 
 fn main() {
-    special_positions_in_a_binary_matrix::main();
+    find_winner_on_a_tic_tac_toe_game::main();
 }
