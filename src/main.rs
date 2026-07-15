@@ -440,7 +440,8 @@ mod queens_that_can_attack_the_king;
 mod reconstruct_a_2_row_binary_matrix;
 mod sort_the_matrix_diagonally;
 mod sort_matrix_by_diagonals;
+mod check_if_there_is_a_valid_path_in_a_grid;
 
 fn main() {
-    sort_matrix_by_diagonals::main();
+    check_if_there_is_a_valid_path_in_a_grid::main();
 }
