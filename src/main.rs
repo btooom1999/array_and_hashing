@@ -434,7 +434,8 @@ mod find_winner_on_a_tic_tac_toe_game;
 mod categorize_box_according_to_criteria;
 mod fizz_buzz;
 mod best_poker_hand;
+mod coloring_a_border;
 
 fn main() {
-    best_poker_hand::main();
+    coloring_a_border::main();
 }
