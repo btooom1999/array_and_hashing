@@ -436,7 +436,8 @@ mod fizz_buzz;
 mod best_poker_hand;
 mod coloring_a_border;
 mod flip_columns_for_maximum_number_of_equal_rows;
+mod queens_that_can_attack_the_king;
 
 fn main() {
-    flip_columns_for_maximum_number_of_equal_rows::main();
+    queens_that_can_attack_the_king::main();
 }
