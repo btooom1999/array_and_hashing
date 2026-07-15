@@ -435,7 +435,8 @@ mod categorize_box_according_to_criteria;
 mod fizz_buzz;
 mod best_poker_hand;
 mod coloring_a_border;
+mod flip_columns_for_maximum_number_of_equal_rows;
 
 fn main() {
-    coloring_a_border::main();
+    flip_columns_for_maximum_number_of_equal_rows::main();
 }
