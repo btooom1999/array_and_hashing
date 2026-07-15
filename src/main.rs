@@ -437,7 +437,8 @@ mod best_poker_hand;
 mod coloring_a_border;
 mod flip_columns_for_maximum_number_of_equal_rows;
 mod queens_that_can_attack_the_king;
+mod reconstruct_a_2_row_binary_matrix;
 
 fn main() {
-    queens_that_can_attack_the_king::main();
+    reconstruct_a_2_row_binary_matrix::main();
 }
