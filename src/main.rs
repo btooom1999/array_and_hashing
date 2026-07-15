@@ -442,7 +442,8 @@ mod sort_the_matrix_diagonally;
 mod sort_matrix_by_diagonals;
 mod check_if_there_is_a_valid_path_in_a_grid;
 mod subrectangle_queries;
+mod minimum_swaps_to_arrange_a_binary_grid;
 
 fn main() {
-    subrectangle_queries::main();
+    minimum_swaps_to_arrange_a_binary_grid::main();
 }
