@@ -444,7 +444,8 @@ mod check_if_there_is_a_valid_path_in_a_grid;
 mod subrectangle_queries;
 mod minimum_swaps_to_arrange_a_binary_grid;
 mod detect_cycles_in_2d_grid;
+mod where_will_the_ball_fall;
 
 fn main() {
-    detect_cycles_in_2d_grid::main();
+    where_will_the_ball_fall::main();
 }
