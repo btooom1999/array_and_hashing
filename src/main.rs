@@ -445,7 +445,8 @@ mod subrectangle_queries;
 mod minimum_swaps_to_arrange_a_binary_grid;
 mod detect_cycles_in_2d_grid;
 mod where_will_the_ball_fall;
+mod rotating_the_box;
 
 fn main() {
-    where_will_the_ball_fall::main();
+    rotating_the_box::main();
 }
