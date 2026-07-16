@@ -446,7 +446,8 @@ mod minimum_swaps_to_arrange_a_binary_grid;
 mod detect_cycles_in_2d_grid;
 mod where_will_the_ball_fall;
 mod rotating_the_box;
+mod get_biggest_three_rhombus_sums_in_a_grid;
 
 fn main() {
-    rotating_the_box::main();
+    get_biggest_three_rhombus_sums_in_a_grid::main();
 }
