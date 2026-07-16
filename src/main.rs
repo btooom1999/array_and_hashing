@@ -443,7 +443,8 @@ mod sort_matrix_by_diagonals;
 mod check_if_there_is_a_valid_path_in_a_grid;
 mod subrectangle_queries;
 mod minimum_swaps_to_arrange_a_binary_grid;
+mod detect_cycles_in_2d_grid;
 
 fn main() {
-    minimum_swaps_to_arrange_a_binary_grid::main();
+    detect_cycles_in_2d_grid::main();
 }
