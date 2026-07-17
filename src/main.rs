@@ -448,7 +448,8 @@ mod where_will_the_ball_fall;
 mod rotating_the_box;
 mod get_biggest_three_rhombus_sums_in_a_grid;
 mod find_the_peaks;
+mod count_hills_and_valleys_in_an_array;
 
 fn main() {
-    find_the_peaks::main();
+    count_hills_and_valleys_in_an_array::main();
 }
