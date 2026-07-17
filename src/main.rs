@@ -451,7 +451,8 @@ mod find_the_peaks;
 mod count_hills_and_valleys_in_an_array;
 mod minimum_subsequence_in_non_increasing_order;
 mod largest_magic_square;
+mod determine_whether_matrix_can_be_obtained_by_rotation;
 
 fn main() {
-    largest_magic_square::main();
+    determine_whether_matrix_can_be_obtained_by_rotation::main();
 }
