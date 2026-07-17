@@ -453,7 +453,8 @@ mod minimum_subsequence_in_non_increasing_order;
 mod largest_magic_square;
 mod determine_whether_matrix_can_be_obtained_by_rotation;
 mod cyclically_rotating_a_grid;
+mod nearest_exit_from_entrance_in_maze;
 
 fn main() {
-    cyclically_rotating_a_grid::main();
+    nearest_exit_from_entrance_in_maze::main();
 }
