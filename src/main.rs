@@ -449,7 +449,8 @@ mod rotating_the_box;
 mod get_biggest_three_rhombus_sums_in_a_grid;
 mod find_the_peaks;
 mod count_hills_and_valleys_in_an_array;
+mod minimum_subsequence_in_non_increasing_order;
 
 fn main() {
-    count_hills_and_valleys_in_an_array::main();
+    minimum_subsequence_in_non_increasing_order::main();
 }
