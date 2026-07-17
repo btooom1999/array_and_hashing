@@ -447,7 +447,8 @@ mod detect_cycles_in_2d_grid;
 mod where_will_the_ball_fall;
 mod rotating_the_box;
 mod get_biggest_three_rhombus_sums_in_a_grid;
+mod find_the_peaks;
 
 fn main() {
-    get_biggest_three_rhombus_sums_in_a_grid::main();
+    find_the_peaks::main();
 }
