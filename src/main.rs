@@ -450,7 +450,8 @@ mod get_biggest_three_rhombus_sums_in_a_grid;
 mod find_the_peaks;
 mod count_hills_and_valleys_in_an_array;
 mod minimum_subsequence_in_non_increasing_order;
+mod largest_magic_square;
 
 fn main() {
-    minimum_subsequence_in_non_increasing_order::main();
+    largest_magic_square::main();
 }
