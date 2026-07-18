@@ -455,7 +455,8 @@ mod determine_whether_matrix_can_be_obtained_by_rotation;
 mod cyclically_rotating_a_grid;
 mod nearest_exit_from_entrance_in_maze;
 mod find_subarrays_with_equal_sum;
+mod minimum_cost_to_move_chips_to_the_same_position;
 
 fn main() {
-    find_subarrays_with_equal_sum::main();
+    minimum_cost_to_move_chips_to_the_same_position::main();
 }
