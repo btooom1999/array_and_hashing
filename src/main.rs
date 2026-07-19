@@ -460,7 +460,8 @@ mod minimum_number_of_operations_to_make_x_and_y_equal;
 mod minimize_the_difference_between_target_and_chosen_elements;
 mod find_all_groups_of_farmland;
 mod check_if_word_can_be_placed_in_crossword;
+mod find_all_k_distant_indices_in_an_array;
 
 fn main() {
-    check_if_word_can_be_placed_in_crossword::main();
+    find_all_k_distant_indices_in_an_array::main();
 }
