@@ -457,7 +457,8 @@ mod nearest_exit_from_entrance_in_maze;
 mod find_subarrays_with_equal_sum;
 mod minimum_cost_to_move_chips_to_the_same_position;
 mod minimum_number_of_operations_to_make_x_and_y_equal;
+mod minimize_the_difference_between_target_and_chosen_elements;
 
 fn main() {
-    minimum_number_of_operations_to_make_x_and_y_equal::main();
+    minimize_the_difference_between_target_and_chosen_elements::main();
 }
