@@ -29,6 +29,6 @@ fn insert(mut intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>>
 
 pub fn main() {
     let intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]].into_iter().map(Vec::from).collect();
-    let new_interval = [4,8].to_vec();
+    let new_interval = vec![4,8];
     println!("{:?}", insert(intervals, new_interval));
 }

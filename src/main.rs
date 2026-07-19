@@ -456,7 +456,8 @@ mod cyclically_rotating_a_grid;
 mod nearest_exit_from_entrance_in_maze;
 mod find_subarrays_with_equal_sum;
 mod minimum_cost_to_move_chips_to_the_same_position;
+mod minimum_number_of_operations_to_make_x_and_y_equal;
 
 fn main() {
-    minimum_cost_to_move_chips_to_the_same_position::main();
+    minimum_number_of_operations_to_make_x_and_y_equal::main();
 }
