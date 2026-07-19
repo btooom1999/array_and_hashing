@@ -461,7 +461,8 @@ mod minimize_the_difference_between_target_and_chosen_elements;
 mod find_all_groups_of_farmland;
 mod check_if_word_can_be_placed_in_crossword;
 mod find_all_k_distant_indices_in_an_array;
+mod check_distances_between_same_letters;
 
 fn main() {
-    find_all_k_distant_indices_in_an_array::main();
+    check_distances_between_same_letters::main();
 }
