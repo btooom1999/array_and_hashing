@@ -463,7 +463,8 @@ mod check_if_word_can_be_placed_in_crossword;
 mod find_all_k_distant_indices_in_an_array;
 mod check_distances_between_same_letters;
 mod shortest_distance_to_a_character;
+mod find_the_sum_of_encrypted_integers;
 
 fn main() {
-    shortest_distance_to_a_character::main();
+    find_the_sum_of_encrypted_integers::main();
 }
