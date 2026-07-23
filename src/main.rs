@@ -464,7 +464,8 @@ mod find_all_k_distant_indices_in_an_array;
 mod check_distances_between_same_letters;
 mod shortest_distance_to_a_character;
 mod find_the_sum_of_encrypted_integers;
+mod max_sum_of_rectangle_no_larger_than_k;
 
 fn main() {
-    find_the_sum_of_encrypted_integers::main();
+    max_sum_of_rectangle_no_larger_than_k::main();
 }
