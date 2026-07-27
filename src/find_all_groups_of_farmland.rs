@@ -1,4 +1,4 @@
-fn find_farmland(mut land: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+fn find_farmland(land: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let (m, n) = (land.len(), land[0].len());
     let mut res = Vec::new();
     let mut visited = Vec::new();

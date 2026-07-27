@@ -465,7 +465,8 @@ mod check_distances_between_same_letters;
 mod shortest_distance_to_a_character;
 mod find_the_sum_of_encrypted_integers;
 mod max_sum_of_rectangle_no_larger_than_k;
+mod bricks_falling_when_hit;
 
 fn main() {
-    max_sum_of_rectangle_no_larger_than_k::main();
+    bricks_falling_when_hit::main();
 }

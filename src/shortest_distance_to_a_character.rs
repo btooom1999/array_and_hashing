@@ -7,7 +7,7 @@ fn shortest_to_char(s: String, c: char) -> Vec<i32> {
     }
 
     let mut res = Vec::new();
-    for (i, l) in s.chars().enumerate() {
+    for i in 0..s.len() {
         let mut min = i32::MAX;
         for &j in &indexes {
             min = min.min((j as i32 - i as i32).abs());
