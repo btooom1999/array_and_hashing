@@ -466,7 +466,8 @@ mod shortest_distance_to_a_character;
 mod find_the_sum_of_encrypted_integers;
 mod max_sum_of_rectangle_no_larger_than_k;
 mod bricks_falling_when_hit;
+mod cut_off_trees_for_golf_event;
 
 fn main() {
-    bricks_falling_when_hit::main();
+    cut_off_trees_for_golf_event::main();
 }
