@@ -13,7 +13,6 @@ fn cut_off_tree(forest: Vec<Vec<i32>>) -> i32 {
 
     trees.push((0, 0, 0));
     trees.sort_by_key(|v| v.0);
-    // println!("{:?}", trees);
 
     let mut res = 0;
     for k in 1..trees.len() {

@@ -467,7 +467,8 @@ mod find_the_sum_of_encrypted_integers;
 mod max_sum_of_rectangle_no_larger_than_k;
 mod bricks_falling_when_hit;
 mod cut_off_trees_for_golf_event;
+mod minimum_cost_homecoming_of_a_robot_in_a_grid;
 
 fn main() {
-    cut_off_trees_for_golf_event::main();
+    minimum_cost_homecoming_of_a_robot_in_a_grid::main();
 }
