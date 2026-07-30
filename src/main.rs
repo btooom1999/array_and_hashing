@@ -470,8 +470,8 @@ mod cut_off_trees_for_golf_event;
 mod minimum_cost_homecoming_of_a_robot_in_a_grid;
 mod making_a_large_island;
 mod keys_and_rooms;
-mod get_the_maximum_score;
+mod maximum_score_of_a_node_sequence;
 
 fn main() {
-    get_the_maximum_score::main();
+    maximum_score_of_a_node_sequence::main();
 }
