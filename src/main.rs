@@ -469,7 +469,8 @@ mod bricks_falling_when_hit;
 mod cut_off_trees_for_golf_event;
 mod minimum_cost_homecoming_of_a_robot_in_a_grid;
 mod making_a_large_island;
+mod keys_and_rooms;
 
 fn main() {
-    making_a_large_island::main();
+    keys_and_rooms::main();
 }
