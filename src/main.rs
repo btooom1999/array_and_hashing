@@ -472,7 +472,8 @@ mod making_a_large_island;
 mod keys_and_rooms;
 mod maximum_score_of_a_node_sequence;
 mod maximum_candies_you_can_get_from_boxes;
+mod get_watched_videos_by_your_friends;
 
 fn main() {
-    maximum_candies_you_can_get_from_boxes::main();
+    get_watched_videos_by_your_friends::main();
 }

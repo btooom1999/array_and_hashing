@@ -23,7 +23,7 @@ fn max_candies(mut status: Vec<i32>, candies: Vec<i32>, keys: Vec<Vec<i32>>, con
         }
         for b in &contained_boxes[b] {
             let b = *b as usize;
-            if status[b] == 1 {
+            if status[b] == 1 && !visited[b] {
                 queue.push_back(b);
             }
             visited[b] = true;
