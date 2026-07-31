@@ -34,7 +34,7 @@ fn contain_virus(mut is_infected: Vec<Vec<i32>>) -> i32 {
                         }
                     }
 
-                    if count.len() as i32 > max.2 || (count.len() as i32 == max.2 && walls < max.2) {
+                    if count.len() as i32 > max.2 {
                         max = (i, j, count.len() as i32, walls);
                     }
                 }
