@@ -471,7 +471,8 @@ mod minimum_cost_homecoming_of_a_robot_in_a_grid;
 mod making_a_large_island;
 mod keys_and_rooms;
 mod maximum_score_of_a_node_sequence;
+mod maximum_candies_you_can_get_from_boxes;
 
 fn main() {
-    maximum_score_of_a_node_sequence::main();
+    maximum_candies_you_can_get_from_boxes::main();
 }
