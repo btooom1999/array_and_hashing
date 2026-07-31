@@ -474,7 +474,8 @@ mod maximum_score_of_a_node_sequence;
 mod maximum_candies_you_can_get_from_boxes;
 mod get_watched_videos_by_your_friends;
 mod maximum_number_of_coins_you_can_get;
+mod contain_virus;
 
 fn main() {
-    maximum_number_of_coins_you_can_get::main();
+    contain_virus::main();
 }
