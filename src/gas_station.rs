@@ -1,12 +1,6 @@
 fn can_complete_circuit(gas: Vec<i32>, cost: Vec<i32>) -> i32 {
     let n = gas.len();
     let mut min = 0;
-    for i in 0..n {
-        if cost[i] < cost[min] || (cost[i] == cost[min] && gas[i] > gas[min]) {
-            min = i;
-        }
-    }
-
     let mut visited = vec![false; n];
     visited[min] = true;
 

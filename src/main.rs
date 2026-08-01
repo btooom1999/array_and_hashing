@@ -476,7 +476,8 @@ mod get_watched_videos_by_your_friends;
 mod maximum_number_of_coins_you_can_get;
 mod contain_virus;
 mod gas_station;
+mod candy;
 
 fn main() {
-    gas_station::main();
+    candy::main();
 }
