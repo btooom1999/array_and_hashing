@@ -477,7 +477,8 @@ mod maximum_number_of_coins_you_can_get;
 mod contain_virus;
 mod gas_station;
 mod candy;
+mod max_points_on_a_line;
 
 fn main() {
-    candy::main();
+    max_points_on_a_line::main();
 }
