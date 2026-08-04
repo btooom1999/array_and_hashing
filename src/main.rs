@@ -478,7 +478,8 @@ mod contain_virus;
 mod gas_station;
 mod candy;
 mod max_points_on_a_line;
+mod grid_illumination;
 
 fn main() {
-    max_points_on_a_line::main();
+    grid_illumination::main();
 }
