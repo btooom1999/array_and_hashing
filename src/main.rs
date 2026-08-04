@@ -479,7 +479,8 @@ mod gas_station;
 mod candy;
 mod max_points_on_a_line;
 mod grid_illumination;
+mod text_justification;
 
 fn main() {
-    grid_illumination::main();
+    text_justification::main();
 }
