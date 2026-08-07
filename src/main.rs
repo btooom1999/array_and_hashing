@@ -480,7 +480,8 @@ mod candy;
 mod max_points_on_a_line;
 mod grid_illumination;
 mod text_justification;
+mod split_message_based_on_limit;
 
 fn main() {
-    text_justification::main();
+    split_message_based_on_limit::main();
 }
