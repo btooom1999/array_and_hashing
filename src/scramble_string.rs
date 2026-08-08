@@ -1,12 +1,11 @@
 use std::collections::HashMap;
 
-fn dfs(
-    s1: &[u8],
-    s2: &[u8],
-    memo: &mut HashMap<(String, String), bool>,
+fn dfs<'a>(
+    s1: &'a [u8],
+    s2: &'a [u8],
+    memo: &mut HashMap<(&'a [u8], &'a [u8]), bool>,
 ) -> bool {
-    let k = (String::from_utf8(s1.to_vec()).unwrap(), String::from_utf8(s2.to_vec()).unwrap());
-    if let Some(&value) = memo.get(&k) {
+    if let Some(&value) = memo.get(&(s1, s2)) {
         return value;
     }
 
@@ -26,12 +25,11 @@ fn dfs(
         }
     }
 
-    memo.insert(k, res);
+    memo.insert((s1, s2), res);
     res
 }
 
 fn is_scramble(s1: String, s2: String) -> bool {
-    let k = (s1.clone(), s2.clone());
     let s1 = s1.as_bytes();
     let s2 = s2.as_bytes();
     let n = s1.len();
@@ -42,7 +40,7 @@ fn is_scramble(s1: String, s2: String) -> bool {
         }
     }
 
-    *memo.get(&k).unwrap_or(&false)
+    *memo.get(&(s1, s2)).unwrap_or(&false)
 }
 
 pub fn main() {
