@@ -481,7 +481,8 @@ mod max_points_on_a_line;
 mod grid_illumination;
 mod text_justification;
 mod split_message_based_on_limit;
+mod scramble_string;
 
 fn main() {
-    split_message_based_on_limit::main();
+    scramble_string::main();
 }
