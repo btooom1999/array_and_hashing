@@ -483,7 +483,8 @@ mod text_justification;
 mod split_message_based_on_limit;
 mod scramble_string;
 mod distinct_subsequences;
+mod number_of_unique_good_subsequences;
 
 fn main() {
-    distinct_subsequences::main();
+    number_of_unique_good_subsequences::main();
 }
