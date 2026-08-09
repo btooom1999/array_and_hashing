@@ -482,7 +482,8 @@ mod grid_illumination;
 mod text_justification;
 mod split_message_based_on_limit;
 mod scramble_string;
+mod distinct_subsequences;
 
 fn main() {
-    scramble_string::main();
+    distinct_subsequences::main();
 }
