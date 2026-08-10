@@ -484,7 +484,8 @@ mod split_message_based_on_limit;
 mod scramble_string;
 mod number_of_unique_good_subsequences;
 mod word_ladder;
+mod word_ladder_2;
 
 fn main() {
-    word_ladder::main();
+    word_ladder_2::main();
 }
