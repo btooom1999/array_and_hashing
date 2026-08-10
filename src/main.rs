@@ -482,9 +482,9 @@ mod grid_illumination;
 mod text_justification;
 mod split_message_based_on_limit;
 mod scramble_string;
-mod distinct_subsequences;
 mod number_of_unique_good_subsequences;
+mod word_ladder;
 
 fn main() {
-    number_of_unique_good_subsequences::main();
+    word_ladder::main();
 }
