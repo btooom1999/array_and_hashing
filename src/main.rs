@@ -485,7 +485,8 @@ mod scramble_string;
 mod number_of_unique_good_subsequences;
 mod word_ladder;
 mod word_ladder_2;
+mod basic_calculator;
 
 fn main() {
-    word_ladder_2::main();
+    basic_calculator::main();
 }
