@@ -486,7 +486,8 @@ mod number_of_unique_good_subsequences;
 mod word_ladder;
 mod word_ladder_2;
 mod basic_calculator;
+mod shortest_palindrome;
 
 fn main() {
-    basic_calculator::main();
+    shortest_palindrome::main();
 }
