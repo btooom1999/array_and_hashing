@@ -488,7 +488,8 @@ mod word_ladder_2;
 mod basic_calculator;
 mod shortest_palindrome;
 mod longest_happy_prefix;
+mod reverse_words_in_a_string;
 
 fn main() {
-    longest_happy_prefix::main();
+    reverse_words_in_a_string::main();
 }
