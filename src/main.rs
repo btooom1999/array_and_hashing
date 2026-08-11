@@ -487,7 +487,8 @@ mod word_ladder;
 mod word_ladder_2;
 mod basic_calculator;
 mod shortest_palindrome;
+mod longest_happy_prefix;
 
 fn main() {
-    shortest_palindrome::main();
+    longest_happy_prefix::main();
 }
