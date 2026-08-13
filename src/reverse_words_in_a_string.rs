@@ -16,7 +16,7 @@ fn reverse_words(s: String) -> String {
         j += 1;
     }
 
-    while flag && j < n {
+    while flag && i < n {
         while j < n && s[j].is_ascii_whitespace() {
             j += 1;
         }

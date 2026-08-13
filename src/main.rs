@@ -491,5 +491,5 @@ mod longest_happy_prefix;
 mod reverse_words_in_a_string;
 
 fn main() {
-    reverse_words_in_a_string::main();
+    longest_happy_prefix::main();
 }
