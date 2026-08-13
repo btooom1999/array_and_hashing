@@ -1,4 +1,4 @@
-fn grid_illumination(n: i32, lamps: Vec<Vec<i32>>, queries: Vec<Vec<i32>>) -> Vec<i32> {
+fn grid_illumination(_n: i32, lamps: Vec<Vec<i32>>, queries: Vec<Vec<i32>>) -> Vec<i32> {
     let mut lamps = lamps.into_iter().collect::<std::collections::HashSet<_>>();
     let mut memo = std::collections::HashMap::<_, i32>::new();
     for lamp in &lamps {

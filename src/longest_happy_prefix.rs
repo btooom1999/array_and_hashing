@@ -16,10 +16,12 @@ fn longest_prefix(s: String) -> String {
         }
     }
 
+    println!("{:?}", lsp);
+
     String::from_utf8(s[n-lsp[n-1]..].to_vec()).unwrap()
 }
 
 pub fn main() {
-    let s = "levea".to_string();
+    let s = "aacecaa".to_string();
     println!("{}", longest_prefix(s));
 }
