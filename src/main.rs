@@ -489,7 +489,8 @@ mod basic_calculator;
 mod shortest_palindrome;
 mod longest_happy_prefix;
 mod reverse_words_in_a_string;
+mod sum_of_scores_of_built_strings;
 
 fn main() {
-    shortest_palindrome::main();
+    sum_of_scores_of_built_strings::main();
 }
