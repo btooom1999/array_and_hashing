@@ -491,7 +491,8 @@ mod longest_happy_prefix;
 mod reverse_words_in_a_string;
 mod sum_of_scores_of_built_strings;
 mod find_beautiful_indices_in_the_given_array_2;
+mod repeated_string_match;
 
 fn main() {
-    find_beautiful_indices_in_the_given_array_2::main();
+    repeated_string_match::main();
 }
