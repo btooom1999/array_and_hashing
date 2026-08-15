@@ -492,7 +492,8 @@ mod reverse_words_in_a_string;
 mod sum_of_scores_of_built_strings;
 mod find_beautiful_indices_in_the_given_array_2;
 mod repeated_string_match;
+mod find_the_occurence_of_first_almost_equal_substring;
 
 fn main() {
-    repeated_string_match::main();
+    find_the_occurence_of_first_almost_equal_substring::main();
 }
