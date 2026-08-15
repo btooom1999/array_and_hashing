@@ -490,11 +490,12 @@ mod shortest_palindrome;
 mod longest_happy_prefix;
 mod reverse_words_in_a_string;
 mod sum_of_scores_of_built_strings;
+mod find_beautiful_indices_in_the_given_array_1;
 mod find_beautiful_indices_in_the_given_array_2;
 mod repeated_string_match;
 mod find_the_occurence_of_first_almost_equal_substring;
 mod form_array_by_concatenating_subarrays_of_another_array;
 
 fn main() {
-    form_array_by_concatenating_subarrays_of_another_array::main();
+    find_beautiful_indices_in_the_given_array_1::main();
 }

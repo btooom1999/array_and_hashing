@@ -57,9 +57,9 @@ fn beautiful_indices(s: String, a: String, b: String, k: i32) -> Vec<i32> {
 }
 
 pub fn main() {
-    let s = "ababababazzabababb".to_string();
-    let a = "aba".to_string();
-    let b = "bb".to_string();
-    let k = 10;
+    let s = "isawsquirrelnearmysquirrelhouseohmy".to_string();
+    let a = "my".to_string();
+    let b = "squirrel".to_string();
+    let k = 15;
     println!("{:?}", beautiful_indices(s, a, b, k));
 }
