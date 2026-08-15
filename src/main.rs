@@ -493,7 +493,8 @@ mod sum_of_scores_of_built_strings;
 mod find_beautiful_indices_in_the_given_array_2;
 mod repeated_string_match;
 mod find_the_occurence_of_first_almost_equal_substring;
+mod form_array_by_concatenating_subarrays_of_another_array;
 
 fn main() {
-    find_the_occurence_of_first_almost_equal_substring::main();
+    form_array_by_concatenating_subarrays_of_another_array::main();
 }
