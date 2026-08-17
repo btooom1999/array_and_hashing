@@ -497,7 +497,8 @@ mod form_array_by_concatenating_subarrays_of_another_array;
 mod count_prefix_and_suffix_pairs_1;
 mod count_prefix_and_suffix_pairs_2;
 mod longest_chunked_palindrome_decomposition;
+mod distinct_echo_substrings;
 
 fn main() {
-    longest_chunked_palindrome_decomposition::main();
+    distinct_echo_substrings::main();
 }
