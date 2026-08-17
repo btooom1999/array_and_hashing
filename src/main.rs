@@ -151,7 +151,6 @@ mod minimum_number_of_operations_to_make_elements_in_array_distinct;
 mod find_closet_number_to_zero;
 mod partition_array_such_that_maximum_difference_is_k;
 mod check_balanced_string;
-mod count_prefix_and_suffix_pairs_1;
 mod partition_string;
 mod counting_words_with_a_given_prefix;
 mod implement_trie;
@@ -495,7 +494,9 @@ mod find_beautiful_indices_in_the_given_array_2;
 mod repeated_string_match;
 mod find_the_occurence_of_first_almost_equal_substring;
 mod form_array_by_concatenating_subarrays_of_another_array;
+mod count_prefix_and_suffix_pairs_1;
+mod count_prefix_and_suffix_pairs_2;
 
 fn main() {
-    find_beautiful_indices_in_the_given_array_1::main();
+    count_prefix_and_suffix_pairs_2::main();
 }
