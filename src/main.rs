@@ -496,7 +496,8 @@ mod find_the_occurence_of_first_almost_equal_substring;
 mod form_array_by_concatenating_subarrays_of_another_array;
 mod count_prefix_and_suffix_pairs_1;
 mod count_prefix_and_suffix_pairs_2;
+mod longest_chunked_palindrome_decomposition;
 
 fn main() {
-    count_prefix_and_suffix_pairs_2::main();
+    longest_chunked_palindrome_decomposition::main();
 }
