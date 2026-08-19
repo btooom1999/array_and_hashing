@@ -498,8 +498,7 @@ mod count_prefix_and_suffix_pairs_1;
 mod count_prefix_and_suffix_pairs_2;
 mod longest_chunked_palindrome_decomposition;
 mod distinct_echo_substrings;
-mod find_substring_with_given_hash_value;
 
 fn main() {
-    find_substring_with_given_hash_value::main();
+    distinct_echo_substrings::main();
 }
