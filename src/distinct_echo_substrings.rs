@@ -6,24 +6,38 @@ const BASE: i64 = 26;
 fn distinct_echo_substrings(text: String) -> i32 {
     let text = text.as_bytes();
     let n = text.len();
-    let mut hashset = HashSet::new();
-    let mut dp = vec![vec![-1; n]; n];
+
+    let mut hash = vec![0; n+1];
+    let mut pow = vec![1; n+1];
+
+    let mul_mod = |a: i64, b: i64, c: i64| -> i64 {
+        ((a as i128) * (b as i128) % (c as i128)) as i64
+    };
+
     for i in 0..n {
-        let mut hashed = 0;
-        for j in i..n {
-            hashed = (hashed * BASE % MOD + (text[j] - b'a' + 1) as i64) % MOD;
-            dp[i][j] = hashed;
-            let amount = j-i+1;
-            if i >= amount && dp[i-amount][i-1] == dp[i][j] {
-                hashset.insert(hashed);
+        hash[i+1] = mul_mod(hash[i], BASE, MOD) + (text[i] - b'a' + 1) as i64;
+        pow[i+1] = mul_mod(pow[i], BASE, MOD);
+    }
+
+    let get_hash = |l: usize, r: usize| -> i64 {
+        (hash[r] + MOD - mul_mod(hash[l], pow[r-l], MOD)) % MOD
+    };
+
+    let mut res = HashSet::new();
+    for len in 1..=n/2 {
+        for i in 0..n-2*len+1 {
+            let a = get_hash(i, i+len);
+            let b = get_hash(i+len, i+2*len);
+            if a == b {
+                res.insert(get_hash(i, i+2*len));
             }
         }
     }
 
-    hashset.len() as i32
+    res.len() as i32
 }
 
 pub fn main() {
-    let text = "abcdklqstcdghiklmqghijqrwyzijmnoqrsw".to_string();
+    let text = "abcabcabc".to_string();
     println!("{}", distinct_echo_substrings(text));
 }
