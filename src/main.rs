@@ -498,7 +498,8 @@ mod count_prefix_and_suffix_pairs_1;
 mod count_prefix_and_suffix_pairs_2;
 mod longest_chunked_palindrome_decomposition;
 mod distinct_echo_substrings;
+mod maximum_product_of_the_length_of_two_palindromic_substrings;
 
 fn main() {
-    distinct_echo_substrings::main();
+    maximum_product_of_the_length_of_two_palindromic_substrings::main();
 }
