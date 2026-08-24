@@ -501,6 +501,7 @@ mod distinct_echo_substrings;
 mod maximum_product_of_the_length_of_two_palindromic_substrings;
 mod palindrome_pairs;
 mod longest_palindrome_by_concatenating_two_letter_words;
+mod minimum_time_to_revert_word_to_initial_state_1;
 mod minimum_time_to_revert_word_to_initial_state_2;
 
 fn main() {
