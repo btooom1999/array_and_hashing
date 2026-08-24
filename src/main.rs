@@ -503,7 +503,8 @@ mod palindrome_pairs;
 mod longest_palindrome_by_concatenating_two_letter_words;
 mod minimum_time_to_revert_word_to_initial_state_1;
 mod minimum_time_to_revert_word_to_initial_state_2;
+mod minimum_number_of_valid_strings_to_form_target_2;
 
 fn main() {
-    minimum_time_to_revert_word_to_initial_state_2::main();
+    minimum_number_of_valid_strings_to_form_target_2::main();
 }
