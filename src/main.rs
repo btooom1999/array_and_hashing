@@ -509,7 +509,8 @@ mod number_of_subarrays_that_match_a_pattern_1;
 mod number_of_subarrays_that_match_a_pattern_2;
 mod match_substring_after_replacement;
 mod palindromic_subarray_sum;
+mod delete_duplicate_folders_in_system;
 
 fn main() {
-    palindromic_subarray_sum::main();
+    delete_duplicate_folders_in_system::main();
 }
