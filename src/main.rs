@@ -505,7 +505,8 @@ mod minimum_time_to_revert_word_to_initial_state_1;
 mod minimum_time_to_revert_word_to_initial_state_2;
 mod minimum_number_of_valid_strings_to_form_target_1;
 mod minimum_number_of_valid_strings_to_form_target_2;
+mod number_of_subarrays_that_match_a_pattern_2;
 
 fn main() {
-    minimum_number_of_valid_strings_to_form_target_2::main();
+    number_of_subarrays_that_match_a_pattern_2::main();
 }
