@@ -507,7 +507,8 @@ mod minimum_number_of_valid_strings_to_form_target_1;
 mod minimum_number_of_valid_strings_to_form_target_2;
 mod number_of_subarrays_that_match_a_pattern_1;
 mod number_of_subarrays_that_match_a_pattern_2;
+mod match_substring_after_replacement;
 
 fn main() {
-    number_of_subarrays_that_match_a_pattern_2::main();
+    match_substring_after_replacement::main();
 }
