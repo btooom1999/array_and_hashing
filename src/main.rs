@@ -510,7 +510,8 @@ mod number_of_subarrays_that_match_a_pattern_2;
 mod match_substring_after_replacement;
 mod palindromic_subarray_sum;
 mod delete_duplicate_folders_in_system;
+mod check_if_dfs_strings_are_palindromes;
 
 fn main() {
-    delete_duplicate_folders_in_system::main();
+    check_if_dfs_strings_are_palindromes::main();
 }

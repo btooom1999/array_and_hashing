@@ -56,8 +56,7 @@ fn iterate(
     }
 }
 
-fn delete_duplicate_folder(mut paths: Vec<Vec<String>>) -> Vec<Vec<String>> {
-    paths.sort_unstable();
+fn delete_duplicate_folder(paths: Vec<Vec<String>>) -> Vec<Vec<String>> {
     let n = paths.len();
     let mut trie = Trie::new();
     for i in 0..n {
@@ -86,9 +85,6 @@ fn delete_duplicate_folder(mut paths: Vec<Vec<String>>) -> Vec<Vec<String>> {
             }
         }
     }
-
-    println!("{:?}", paths);
-    println!("{:?}", hashmap);
 
     iterate(&trie, &mut hashset, false);
 
