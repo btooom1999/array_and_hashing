@@ -511,7 +511,8 @@ mod match_substring_after_replacement;
 mod palindromic_subarray_sum;
 mod delete_duplicate_folders_in_system;
 mod check_if_dfs_strings_are_palindromes;
+mod construct_string_with_minimum_cost;
 
 fn main() {
-    check_if_dfs_strings_are_palindromes::main();
+    construct_string_with_minimum_cost::main();
 }
