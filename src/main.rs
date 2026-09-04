@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3001_3200::e3093_longest_common_suffix_queries::main();
+    e3201_3400::e3213_construct_string_with_minimum_cost::main();
 }
