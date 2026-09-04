@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3201_3400::e3213_construct_string_with_minimum_cost::main();
+    e3401_3600::e3455_shortest_matching_substring::main();
 }

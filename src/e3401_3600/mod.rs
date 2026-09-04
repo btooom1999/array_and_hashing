@@ -12,4 +12,5 @@ pub mod e3548_equal_sum_grid_partition_ii; // 3548. Equal Sum Grid Partition II
 pub mod e3556_sum_of_largest_prime_substrings; // 3556. Sum of Largest Prime Substrings
 pub mod e3568_minimum_moves_to_clean_the_classroom; // 3568. Minimum Moves to Clean the Classroom
 pub mod e3572_maximize_ysum_by_picking_a_triplet_of_distinct_xvalues; // 3572. Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values
-pub mod e3597_partition_string; // 3597. Partition String 
+pub mod e3597_partition_string; // 3597. Partition String
+pub mod e3455_shortest_matching_substring; // 3455. Shortest Matching Substring
